@@ -3,27 +3,22 @@ import os
 import re
 import uuid
 from datetime import datetime, timedelta, timezone
-from urllib.parse import quote_plus
 
 import feedparser
 from google import genai
 
-# Official company websites to monitor through Google News RSS.
-SOURCES = {
-    "OpenAI": "openai.com",
-    "Anthropic": "anthropic.com",
-    "Google DeepMind": "deepmind.google",
-    "Microsoft AI": "blogs.microsoft.com",
-    "Meta AI": "ai.meta.com",
-    "Hugging Face": "huggingface.co",
+FEEDS = {
+    "OpenAI": "https://openai.com/news/rss.xml",
+    "Google DeepMind": "https://deepmind.google/blog/rss.xml",
+    "Microsoft AI": "https://blogs.microsoft.com/ai/feed/",
+    "Hugging Face": "https://huggingface.co/blog/feed.xml",
 }
 
-LOOKBACK_HOURS = 36
+LOOKBACK_HOURS = 168
 MAX_ARTICLES = 20
 
 
 def clean_text(text):
-    """Remove HTML and extra spaces."""
     text = re.sub(r"<[^>]+>", " ", text or "")
     return re.sub(r"\s+", " ", text).strip()
 
@@ -33,16 +28,15 @@ def collect_articles():
     articles = []
     seen_titles = set()
 
-    for source_name, domain in SOURCES.items():
-        query = quote_plus(f"site:{domain} artificial intelligence")
-        feed_url = (
-            "https://news.google.com/rss/search"
-            f"?q={query}&hl=en-US&gl=US&ceid=US:en"
-        )
-
+    for source_name, feed_url in FEEDS.items():
         feed = feedparser.parse(feed_url)
 
-        for entry in feed.entries[:10]:
+        print(
+            f"{source_name}: status={getattr(feed, 'status', 'unknown')}, "
+            f"entries={len(feed.entries)}"
+        )
+
+        for entry in feed.entries[:15]:
             published = None
 
             if getattr(entry, "published_parsed", None):
@@ -50,14 +44,16 @@ def collect_articles():
                     *entry.published_parsed[:6],
                     tzinfo=timezone.utc,
                 )
+            elif getattr(entry, "updated_parsed", None):
+                published = datetime(
+                    *entry.updated_parsed[:6],
+                    tzinfo=timezone.utc,
+                )
 
             if published and published < cutoff:
                 continue
 
             title = clean_text(getattr(entry, "title", ""))
-
-            # Google News sometimes adds the publisher after a dash.
-            title = re.sub(r"\s+-\s+[^-]+$", "", title).strip()
 
             if not title or title.lower() in seen_titles:
                 continue
@@ -70,7 +66,7 @@ def collect_articles():
                     "title": title,
                     "summary": clean_text(
                         getattr(entry, "summary", "")
-                    )[:500],
+                    )[:600],
                     "link": getattr(entry, "link", ""),
                     "published": (
                         published.isoformat()
@@ -87,8 +83,8 @@ def collect_articles():
 def create_summary(articles):
     if not articles:
         return (
-            "Good morning. No major updates were found from the selected "
-            "artificial intelligence company sources during the latest check."
+            "Good morning. No new articles were found from the selected "
+            "artificial intelligence sources during the latest check."
         )
 
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -99,36 +95,29 @@ def create_summary(articles):
     client = genai.Client(api_key=api_key)
 
     article_text = "\n\n".join(
-        [
-            (
-                f"Source: {article['source']}\n"
-                f"Title: {article['title']}\n"
-                f"Published: {article['published']}\n"
-                f"Description: {article['summary']}"
-            )
-            for article in articles
-        ]
+        (
+            f"Source: {article['source']}\n"
+            f"Title: {article['title']}\n"
+            f"Published: {article['published']}\n"
+            f"Description: {article['summary']}"
+        )
+        for article in articles
     )
 
     prompt = f"""
-Create a spoken morning briefing about the most important artificial
-intelligence developments in the material below.
+Create a spoken morning briefing based only on the supplied articles.
 
 Requirements:
-- Use only the supplied material.
-- Select no more than five important developments.
+- Select up to five important AI developments.
 - Remove duplicate stories.
-- Mention the company or source for each development.
+- Mention the source company.
 - Use natural spoken English.
-- Do not use bullet symbols, markdown, URLs, headings or abbreviations.
-- Explain technical terms briefly.
-- Keep the briefing between 350 and 500 words.
+- Do not use bullets, markdown, URLs or headings.
+- Keep it between 250 and 400 words.
 - Start with: Good morning. Here is your AI briefing.
 - End with: That is your AI briefing for today.
-- Do not claim that an article was published within the past 24 hours unless
-  its supplied date confirms that.
 
-Material:
+Articles:
 {article_text}
 """
 
@@ -147,7 +136,7 @@ Material:
 
 def create_alexa_feed(summary, articles):
     now = datetime.now(timezone.utc)
-    source_link = articles[0]["link"] if articles else "https://news.google.com/"
+    source_link = articles[0]["link"] if articles else "https://openai.com/news/"
 
     feed = [
         {
