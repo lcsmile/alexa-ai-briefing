@@ -24,6 +24,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dashboard fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-dejavu-core
+
       - name: Install required programs
         run: pip install -r requirements.txt
 
@@ -32,10 +37,10 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python generate_briefing.py
 
-      - name: Save updated feed
+      - name: Save updated briefing
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add feed.json
+          git add feed.json kindle-dashboard.png
           git diff --cached --quiet || git commit -m "Update daily AI briefing"
           git push
