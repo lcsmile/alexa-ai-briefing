@@ -122,7 +122,7 @@ Articles:
 """
 
     response = client.models.generate_content(
-        model="gemini-2.5-flash-lite",
+        model="gemini-3.1-flash-lite",
         contents=prompt,
     )
 
