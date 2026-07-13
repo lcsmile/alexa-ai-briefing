@@ -1,0 +1,41 @@
+name: Create Daily AI Briefing
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # 1:30 PM UTC is 6:30 AM Pacific during daylight-saving time.
+    # It is 5:30 AM Pacific during standard time.
+    - cron: "30 13 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  create-briefing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install required programs
+        run: pip install -r requirements.txt
+
+      - name: Generate briefing
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python generate_briefing.py
+
+      - name: Save updated feed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add feed.json
+          git diff --cached --quiet || git commit -m "Update daily AI briefing"
+          git push
