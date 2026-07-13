@@ -22,9 +22,24 @@ LOOKBACK_HOURS = 168
 MAX_ARTICLES = 20
 DASHBOARD_WIDTH = 1072
 DASHBOARD_HEIGHT = 1448
-DASHBOARD_STORIES = 5
+DASHBOARD_STORIES = 3
 DASHBOARD_TIMEZONE = ZoneInfo("America/Los_Angeles")
 DASHBOARD_PATH = Path("kindle-dashboard.png")
+LOW_NEWS_VALUE_TITLE_PHRASES = (
+    "getting started",
+    "how to",
+    "guide",
+    "tutorial",
+    "introduction to",
+    "documentation",
+    "course",
+    "webinar",
+    "event recap",
+    "customer story",
+    "case study",
+    "careers",
+    "hiring",
+)
 FONT_PATHS = {
     "regular": (
         "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
@@ -44,7 +59,7 @@ def clean_text(text):
 
 def collect_articles():
     cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
-    articles = []
+    sortable_articles = []
     seen_titles = set()
 
     for source_name, feed_url in FEEDS.items():
@@ -79,24 +94,164 @@ def collect_articles():
 
             seen_titles.add(title.lower())
 
-            articles.append(
-                {
-                    "source": source_name,
-                    "title": title,
-                    "summary": clean_text(
-                        getattr(entry, "summary", "")
-                    )[:600],
-                    "link": getattr(entry, "link", ""),
-                    "published": (
-                        published.isoformat()
-                        if published
-                        else "Publication time unavailable"
-                    ),
-                }
-            )
+            article = {
+                "source": source_name,
+                "title": title,
+                "summary": clean_text(
+                    getattr(entry, "summary", "")
+                )[:600],
+                "link": getattr(entry, "link", ""),
+                "published": (
+                    published.isoformat()
+                    if published
+                    else "Publication time unavailable"
+                ),
+            }
+            sortable_articles.append((published, article))
 
-    articles.sort(key=lambda item: item["published"], reverse=True)
-    return articles[:MAX_ARTICLES]
+    # Keep real datetime values separate from the public article dictionaries.
+    # The first key puts every dated article ahead of every undated article.
+    sortable_articles.sort(
+        key=lambda item: (
+            item[0] is not None,
+            item[0] or datetime.min.replace(tzinfo=timezone.utc),
+        ),
+        reverse=True,
+    )
+    return [article for _, article in sortable_articles[:MAX_ARTICLES]]
+
+
+def is_dashboard_candidate(article):
+    title = clean_text(article.get("title", "")).casefold()
+    return bool(title) and not any(
+        phrase in title for phrase in LOW_NEWS_VALUE_TITLE_PHRASES
+    )
+
+
+def dated_article_sort_key(article):
+    value = article.get("published")
+
+    try:
+        published = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except (AttributeError, TypeError, ValueError):
+        published = None
+
+    if published and published.tzinfo is None:
+        published = published.replace(tzinfo=timezone.utc)
+
+    return (
+        published is not None,
+        published or datetime.min.replace(tzinfo=timezone.utc),
+    )
+
+
+def fallback_dashboard_articles(articles):
+    candidates = [
+        article for article in articles if is_dashboard_candidate(article)
+    ]
+    candidates.sort(key=dated_article_sort_key, reverse=True)
+    return candidates[:DASHBOARD_STORIES]
+
+
+def validate_dashboard_selection(response_text, candidates):
+    try:
+        payload = json.loads(response_text)
+    except (TypeError, json.JSONDecodeError) as error:
+        raise ValueError("Gemini dashboard selection was not valid JSON.") from error
+
+    indexes = None
+
+    if isinstance(payload, dict) and set(payload) == {
+        "selected_article_indexes"
+    }:
+        indexes = payload["selected_article_indexes"]
+    expected_count = min(DASHBOARD_STORIES, len(candidates))
+
+    if (
+        not isinstance(indexes, list)
+        or len(indexes) != expected_count
+        or any(
+            isinstance(index, bool) or not isinstance(index, int)
+            for index in indexes
+        )
+        or len(set(indexes)) != len(indexes)
+        or any(index < 0 or index >= len(candidates) for index in indexes)
+    ):
+        raise ValueError("Gemini dashboard selection contained invalid indexes.")
+
+    return [candidates[index] for index in indexes]
+
+
+def select_dashboard_articles(articles, client=None):
+    candidates = [
+        article for article in articles if is_dashboard_candidate(article)
+    ]
+    candidates.sort(key=dated_article_sort_key, reverse=True)
+
+    if not candidates:
+        return []
+
+    try:
+        if client is None:
+            api_key = os.environ.get("GEMINI_API_KEY")
+
+            if not api_key:
+                raise RuntimeError("GEMINI_API_KEY was not found.")
+
+            client = genai.Client(api_key=api_key)
+
+        article_text = "\n\n".join(
+            (
+                f"Index: {index}\n"
+                f"Source: {article['source']}\n"
+                f"Title: {article['title']}\n"
+                f"Published: {article['published']}\n"
+                f"Description: {article['summary']}\n"
+                f"Link: {article['link']}"
+            )
+            for index, article in enumerate(candidates)
+        )
+        selection_count = min(DASHBOARD_STORIES, len(candidates))
+        response_example = json.dumps(
+            {"selected_article_indexes": list(range(selection_count))}
+        )
+        prompt = f"""
+Select exactly {selection_count} articles for a Kindle AI news dashboard.
+
+Choose the most important concrete AI developments. Prioritize model launches,
+major product releases, research results, safety developments, acquisitions,
+regulation, major partnerships, and infrastructure announcements. Reject
+evergreen educational content, generic product explainers, repeated stories,
+minor updates, and marketing copy.
+
+Return only a JSON object in this exact form, ordered by importance:
+{response_example}
+Use only indexes from the supplied articles and do not repeat an index.
+
+Articles:
+{article_text}
+"""
+        response = client.models.generate_content(
+            model="gemini-3.1-flash-lite",
+            contents=prompt,
+            config={
+                "response_mime_type": "application/json",
+                "response_json_schema": {
+                    "type": "object",
+                    "properties": {
+                        "selected_article_indexes": {
+                            "type": "array",
+                            "items": {"type": "integer"},
+                        }
+                    },
+                    "required": ["selected_article_indexes"],
+                },
+            },
+        )
+        return validate_dashboard_selection(response.text, candidates)
+    except Exception as error:
+        print(f"Dashboard Gemini selection failed; using fallback: {error}")
+        return fallback_dashboard_articles(articles)
 
 
 def create_summary(articles):
@@ -262,7 +417,7 @@ def draw_lines(draw, lines, position, font, fill, spacing):
     return y
 
 
-def create_kindle_dashboard(articles, output_path=DASHBOARD_PATH):
+def create_kindle_dashboard(stories, output_path=DASHBOARD_PATH):
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -286,8 +441,6 @@ def create_kindle_dashboard(articles, output_path=DASHBOARD_PATH):
     display_date = now.strftime("%A, %B %d, %Y").replace(" 0", " ")
     draw.text((margin, 116), display_date, font=fonts["date"], fill=64)
     draw.line((margin, 172, DASHBOARD_WIDTH - margin, 172), fill=0, width=4)
-
-    stories = articles[:DASHBOARD_STORIES]
 
     if stories:
         content_top = 188
@@ -395,7 +548,8 @@ def main():
 
     summary = create_summary(articles)
     create_alexa_feed(summary, articles)
-    create_kindle_dashboard(articles)
+    dashboard_articles = select_dashboard_articles(articles)
+    create_kindle_dashboard(dashboard_articles)
 
     print("feed.json and kindle-dashboard.png were created successfully.")
 
