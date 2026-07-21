@@ -4,8 +4,6 @@ on:
   workflow_dispatch:
 
   schedule:
-    # 1:30 PM UTC is 6:30 AM Pacific during daylight-saving time.
-    # It is 5:30 AM Pacific during standard time.
     - cron: "30 13 * * *"
 
 permissions:
@@ -32,15 +30,26 @@ jobs:
       - name: Install required programs
         run: pip install -r requirements.txt
 
-      - name: Generate briefing
+      - name: Run automated tests
+        run: pytest -q
+
+      - name: Generate and validate briefing
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python generate_briefing.py
 
-      - name: Save updated briefing
+      - name: Save validated outputs
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add feed.json kindle-dashboard.png
-          git diff --cached --quiet || git commit -m "Update daily AI briefing"
+
+          git add \
+            feed.json \
+            sources.html \
+            kindle-dashboard.png \
+            covered_stories.json
+
+          git diff --cached --quiet || \
+            git commit -m "Update curated AI briefing"
+
           git push
