@@ -1,184 +1,258 @@
-import json
-import tempfile
-import unittest
-from datetime import datetime
-from pathlib import Path
-from types import SimpleNamespace
-from unittest.mock import patch
+from datetime import datetime, timedelta, timezone
 
-from PIL import Image
+import pytest
 
-import generate_briefing as briefing
+from article_collector import (
+    is_low_value_title,
+    normalize_url,
+)
+from quality_checks import (
+    validate_briefing,
+    validate_feed_payload,
+)
+from story_selector import (
+    deterministic_fallback,
+)
 
 
-def article(title, published, link=None, source="Test AI"):
+def make_article(
+    source: str,
+    index: int,
+    hours_old: int = 1,
+    source_type: str = "primary",
+) -> dict:
+    now = datetime.now(
+        timezone.utc
+    )
+
+    published = now - timedelta(
+        hours=hours_old
+    )
+
     return {
         "source": source,
-        "title": title,
-        "summary": f"Concrete details about {title}.",
-        "link": link or f"https://example.com/{title.lower().replace(' ', '-')}",
-        "published": published,
+        "category": "Test category",
+        "source_type": source_type,
+        "title": f"Test story {index}",
+        "summary": "Test summary.",
+        "article_text":
+            "Detailed test article content.",
+        "link":
+            f"https://example.com/{source}/{index}",
+        "normalized_link":
+            f"https://example.com/{source}/{index}",
+        "published": published.isoformat(),
+        "age_label": (
+            "recent"
+            if hours_old <= 36
+            else "earlier this week"
+        ),
     }
 
 
-class FakeGeminiClient:
-    def __init__(self, response_text):
-        self.response_text = response_text
-        self.models = self
-        self.calls = []
+def make_valid_summary() -> str:
+    opening = (
+        "Good morning. Here is your curated AI "
+        "briefing for Monday, July 20, 2026."
+    )
 
-    def generate_content(self, **kwargs):
-        self.calls.append(kwargs)
-        return SimpleNamespace(text=self.response_text)
+    closing = (
+        "That is your curated AI briefing "
+        "for today."
+    )
+
+    middle_words = [
+        "development"
+        for _ in range(670)
+    ]
+
+    return (
+        opening
+        + " "
+        + " ".join(middle_words)
+        + " "
+        + closing
+    )
 
 
-class BriefingTests(unittest.TestCase):
-    def test_collect_articles_sorts_undated_after_dated_without_leaking_datetime(self):
-        newer = SimpleNamespace(
-            title="Newer dated news",
-            summary="Newer",
-            link="https://example.com/newer",
-            published_parsed=(2026, 7, 13, 16, 0, 0, 0, 0, 0),
-            updated_parsed=None,
+def test_low_value_title_filter():
+    assert is_low_value_title(
+        "Getting started with an AI tool"
+    )
+
+    assert is_low_value_title(
+        "Customer story: Example Corporation"
+    )
+
+    assert not is_low_value_title(
+        "New model released with benchmark results"
+    )
+
+
+def test_url_normalization_removes_tracking():
+    normalized = normalize_url(
+        "https://EXAMPLE.com/story/"
+        "?utm_source=x&useful=1#section"
+    )
+
+    assert normalized == (
+        "https://example.com/story?useful=1"
+    )
+
+
+def test_deterministic_fallback_caps_publishers():
+    articles = [
+        make_article("OpenAI", 1),
+        make_article("OpenAI", 2),
+        make_article("OpenAI", 3),
+        make_article("DeepMind", 4),
+        make_article("Microsoft", 5),
+        make_article("NVIDIA", 6),
+        make_article("AWS", 7),
+        make_article(
+            "TechCrunch",
+            8,
+            source_type="editorial",
+        ),
+        make_article(
+            "Ars Technica",
+            9,
+            source_type="editorial",
+        ),
+    ]
+
+    selected = deterministic_fallback(
+        articles
+    )
+
+    assert len(selected) == 8
+
+    assert (
+        sum(
+            article["source"] == "OpenAI"
+            for article in selected
         )
-        older = SimpleNamespace(
-            title="Older dated news",
-            summary="Older",
-            link="https://example.com/older",
-            published_parsed=(2026, 7, 12, 16, 0, 0, 0, 0, 0),
-            updated_parsed=None,
-        )
-        undated = SimpleNamespace(
-            title="Undated news",
-            summary="Undated",
-            link="https://example.com/undated",
-            published_parsed=None,
-            updated_parsed=None,
-        )
-        parsed_feed = SimpleNamespace(
-            entries=[undated, older, newer],
-            status=200,
-        )
+        <= 2
+    )
 
-        with patch.object(briefing.feedparser, "parse", return_value=parsed_feed):
-            with patch.object(
-                briefing,
-                "FEEDS",
-                {"Test AI": "https://example.com/feed"},
-            ):
-                with patch.object(briefing, "LOOKBACK_HOURS", 24 * 3650):
-                    articles = briefing.collect_articles()
+    assert any(
+        article["source_type"] == "editorial"
+        for article in selected
+    )
 
-        self.assertEqual(
-            [item["title"] for item in articles],
-            ["Newer dated news", "Older dated news", "Undated news"],
-        )
-        self.assertEqual(
-            articles[-1]["published"],
-            "Publication time unavailable",
-        )
-        json.dumps(articles)
-        self.assertFalse(
-            any(
-                isinstance(value, datetime)
-                for item in articles
-                for value in item.values()
-            )
-        )
 
-    def test_dashboard_filter_rejects_low_news_value_title_phrases(self):
-        for phrase in briefing.LOW_NEWS_VALUE_TITLE_PHRASES:
-            with self.subTest(phrase=phrase):
-                self.assertFalse(
-                    briefing.is_dashboard_candidate(
-                        article(
-                            f"An {phrase.title()} for developers",
-                            "2026-07-13T16:00:00+00:00",
-                        )
-                    )
-                )
+def test_valid_feed_payload():
+    payload = [
+        {
+            "uid": "123",
+            "updateDate":
+                "2026-07-20T12:00:00.0Z",
+            "titleText":
+                "My Curated AI Sources",
+            "mainText":
+                "A valid briefing.",
+            "redirectionUrl":
+                "https://example.com/sources.html",
+        }
+    ]
 
-        self.assertTrue(
-            briefing.is_dashboard_candidate(
-                article(
-                    "New frontier model launches",
-                    "2026-07-13T16:00:00+00:00",
-                )
-            )
-        )
+    validate_feed_payload(payload)
 
-    def test_gemini_selects_three_filtered_articles(self):
-        articles = [
-            article(
-                "Getting started with ChatGPT",
-                "2026-07-13T18:00:00+00:00",
-            ),
-            article("New frontier model launches", "2026-07-13T17:00:00+00:00"),
-            article("AI safety benchmark released", "2026-07-12T17:00:00+00:00"),
-            article("Major AI acquisition announced", "2026-07-11T17:00:00+00:00"),
-            article("Undated product article", "Publication time unavailable"),
-        ]
-        client = FakeGeminiClient(
-            json.dumps({"selected_article_indexes": [0, 1, 2]})
-        )
 
-        selected = briefing.select_dashboard_articles(articles, client=client)
+def test_feed_rejects_empty_main_text():
+    payload = [
+        {
+            "uid": "123",
+            "updateDate":
+                "2026-07-20T12:00:00.0Z",
+            "titleText":
+                "My Curated AI Sources",
+            "mainText": "",
+            "redirectionUrl":
+                "https://example.com/sources.html",
+        }
+    ]
 
-        self.assertEqual(
-            [item["title"] for item in selected],
-            [
-                "New frontier model launches",
-                "AI safety benchmark released",
-                "Major AI acquisition announced",
-            ],
-        )
-        prompt = client.calls[0]["contents"]
-        self.assertNotIn("Getting started with ChatGPT", prompt)
-        self.assertIn("Undated product article", prompt)
-        self.assertEqual(
-            client.calls[0]["config"]["response_mime_type"],
-            "application/json",
-        )
-        self.assertIn("response_json_schema", client.calls[0]["config"])
+    with pytest.raises(ValueError):
+        validate_feed_payload(payload)
 
-    def test_invalid_gemini_selection_falls_back_to_filtered_dated_news(self):
-        articles = [
-            article(
-                "Getting started with ChatGPT",
-                "2026-07-13T18:00:00+00:00",
-            ),
-            article("Dated news one", "2026-07-13T17:00:00+00:00"),
-            article("Dated news two", "2026-07-12T17:00:00+00:00"),
-            article("Dated news three", "2026-07-11T17:00:00+00:00"),
-            article("Undated news", "Publication time unavailable"),
-        ]
-        client = FakeGeminiClient(
-            json.dumps({"selected_article_indexes": [0, 0, 999]})
+
+def test_valid_briefing_passes():
+    now = datetime.now(
+        timezone.utc
+    )
+
+    selected = [
+        make_article("OpenAI", 1),
+        make_article("DeepMind", 2),
+        make_article("Microsoft", 3),
+        make_article("NVIDIA", 4),
+        make_article("AWS", 5),
+        make_article(
+            "TechCrunch",
+            6,
+            source_type="editorial",
+        ),
+        make_article(
+            "Ars Technica",
+            7,
+            source_type="editorial",
+        ),
+        make_article("Hugging Face", 8),
+    ]
+
+    validate_briefing(
+        summary=make_valid_summary(),
+        selected_articles=selected,
+        all_articles=selected,
+        covered_urls=set(),
+        now=now,
+    )
+
+
+def test_briefing_rejects_old_article():
+    now = datetime.now(
+        timezone.utc
+    )
+
+    selected = [
+        make_article("OpenAI", 1, hours_old=80),
+        make_article("DeepMind", 2),
+        make_article("Microsoft", 3),
+        make_article("NVIDIA", 4),
+    ]
+
+    with pytest.raises(ValueError):
+        validate_briefing(
+            summary=make_valid_summary(),
+            selected_articles=selected,
+            all_articles=selected,
+            covered_urls=set(),
+            now=now,
         )
 
-        selected = briefing.select_dashboard_articles(articles, client=client)
 
-        self.assertEqual(
-            [item["title"] for item in selected],
-            ["Dated news one", "Dated news two", "Dated news three"],
+def test_briefing_rejects_history_duplicate():
+    now = datetime.now(
+        timezone.utc
+    )
+
+    selected = [
+        make_article("OpenAI", 1),
+        make_article("DeepMind", 2),
+        make_article("Microsoft", 3),
+        make_article("NVIDIA", 4),
+    ]
+
+    covered_urls = {
+        selected[0]["normalized_link"]
+    }
+
+    with pytest.raises(ValueError):
+        validate_briefing(
+            summary=make_valid_summary(),
+            selected_articles=selected,
+            all_articles=selected,
+            covered_urls=covered_urls,
+            now=now,
         )
-
-    def test_dashboard_png_is_expected_grayscale_size(self):
-        stories = [
-            article("New frontier model launches", "2026-07-13T17:00:00+00:00"),
-            article("AI safety benchmark released", "2026-07-12T17:00:00+00:00"),
-            article("Major AI acquisition announced", "2026-07-11T17:00:00+00:00"),
-        ]
-
-        with tempfile.TemporaryDirectory() as directory:
-            output_path = Path(directory) / "dashboard.png"
-            briefing.create_kindle_dashboard(stories, output_path)
-
-            with Image.open(output_path) as image:
-                self.assertEqual(image.size, (1072, 1448))
-                self.assertEqual(image.mode, "L")
-                self.assertEqual(image.format, "PNG")
-
-
-if __name__ == "__main__":
-    unittest.main()
