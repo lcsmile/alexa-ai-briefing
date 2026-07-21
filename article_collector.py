@@ -2,7 +2,7 @@ import json
 import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 import feedparser
 
@@ -35,60 +35,58 @@ LOW_VALUE_TITLE_PHRASES = (
     "certification",
 )
 
+TRACKING_PARAMETERS = {
+    "fbclid",
+    "gclid",
+    "mc_cid",
+    "mc_eid",
+    "ref",
+    "ref_src",
+    "source",
+}
 
-def clean_text(text):
+
+def clean_text(text: str) -> str:
     """Remove HTML tags and repeated whitespace."""
     text = re.sub(r"<[^>]+>", " ", text or "")
     return re.sub(r"\s+", " ", text).strip()
 
 
-def normalize_url(url):
-    """
-    Remove fragments and common tracking parameters.
-
-    This helps identify the same story when a feed changes its tracking URL.
-    """
+def normalize_url(url: str) -> str:
+    """Remove fragments and common tracking parameters."""
     if not url:
         return ""
 
     parts = urlsplit(url.strip())
+    retained_parameters = []
 
-    tracking_prefixes = (
-        "utm_",
-        "ref",
-        "source",
-        "campaign",
-        "fbclid",
-        "gclid",
-    )
+    for key, value in parse_qsl(
+        parts.query,
+        keep_blank_values=True,
+    ):
+        normalized_key = key.casefold()
 
-    kept_parameters = []
+        if normalized_key.startswith("utm_"):
+            continue
 
-    if parts.query:
-        for parameter in parts.query.split("&"):
-            parameter_name = parameter.split("=", 1)[0].casefold()
+        if normalized_key in TRACKING_PARAMETERS:
+            continue
 
-            if any(
-                parameter_name.startswith(prefix)
-                for prefix in tracking_prefixes
-            ):
-                continue
-
-            kept_parameters.append(parameter)
+        retained_parameters.append((key, value))
 
     return urlunsplit(
         (
             parts.scheme.casefold(),
             parts.netloc.casefold(),
             parts.path.rstrip("/"),
-            "&".join(kept_parameters),
+            urlencode(retained_parameters, doseq=True),
             "",
         )
     )
 
 
 def parse_entry_date(entry):
-    """Return an aware UTC datetime from an RSS entry when available."""
+    """Read the publication or update date from an RSS entry."""
     parsed = getattr(entry, "published_parsed", None)
 
     if not parsed:
@@ -97,20 +95,41 @@ def parse_entry_date(entry):
     if not parsed:
         return None
 
-    return datetime(*parsed[:6], tzinfo=timezone.utc)
+    return datetime(
+        *parsed[:6],
+        tzinfo=timezone.utc,
+    )
 
 
-def load_covered_urls(path=HISTORY_PATH):
-    """Load normalized URLs already used in recent briefings."""
-    path = Path(path)
+def is_low_value_title(title: str) -> bool:
+    """Identify routine tutorials, webinars and promotional articles."""
+    normalized_title = clean_text(title).casefold()
 
+    if not normalized_title:
+        return True
+
+    return any(
+        phrase in normalized_title
+        for phrase in LOW_VALUE_TITLE_PHRASES
+    )
+
+
+def load_covered_urls(
+    path: Path = HISTORY_PATH,
+) -> set[str]:
+    """Load URLs used in recent briefings."""
     if not path.exists():
         return set()
 
     try:
-        payload = json.loads(path.read_text(encoding="utf-8"))
+        payload = json.loads(
+            path.read_text(encoding="utf-8")
+        )
     except (OSError, json.JSONDecodeError):
-        print("History file could not be read. Continuing without history.")
+        print(
+            "Warning: covered_stories.json could not be read. "
+            "Continuing without history."
+        )
         return set()
 
     stories = payload.get("stories", [])
@@ -124,38 +143,25 @@ def load_covered_urls(path=HISTORY_PATH):
         if not isinstance(story, dict):
             continue
 
-        normalized = normalize_url(story.get("link", ""))
+        normalized_link = normalize_url(
+            story.get("link", "")
+        )
 
-        if normalized:
-            covered_urls.add(normalized)
+        if normalized_link:
+            covered_urls.add(normalized_link)
 
     return covered_urls
 
 
-def is_low_value_title(title):
-    """Return True for routine tutorials, promotions and similar material."""
-    normalized_title = clean_text(title).casefold()
-
-    if not normalized_title:
-        return True
-
-    return any(
-        phrase in normalized_title
-        for phrase in LOW_VALUE_TITLE_PHRASES
-    )
-
-
 def collect_with_cutoff(
-    cutoff,
-    covered_urls,
-    now=None,
-):
-    """Collect candidate articles newer than the supplied cutoff."""
-    now = now or datetime.now(timezone.utc)
-
+    cutoff: datetime,
+    covered_urls: set[str],
+    now: datetime,
+) -> list[dict]:
+    """Collect articles newer than a supplied date."""
     articles = []
-    seen_titles = set()
     seen_urls = set()
+    seen_titles = set()
 
     for source in SOURCES:
         source_name = source["name"]
@@ -172,27 +178,50 @@ def collect_with_cutoff(
         source_articles = []
 
         for entry in feed.entries[:30]:
-            title = clean_text(getattr(entry, "title", ""))
-            link = clean_text(getattr(entry, "link", ""))
-            normalized_link = normalize_url(link)
+            title = clean_text(
+                getattr(entry, "title", "")
+            )
+            link = clean_text(
+                getattr(entry, "link", "")
+            )
             published = parse_entry_date(entry)
+            normalized_link = normalize_url(link)
 
             if not title or not link:
                 continue
 
             if published is None:
-                print(f"Skipped undated article: {source_name} — {title}")
+                print(
+                    f"Skipped undated article: "
+                    f"{source_name} — {title}"
+                )
                 continue
 
-            if published < cutoff or published > now + timedelta(hours=2):
+            if published < cutoff:
+                continue
+
+            if published > now + timedelta(hours=2):
+                print(
+                    f"Skipped future-dated article: "
+                    f"{source_name} — {title}"
+                )
                 continue
 
             if is_low_value_title(title):
-                print(f"Skipped low-value title: {source_name} — {title}")
+                print(
+                    f"Skipped low-value title: "
+                    f"{source_name} — {title}"
+                )
                 continue
 
             if normalized_link in covered_urls:
-                print(f"Skipped previously covered URL: {title}")
+                print(
+                    f"Skipped previously covered article: "
+                    f"{title}"
+                )
+                continue
+
+            if normalized_link in seen_urls:
                 continue
 
             title_key = title.casefold()
@@ -200,19 +229,24 @@ def collect_with_cutoff(
             if title_key in seen_titles:
                 continue
 
-            if normalized_link in seen_urls:
-                continue
-
-            age_hours = (now - published).total_seconds() / 3600
+            age_hours = (
+                now - published
+            ).total_seconds() / 3600
 
             article = {
                 "source": source_name,
-                "category": source.get("category", "Other"),
-                "source_type": source.get("source_type", "primary"),
+                "category": source.get(
+                    "category",
+                    "Other",
+                ),
+                "source_type": source.get(
+                    "source_type",
+                    "primary",
+                ),
                 "title": title,
                 "summary": clean_text(
                     getattr(entry, "summary", "")
-                )[:1000],
+                )[:1200],
                 "link": link,
                 "normalized_link": normalized_link,
                 "published": published.isoformat(),
@@ -224,8 +258,8 @@ def collect_with_cutoff(
             }
 
             source_articles.append(article)
-            seen_titles.add(title_key)
             seen_urls.add(normalized_link)
+            seen_titles.add(title_key)
 
         source_articles.sort(
             key=lambda article: article["published"],
@@ -233,7 +267,9 @@ def collect_with_cutoff(
         )
 
         articles.extend(
-            source_articles[:MAX_ARTICLES_PER_SOURCE]
+            source_articles[
+                :MAX_ARTICLES_PER_SOURCE
+            ]
         )
 
     articles.sort(
@@ -244,50 +280,57 @@ def collect_with_cutoff(
     return articles[:MAX_TOTAL_ARTICLES]
 
 
-def collect_articles(now=None, history_path=HISTORY_PATH):
+def collect_articles(
+    now: datetime | None = None,
+    history_path: Path = HISTORY_PATH,
+) -> tuple[list[dict], int]:
     """
-    Use a 36-hour window first.
+    Search the last 36 hours first.
 
-    Expand to 72 hours only when fewer than eight useful candidates exist.
-    Previously covered stories are never reused.
+    Expand to 72 hours when fewer than eight useful
+    candidates are available.
     """
     now = now or datetime.now(timezone.utc)
-    covered_urls = load_covered_urls(history_path)
 
-    primary_cutoff = now - timedelta(
-        hours=PRIMARY_LOOKBACK_HOURS
+    covered_urls = load_covered_urls(
+        history_path
     )
 
-    articles = collect_with_cutoff(
-        cutoff=primary_cutoff,
+    primary_articles = collect_with_cutoff(
+        cutoff=now - timedelta(
+            hours=PRIMARY_LOOKBACK_HOURS
+        ),
         covered_urls=covered_urls,
         now=now,
     )
 
-    window_used = PRIMARY_LOOKBACK_HOURS
-
-    if len(articles) < MINIMUM_CANDIDATES:
+    if len(primary_articles) >= MINIMUM_CANDIDATES:
         print(
-            f"Only {len(articles)} candidates found in "
-            f"{PRIMARY_LOOKBACK_HOURS} hours. "
-            f"Expanding to {FALLBACK_LOOKBACK_HOURS} hours."
+            f"Using {PRIMARY_LOOKBACK_HOURS}-hour window "
+            f"with {len(primary_articles)} candidates."
         )
 
-        fallback_cutoff = now - timedelta(
+        return (
+            primary_articles,
+            PRIMARY_LOOKBACK_HOURS,
+        )
+
+    fallback_articles = collect_with_cutoff(
+        cutoff=now - timedelta(
             hours=FALLBACK_LOOKBACK_HOURS
-        )
-
-        articles = collect_with_cutoff(
-            cutoff=fallback_cutoff,
-            covered_urls=covered_urls,
-            now=now,
-        )
-
-        window_used = FALLBACK_LOOKBACK_HOURS
-
-    print(
-        f"Collection complete: {len(articles)} candidates, "
-        f"{window_used}-hour window."
+        ),
+        covered_urls=covered_urls,
+        now=now,
     )
 
-    return articles, window_used
+    print(
+        f"Only {len(primary_articles)} candidates were found "
+        f"in {PRIMARY_LOOKBACK_HOURS} hours. "
+        f"Using the {FALLBACK_LOOKBACK_HOURS}-hour window "
+        f"with {len(fallback_articles)} candidates."
+    )
+
+    return (
+        fallback_articles,
+        FALLBACK_LOOKBACK_HOURS,
+    )
