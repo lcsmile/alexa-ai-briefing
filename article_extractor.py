@@ -6,155 +6,185 @@ from bs4 import BeautifulSoup
 
 
 REQUEST_TIMEOUT_SECONDS = 12
-MAX_ARTICLE_CHARACTERS = 3000
+MAX_ARTICLE_CHARACTERS = 4000
+MIN_EXTRACTED_CHARACTERS = 300
 
 REQUEST_HEADERS = {
     "User-Agent": (
-        "Mozilla/5.0 compatible; "
-        "AlexaAIBriefing/1.0; "
-        "article summary generator"
+        "Mozilla/5.0 "
+        "(compatible; CuratedAIBriefing/1.0; "
+        "+https://lcsmile.github.io/"
+        "alexa-ai-briefing/)"
     )
 }
 
 
-def clean_text(text):
-    """Normalize whitespace in extracted article text."""
-    return re.sub(r"\s+", " ", text or "").strip()
+def clean_text(text: str) -> str:
+    """Normalize whitespace."""
+    return re.sub(
+        r"\s+",
+        " ",
+        text or "",
+    ).strip()
 
 
-def extract_with_trafilatura(html, url):
-    """Extract the main article content through Trafilatura."""
-    extracted = trafilatura.extract(
-        html,
-        url=url,
-        include_comments=False,
-        include_tables=False,
-        include_links=False,
-        include_images=False,
-        favor_precision=True,
-        deduplicate=True,
+def extract_with_beautifulsoup(
+    html_content: str,
+) -> str:
+    """Use HTML structure as a secondary extraction method."""
+    soup = BeautifulSoup(
+        html_content,
+        "html.parser",
     )
 
-    return clean_text(extracted)
+    unwanted_tags = [
+        "script",
+        "style",
+        "nav",
+        "footer",
+        "header",
+        "aside",
+        "form",
+        "noscript",
+        "svg",
+    ]
 
+    for tag in soup(unwanted_tags):
+        tag.decompose()
 
-def extract_with_beautifulsoup(html):
-    """Use a simpler HTML extraction method as a secondary fallback."""
-    soup = BeautifulSoup(html, "html.parser")
-
-    for unwanted in soup(
-        [
-            "script",
-            "style",
-            "nav",
-            "footer",
-            "header",
-            "aside",
-            "form",
-            "noscript",
-            "svg",
-        ]
-    ):
-        unwanted.decompose()
-
-    article_element = soup.find("article")
-
-    if article_element:
-        text = article_element.get_text(" ", strip=True)
-    else:
-        main_element = soup.find("main")
-        target = main_element or soup.body or soup
-        text = target.get_text(" ", strip=True)
-
-    return clean_text(text)
-
-
-def download_article(url):
-    """Download an article with a timeout and basic validation."""
-    response = requests.get(
-        url,
-        headers=REQUEST_HEADERS,
-        timeout=REQUEST_TIMEOUT_SECONDS,
-        allow_redirects=True,
+    target = (
+        soup.find("article")
+        or soup.find("main")
+        or soup.body
+        or soup
     )
 
-    response.raise_for_status()
-
-    content_type = response.headers.get(
-        "Content-Type",
-        "",
-    ).casefold()
-
-    if "html" not in content_type:
-        raise ValueError(
-            f"URL did not return HTML: {content_type}"
+    return clean_text(
+        target.get_text(
+            " ",
+            strip=True,
         )
+    )
 
-    return response.text, response.url
 
-
-def extract_article_text(article):
+def extract_article_text(
+    article: dict,
+) -> dict:
     """
-    Add article_text and extraction_method to one article dictionary.
+    Extract one article's main text.
 
-    RSS summary text remains available when page extraction fails.
+    The RSS description is used when page extraction fails.
     """
-    article = dict(article)
-    fallback = clean_text(article.get("summary", ""))
+    enriched_article = dict(article)
+
+    fallback_text = clean_text(
+        article.get("summary", "")
+    )
 
     try:
-        html, final_url = download_article(article["link"])
-
-        text = extract_with_trafilatura(
-            html,
-            final_url,
+        response = requests.get(
+            article["link"],
+            headers=REQUEST_HEADERS,
+            timeout=REQUEST_TIMEOUT_SECONDS,
+            allow_redirects=True,
         )
 
-        method = "trafilatura"
+        response.raise_for_status()
 
-        if len(text) < 300:
-            text = extract_with_beautifulsoup(html)
-            method = "beautifulsoup"
+        content_type = response.headers.get(
+            "Content-Type",
+            "",
+        ).casefold()
 
-        if len(text) < 300:
+        if "html" not in content_type:
+            raise ValueError(
+                f"Response was not HTML: {content_type}"
+            )
+
+        extracted_text = trafilatura.extract(
+            response.text,
+            url=response.url,
+            include_comments=False,
+            include_tables=False,
+            include_links=False,
+            include_images=False,
+            favor_precision=True,
+            deduplicate=True,
+        )
+
+        extracted_text = clean_text(
+            extracted_text
+        )
+        extraction_method = "trafilatura"
+
+        if (
+            len(extracted_text)
+            < MIN_EXTRACTED_CHARACTERS
+        ):
+            extracted_text = (
+                extract_with_beautifulsoup(
+                    response.text
+                )
+            )
+            extraction_method = "beautifulsoup"
+
+        if (
+            len(extracted_text)
+            < MIN_EXTRACTED_CHARACTERS
+        ):
             raise ValueError(
                 "Extracted article text was too short."
             )
 
-        article["article_text"] = text[
-            :MAX_ARTICLE_CHARACTERS
-        ]
-        article["extraction_method"] = method
+        enriched_article["article_text"] = (
+            extracted_text[
+                :MAX_ARTICLE_CHARACTERS
+            ]
+        )
+        enriched_article["extraction_method"] = (
+            extraction_method
+        )
 
         print(
-            f"Extracted {len(article['article_text'])} characters "
-            f"from {article['source']}: {article['title']}"
+            f"Extracted "
+            f"{len(enriched_article['article_text'])} "
+            f"characters from "
+            f"{article['source']}: "
+            f"{article['title']}"
         )
 
     except (
         requests.RequestException,
         ValueError,
-        TypeError,
         KeyError,
     ) as error:
-        article["article_text"] = fallback[
-            :MAX_ARTICLE_CHARACTERS
-        ]
-        article["extraction_method"] = "rss-fallback"
-
-        print(
-            f"Article extraction failed for "
-            f"{article.get('title', 'unknown article')}: {error}"
+        enriched_article["article_text"] = (
+            fallback_text[
+                :MAX_ARTICLE_CHARACTERS
+            ]
+        )
+        enriched_article["extraction_method"] = (
+            "rss-fallback"
         )
 
-    return article
+        print(
+            f"Used RSS fallback for "
+            f"{article.get('title', 'unknown article')}: "
+            f"{error}"
+        )
+
+    return enriched_article
 
 
-def enrich_articles(articles):
-    """Extract full text for every collected candidate."""
-    enriched = []
+def enrich_articles(
+    articles: list[dict],
+) -> list[dict]:
+    """Extract page content for all collected candidates."""
+    enriched_articles = []
 
     for article in articles:
-        enriched.append(extract_article_text(article))
+        enriched_articles.append(
+            extract_article_text(article)
+        )
 
-    return enriched
+    return enriched_articles
