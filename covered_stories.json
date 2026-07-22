@@ -111,6 +111,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/evolving-from-legacy-bi-to-agentic-ai-at-tradeshift-with-amazon-quick",
       "published": "2026-07-20T16:56:48+00:00",
       "covered_at": "2026-07-21T15:22:56.666770+00:00"
+    },
+    {
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission",
+      "published": "2026-07-22T13:38:54+00:00",
+      "covered_at": "2026-07-22T15:20:41.661850+00:00"
+    },
+    {
+      "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/22/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026",
+      "published": "2026-07-22T13:20:35+00:00",
+      "covered_at": "2026-07-22T15:20:41.661850+00:00"
+    },
+    {
+      "title": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source",
+      "published": "2026-07-22T13:00:11+00:00",
+      "covered_at": "2026-07-22T15:20:41.661850+00:00"
+    },
+    {
+      "title": "Building AI infrastructure with the Effingham County community",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "published": "2026-07-22T13:00:00+00:00",
+      "covered_at": "2026-07-22T15:20:41.661850+00:00"
+    },
+    {
+      "title": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us",
+      "published": "2026-07-22T13:00:00+00:00",
+      "covered_at": "2026-07-22T15:20:41.661850+00:00"
+    },
+    {
+      "title": "Introducing OpenAI Presence",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-openai-presence",
+      "published": "2026-07-22T05:30:00+00:00",
+      "covered_at": "2026-07-22T15:20:41.661850+00:00"
+    },
+    {
+      "title": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/wistron-manufacturing-texas",
+      "published": "2026-07-21T22:35:45+00:00",
+      "covered_at": "2026-07-22T15:20:41.661850+00:00"
+    },
+    {
+      "title": "The State of Simulation for Physical AI: An Overview",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "published": "2026-07-21T20:00:27+00:00",
+      "covered_at": "2026-07-22T15:20:41.661850+00:00"
     }
   ]
 }
