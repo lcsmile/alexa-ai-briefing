@@ -167,6 +167,62 @@
       "link": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
       "published": "2026-07-21T20:00:27+00:00",
       "covered_at": "2026-07-22T15:20:41.661850+00:00"
+    },
+    {
+      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors",
+      "published": "2026-07-23T15:00:00+00:00",
+      "covered_at": "2026-07-23T15:31:55.971224+00:00"
+    },
+    {
+      "title": "Nvidia is sending GPUs to the moon",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon",
+      "published": "2026-07-23T15:00:00+00:00",
+      "covered_at": "2026-07-23T15:31:55.971224+00:00"
+    },
+    {
+      "title": "GeForce NOW Sets Sail With ‘Path of Exile: Curse of the Allflame’ Joining the Cloud",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-path-of-exile-allflame",
+      "published": "2026-07-23T13:00:16+00:00",
+      "covered_at": "2026-07-23T15:31:55.971224+00:00"
+    },
+    {
+      "title": "How AI helps scientists design the next generation of medicines",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines",
+      "published": "2026-07-23T12:00:00+00:00",
+      "covered_at": "2026-07-23T15:31:55.971224+00:00"
+    },
+    {
+      "title": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer",
+      "published": "2026-07-23T02:00:46+00:00",
+      "covered_at": "2026-07-23T15:31:55.971224+00:00"
+    },
+    {
+      "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nunchaku-diffusers",
+      "published": "2026-07-23T00:00:00+00:00",
+      "covered_at": "2026-07-23T15:31:55.971224+00:00"
+    },
+    {
+      "title": "AI Teammates: how monday.com runs production AI agents on Amazon Bedrock",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock",
+      "published": "2026-07-22T15:54:28+00:00",
+      "covered_at": "2026-07-23T15:31:55.971224+00:00"
+    },
+    {
+      "title": "How news organizations are using AI to advance their vital missions",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "published": "2026-07-22T13:00:00+00:00",
+      "covered_at": "2026-07-23T15:31:55.971224+00:00"
     }
   ]
 }
