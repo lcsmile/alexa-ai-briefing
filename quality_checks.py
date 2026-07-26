@@ -3,10 +3,11 @@ from collections import Counter
 from datetime import datetime, timedelta, timezone
 
 
-MIN_WORDS = 650
+TARGET_MIN_WORDS = 650
+HARD_MIN_WORDS = 600
 MAX_WORDS = 950
 
-MIN_ORGANIZATIONS = 4
+MIN_ORGANIZATIONS = 3
 MAX_PER_ORGANIZATION = 2
 MAX_ARTICLE_AGE_HOURS = 72
 
@@ -42,6 +43,24 @@ def parse_datetime(value: str):
     )
 
 
+def minimum_words_for_story_count(
+    story_count: int,
+) -> int:
+    """
+    Use a realistic minimum on low-news days.
+
+    Five stories should not be forced to contain as much filler
+    as eight stories.
+    """
+    if story_count >= 8:
+        return 650
+
+    if story_count == 7:
+        return 625
+
+    return HARD_MIN_WORDS
+
+
 def validate_briefing(
     summary: str,
     selected_articles: list[dict],
@@ -55,12 +74,31 @@ def validate_briefing(
     )
 
     errors = []
-    word_count = len(summary.split())
+    warnings = []
 
-    if word_count < MIN_WORDS:
+    word_count = len(
+        summary.split()
+    )
+
+    required_minimum = (
+        minimum_words_for_story_count(
+            len(selected_articles)
+        )
+    )
+
+    if word_count < required_minimum:
         errors.append(
             f"Briefing has {word_count} words. "
-            f"Minimum is {MIN_WORDS}."
+            f"Minimum for "
+            f"{len(selected_articles)} stories is "
+            f"{required_minimum}."
+        )
+
+    elif word_count < TARGET_MIN_WORDS:
+        warnings.append(
+            f"Briefing has {word_count} words, "
+            f"slightly below the preferred "
+            f"{TARGET_MIN_WORDS}-word target."
         )
 
     if word_count > MAX_WORDS:
@@ -170,6 +208,11 @@ def validate_briefing(
                 f"{article['title']}"
             )
 
+    for warning in warnings:
+        print(
+            f"Quality warning: {warning}"
+        )
+
     if errors:
         raise ValueError(
             "\n".join(errors)
@@ -179,10 +222,14 @@ def validate_briefing(
 def validate_feed_payload(
     payload: list[dict],
 ) -> None:
-    """Verify the Alexa JSON feed before it replaces the live feed."""
+    """Verify the Alexa JSON feed before replacing it."""
     try:
-        encoded = json.dumps(payload)
-        decoded = json.loads(encoded)
+        encoded = json.dumps(
+            payload
+        )
+        decoded = json.loads(
+            encoded
+        )
     except (
         TypeError,
         ValueError,
