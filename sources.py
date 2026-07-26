@@ -19,12 +19,11 @@ SOURCES = [
         "source_type": "primary",
     },
     {
-        "name": "Microsoft AI",
-        "category": "Products and enterprise",
-        "feed": "https://blogs.microsoft.com/ai/feed/",
+        "name": "Microsoft Research",
+        "category": "Research",
+        "feed": "https://www.microsoft.com/en-us/research/feed/",
         "source_type": "primary",
     },
-
     # Infrastructure and cloud
     {
         "name": "AWS Machine Learning",
