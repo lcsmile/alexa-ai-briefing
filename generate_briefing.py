@@ -121,7 +121,9 @@ def create_summary(
 
     prompt = f"""
 Write a neutral spoken artificial-intelligence news
-briefing between 700 and 900 words.
+briefing between 750 and 900 words. Aim for approximately
+800 words. Do not finish below 700 words unless fewer than
+six selected stories were supplied.
 
 Use only the supplied material.
 
