@@ -19,7 +19,6 @@ HISTORY_PATH = Path("covered_stories.json")
 
 LOW_VALUE_TITLE_PHRASES = (
     "getting started",
-    "how to",
     "beginner guide",
     "tutorial",
     "webinar",
