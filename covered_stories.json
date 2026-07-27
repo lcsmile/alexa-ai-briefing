@@ -258,6 +258,62 @@
       "link": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it",
       "published": "2026-07-25T13:05:00+00:00",
       "covered_at": "2026-07-26T18:56:10.592767+00:00"
+    },
+    {
+      "title": "Google’s AI search is rapidly becoming the default, new data shows",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows",
+      "published": "2026-07-27T15:57:12+00:00",
+      "covered_at": "2026-07-27T15:59:31.924459+00:00"
+    },
+    {
+      "title": "The path to artificial superintelligence",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence",
+      "published": "2026-07-27T12:00:00+00:00",
+      "covered_at": "2026-07-27T15:59:31.924459+00:00"
+    },
+    {
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "published": "2026-07-27T09:32:20+00:00",
+      "covered_at": "2026-07-27T15:59:31.924459+00:00"
+    },
+    {
+      "title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/open-secure-ai-alliance",
+      "published": "2026-07-27T09:00:07+00:00",
+      "covered_at": "2026-07-27T15:59:31.924459+00:00"
+    },
+    {
+      "title": "How AI is expanding what people do at work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "published": "2026-07-27T03:30:00+00:00",
+      "covered_at": "2026-07-27T15:59:31.924459+00:00"
+    },
+    {
+      "title": "Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026",
+      "published": "2026-07-27T15:30:00+00:00",
+      "covered_at": "2026-07-27T15:59:31.924459+00:00"
+    },
+    {
+      "title": "Closing the data loop in AI-driven drug discovery",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery",
+      "published": "2026-07-27T11:40:16+00:00",
+      "covered_at": "2026-07-27T15:59:31.924459+00:00"
+    },
+    {
+      "title": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/vera-cpu-eda",
+      "published": "2026-07-27T00:45:42+00:00",
+      "covered_at": "2026-07-27T15:59:31.924459+00:00"
     }
   ]
 }
