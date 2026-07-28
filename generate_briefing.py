@@ -184,6 +184,85 @@ Selected material:
             "Gemini returned an empty summary."
         )
 
+    word_count = len(
+        summary.split()
+    )
+
+    print(
+        f"Initial briefing word count: "
+        f"{word_count}"
+    )
+
+    # Ask Gemini once to expand a substantially short result.
+    # Failure during expansion does not discard the original result.
+    if word_count < 650:
+        expansion_prompt = f"""
+Expand the briefing below to approximately 700 to 800
+words.
+
+Requirements:
+- Preserve all existing facts and source attribution.
+- Do not introduce any fact that is absent from the
+  original briefing or the supplied source material.
+- Add useful explanation of why each development matters.
+- Add context about limitations, availability, business
+  impact, research impact, infrastructure, safety, or
+  policy only when supported by the supplied material.
+- Keep the same required opening sentence.
+- Keep the same required final sentence.
+- Do not use headings, bullet points, markdown, or URLs.
+- Use neutral spoken language.
+
+Original briefing:
+
+{summary}
+
+Supplied source material:
+
+{article_text}
+"""
+
+        try:
+            expanded_response = (
+                client.models.generate_content(
+                    model=MODEL_NAME,
+                    contents=expansion_prompt,
+                )
+            )
+
+            expanded_summary = clean_text(
+                expanded_response.text
+            )
+
+            expanded_word_count = len(
+                expanded_summary.split()
+            )
+
+            if (
+                expanded_summary
+                and expanded_word_count > word_count
+                and expanded_word_count <= 1100
+            ):
+                summary = expanded_summary
+                word_count = expanded_word_count
+
+                print(
+                    f"Expanded briefing word count: "
+                    f"{word_count}"
+                )
+            else:
+                print(
+                    "Expansion did not improve the "
+                    "briefing. Using the original."
+                )
+
+        except Exception as error:
+            print(
+                "Briefing expansion failed. "
+                "Using the original briefing. "
+                f"Error: {error}"
+            )
+
     return summary
 
 
