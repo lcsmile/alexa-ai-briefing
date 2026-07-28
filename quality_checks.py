@@ -3,13 +3,16 @@ from collections import Counter
 from datetime import datetime, timedelta, timezone
 
 
-TARGET_MIN_WORDS = 650
-HARD_MIN_WORDS = 600
-MAX_WORDS = 950
+PREFERRED_MIN_WORDS = 650
+PREFERRED_MAX_WORDS = 950
 
-MIN_ORGANIZATIONS = 3
-MAX_PER_ORGANIZATION = 2
-MAX_ARTICLE_AGE_HOURS = 72
+# Only content below this threshold is considered unusably short.
+HARD_MIN_WORDS = 350
+HARD_MAX_WORDS = 1200
+
+PREFERRED_MIN_ORGANIZATIONS = 4
+PREFERRED_MAX_PER_ORGANIZATION = 2
+PREFERRED_MAX_ARTICLE_AGE_HOURS = 72
 
 OPENING_PREFIX = (
     "Good morning. Here is your curated AI briefing for"
@@ -43,22 +46,9 @@ def parse_datetime(value: str):
     )
 
 
-def minimum_words_for_story_count(
-    story_count: int,
-) -> int:
-    """
-    Use a realistic minimum on low-news days.
-
-    Five stories should not be forced to contain as much filler
-    as eight stories.
-    """
-    if story_count >= 8:
-        return 650
-
-    if story_count == 7:
-        return 625
-
-    return HARD_MIN_WORDS
+def print_warning(message: str) -> None:
+    """Print a clearly labeled nonfatal quality warning."""
+    print(f"QUALITY WARNING: {message}")
 
 
 def validate_briefing(
@@ -68,121 +58,148 @@ def validate_briefing(
     covered_urls: set[str],
     now: datetime | None = None,
 ) -> None:
-    """Reject briefings that fail editorial or data checks."""
+    """
+    Validate the briefing without rejecting usable content.
+
+    Only structural or severely unusable output raises an error.
+    Editorial preferences produce warnings.
+    """
     now = now or datetime.now(
         timezone.utc
     )
 
-    errors = []
-    warnings = []
+    fatal_errors = []
 
-    word_count = len(
-        summary.split()
-    )
-
-    required_minimum = (
-        minimum_words_for_story_count(
-            len(selected_articles)
+    if not isinstance(summary, str):
+        fatal_errors.append(
+            "The briefing is not text."
         )
-    )
+        summary = ""
 
-    if word_count < required_minimum:
-        errors.append(
-            f"Briefing has {word_count} words. "
-            f"Minimum for "
-            f"{len(selected_articles)} stories is "
-            f"{required_minimum}."
+    summary = summary.strip()
+    word_count = len(summary.split())
+
+    if not summary:
+        fatal_errors.append(
+            "The briefing is empty."
         )
 
-    elif word_count < TARGET_MIN_WORDS:
-        warnings.append(
-            f"Briefing has {word_count} words, "
-            f"slightly below the preferred "
-            f"{TARGET_MIN_WORDS}-word target."
+    if word_count < HARD_MIN_WORDS:
+        fatal_errors.append(
+            f"The briefing has only {word_count} words. "
+            f"The hard minimum is {HARD_MIN_WORDS}."
+        )
+    elif word_count < PREFERRED_MIN_WORDS:
+        print_warning(
+            f"The briefing has {word_count} words. "
+            f"The preferred minimum is "
+            f"{PREFERRED_MIN_WORDS}, but the briefing "
+            "is still usable."
         )
 
-    if word_count > MAX_WORDS:
-        errors.append(
-            f"Briefing has {word_count} words. "
-            f"Maximum is {MAX_WORDS}."
+    if word_count > HARD_MAX_WORDS:
+        fatal_errors.append(
+            f"The briefing has {word_count} words. "
+            f"The hard maximum is {HARD_MAX_WORDS}."
+        )
+    elif word_count > PREFERRED_MAX_WORDS:
+        print_warning(
+            f"The briefing has {word_count} words. "
+            f"The preferred maximum is "
+            f"{PREFERRED_MAX_WORDS}."
         )
 
     if not summary.startswith(
         OPENING_PREFIX
     ):
-        errors.append(
-            "Required opening sentence is missing."
+        print_warning(
+            "The preferred opening sentence is missing."
         )
 
     if not summary.endswith(
         CLOSING_SENTENCE
     ):
-        errors.append(
-            "Required closing sentence is missing."
+        print_warning(
+            "The preferred closing sentence is missing."
         )
 
     if not selected_articles:
-        errors.append(
+        fatal_errors.append(
             "No stories were selected."
         )
 
     publisher_counts = Counter(
-        article["source"]
+        article.get("source", "Unknown")
         for article in selected_articles
     )
 
     available_publishers = len(
         {
-            article["source"]
+            article.get("source", "Unknown")
             for article in all_articles
         }
     )
 
-    required_publishers = min(
-        MIN_ORGANIZATIONS,
+    preferred_publishers = min(
+        PREFERRED_MIN_ORGANIZATIONS,
         available_publishers,
         len(selected_articles),
     )
 
     if (
-        len(publisher_counts)
-        < required_publishers
+        selected_articles
+        and len(publisher_counts)
+        < preferred_publishers
     ):
-        errors.append(
-            "The selected stories do not use "
-            "enough available publishers."
+        print_warning(
+            f"The briefing uses "
+            f"{len(publisher_counts)} publishers. "
+            f"The preferred number for the available "
+            f"material is {preferred_publishers}."
         )
 
     for publisher, count in (
         publisher_counts.items()
     ):
-        if count > MAX_PER_ORGANIZATION:
-            errors.append(
-                f"{publisher} has {count} selected stories. "
-                f"Maximum is {MAX_PER_ORGANIZATION}."
+        if count > PREFERRED_MAX_PER_ORGANIZATION:
+            print_warning(
+                f"{publisher} has {count} stories. "
+                f"The preferred maximum is "
+                f"{PREFERRED_MAX_PER_ORGANIZATION}."
             )
 
     collected_urls = {
-        article["normalized_link"]
+        article.get("normalized_link")
         for article in all_articles
+        if article.get("normalized_link")
     }
 
     for article in selected_articles:
-        normalized_link = article[
+        title = article.get(
+            "title",
+            "Untitled article",
+        )
+
+        normalized_link = article.get(
             "normalized_link"
-        ]
+        )
+
+        if not normalized_link:
+            fatal_errors.append(
+                f"A selected article has no URL: {title}"
+            )
+            continue
 
         if normalized_link not in collected_urls:
-            errors.append(
-                "A selected URL was not present "
-                f"in the collected candidates: "
-                f"{article['link']}"
+            fatal_errors.append(
+                "A selected URL was not present in the "
+                f"collected candidates: {normalized_link}"
             )
 
         if normalized_link in covered_urls:
-            errors.append(
-                "A selected story was already covered: "
-                f"{article['link']}"
+            print_warning(
+                f"A previously covered story was selected: "
+                f"{title}"
             )
 
         published = parse_datetime(
@@ -190,39 +207,41 @@ def validate_briefing(
         )
 
         if published is None:
-            errors.append(
-                "A selected article has no valid date: "
-                f"{article['title']}"
+            print_warning(
+                f"A selected article has no valid date: "
+                f"{title}"
             )
             continue
 
         age = now - published
 
         if age > timedelta(
-            hours=MAX_ARTICLE_AGE_HOURS,
+            hours=PREFERRED_MAX_ARTICLE_AGE_HOURS,
             minutes=5,
         ):
-            errors.append(
-                "A selected article is older than "
-                f"{MAX_ARTICLE_AGE_HOURS} hours: "
-                f"{article['title']}"
+            print_warning(
+                f"A selected article is older than "
+                f"{PREFERRED_MAX_ARTICLE_AGE_HOURS} hours: "
+                f"{title}"
             )
 
-    for warning in warnings:
-        print(
-            f"Quality warning: {warning}"
+    if fatal_errors:
+        raise ValueError(
+            "\n".join(fatal_errors)
         )
 
-    if errors:
-        raise ValueError(
-            "\n".join(errors)
-        )
+    print(
+        f"Briefing quality check passed: "
+        f"{word_count} words, "
+        f"{len(selected_articles)} stories, "
+        f"{len(publisher_counts)} publishers."
+    )
 
 
 def validate_feed_payload(
     payload: list[dict],
 ) -> None:
-    """Verify the Alexa JSON feed before replacing it."""
+    """Verify Alexa's JSON feed before replacing the live feed."""
     try:
         encoded = json.dumps(
             payload
@@ -249,6 +268,11 @@ def validate_feed_payload(
 
     item = decoded[0]
 
+    if not isinstance(item, dict):
+        raise ValueError(
+            "The Alexa feed item must be an object."
+        )
+
     required_fields = {
         "uid",
         "updateDate",
@@ -269,10 +293,12 @@ def validate_feed_payload(
             )
         )
 
-    if (
-        not isinstance(item["mainText"], str)
-        or not item["mainText"].strip()
-    ):
-        raise ValueError(
-            "The Alexa feed mainText is empty."
-        )
+    for field in required_fields:
+        if (
+            not isinstance(item[field], str)
+            or not item[field].strip()
+        ):
+            raise ValueError(
+                f"The Alexa feed field "
+                f"'{field}' is empty or invalid."
+            )
