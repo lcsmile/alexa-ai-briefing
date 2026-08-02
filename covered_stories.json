@@ -349,6 +349,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick",
       "published": "2026-07-31T19:53:04+00:00",
       "covered_at": "2026-08-02T07:36:37.468688+00:00"
+    },
+    {
+      "title": "Deploying Kimi K3 on Amazon SageMaker HyperPod and Amazon EKS",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/deploying-kimi-k3-on-amazon-sagemaker-hyperpod-and-amazon-eks",
+      "published": "2026-07-30T17:22:32+00:00",
+      "covered_at": "2026-08-02T14:47:54.941963+00:00"
+    },
+    {
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
+      "published": "2026-07-30T15:00:59+00:00",
+      "covered_at": "2026-08-02T14:47:54.941963+00:00"
+    },
+    {
+      "title": "Introducing explicit prompt caching for OpenAI GPT-5.6 models on Amazon Bedrock",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-explicit-prompt-caching-for-openai-gpt-5-6-models-on-amazon-bedrock",
+      "published": "2026-07-30T16:02:32+00:00",
+      "covered_at": "2026-08-02T14:47:54.941963+00:00"
+    },
+    {
+      "title": "Echoverse: Deep, evolving environments for computer-use agents",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/echoverse-deep-evolving-environments-for-computer-use-agents",
+      "published": "2026-07-30T17:00:00+00:00",
+      "covered_at": "2026-08-02T14:47:54.941963+00:00"
+    },
+    {
+      "title": "EvoLib: Turning experience into evolving knowledge",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/evolib-turning-experience-into-evolving-knowledge",
+      "published": "2026-07-30T16:00:00+00:00",
+      "covered_at": "2026-08-02T14:47:54.941963+00:00"
+    },
+    {
+      "title": "Advancing responsible AI across Europe",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "published": "2026-07-31T15:00:00+00:00",
+      "covered_at": "2026-08-02T14:47:54.941963+00:00"
+    },
+    {
+      "title": "Disrupting a Criminal Scam Operation",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "published": "2026-07-31T00:00:00+00:00",
+      "covered_at": "2026-08-02T14:47:54.941963+00:00"
+    },
+    {
+      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation",
+      "published": "2026-07-31T19:47:28+00:00",
+      "covered_at": "2026-08-02T14:47:54.941963+00:00"
     }
   ]
 }
