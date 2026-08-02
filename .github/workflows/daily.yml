@@ -3,6 +3,15 @@ name: Create Daily AI Briefing
 on:
   workflow_dispatch:
 
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - feed.json
+      - sources.html
+      - kindle-dashboard.png
+      - covered_stories.json
+
   schedule:
     - cron: "30 13 * * *"
 
