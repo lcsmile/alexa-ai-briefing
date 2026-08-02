@@ -268,6 +268,20 @@ Supplied source material:
     return summary
 
 
+def truncate_for_alexa(summary: str) -> str:
+    """Keep spoken text below Alexa's 4,500-character limit."""
+    summary = clean_text(summary)
+    if len(summary) < 4500:
+        return summary
+    shortened = summary[:4490]
+    boundary = max(
+        shortened.rfind(". "),
+        shortened.rfind("! "),
+        shortened.rfind("? "),
+    )
+    return shortened[: boundary + 1] if boundary > 0 else shortened.rstrip(" ,;:") + "."
+
+
 def build_feed_payload(
     summary: str,
     now: datetime | None = None,
@@ -927,6 +941,8 @@ def main() -> None:
         selected_articles,
         now=now,
     )
+
+    summary = truncate_for_alexa(summary)
 
     covered_urls = load_covered_urls()
 

@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: daily-ai-briefing
+  cancel-in-progress: false
+
 jobs:
   create-briefing:
     runs-on: ubuntu-latest
@@ -35,6 +39,7 @@ jobs:
 
       - name: Generate and validate briefing
         env:
+          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python generate_briefing.py
 

@@ -197,9 +197,8 @@ def validate_briefing(
             )
 
         if normalized_link in covered_urls:
-            print_warning(
-                f"A previously covered story was selected: "
-                f"{title}"
+            fatal_errors.append(
+                f"A previously covered story was selected: {title}"
             )
 
         published = parse_datetime(
@@ -219,7 +218,7 @@ def validate_briefing(
             hours=PREFERRED_MAX_ARTICLE_AGE_HOURS,
             minutes=5,
         ):
-            print_warning(
+            fatal_errors.append(
                 f"A selected article is older than "
                 f"{PREFERRED_MAX_ARTICLE_AGE_HOURS} hours: "
                 f"{title}"
@@ -302,3 +301,15 @@ def validate_feed_payload(
                 f"The Alexa feed field "
                 f"'{field}' is empty or invalid."
             )
+
+    main_text = item["mainText"]
+
+    if len(main_text) >= 4500:
+        raise ValueError(
+            "The Alexa feed mainText must be fewer than 4,500 characters."
+        )
+
+    if any(char in main_text for char in "<>\n\r"):
+        raise ValueError(
+            "The Alexa feed mainText must be plain single-line text."
+        )

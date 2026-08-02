@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta, timezone
 
 import pytest
+from generate_briefing import truncate_for_alexa
 
 from article_collector import (
     is_low_value_title,
@@ -13,6 +14,25 @@ from quality_checks import (
 from story_selector import (
     deterministic_fallback,
 )
+import search_provider
+
+
+def test_search_provider_filters_untrusted_domains():
+    assert search_provider.allowed_domain("www.arstechnica.com")
+    assert not search_provider.allowed_domain("spam.example")
+
+
+def test_search_provider_normalizes_tracking_and_fragments():
+    assert search_provider.normalize_url(
+        "https://example.com/story/?utm_source=x#section"
+    ) == "https://example.com/story"
+
+
+def test_alexa_summary_is_truncated_at_sentence_boundary():
+    summary = "First sentence. " + ("Useful detail " * 500)
+    truncated = truncate_for_alexa(summary)
+    assert len(truncated) < 4500
+    assert truncated.endswith(".")
 
 
 def make_article(

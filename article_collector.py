@@ -7,6 +7,7 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 import feedparser
 
 from sources import SOURCES
+from search_provider import search_articles
 
 
 PRIMARY_LOOKBACK_HOURS = 36
@@ -294,6 +295,14 @@ def collect_articles(
     covered_urls = load_covered_urls(
         history_path
     )
+
+    searched_articles = search_articles()
+
+    if searched_articles:
+        return (
+            searched_articles,
+            PRIMARY_LOOKBACK_HOURS,
+        )
 
     primary_articles = collect_with_cutoff(
         cutoff=now - timedelta(
