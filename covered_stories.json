@@ -370,6 +370,55 @@
       "link": "https://blogs.nvidia.com/blog/open-world-models-physical-ai",
       "published": "2026-08-06T13:00:00+00:00",
       "covered_at": "2026-08-07T14:32:25.575366+00:00"
+    },
+    {
+      "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx",
+      "published": "2026-08-08T10:24:54+00:00",
+      "covered_at": "2026-08-08T14:06:34.552727+00:00"
+    },
+    {
+      "title": "OpenAI says it slowed Astra model development over security concerns",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns",
+      "published": "2026-08-07T22:48:24+00:00",
+      "covered_at": "2026-08-08T14:06:34.552727+00:00"
+    },
+    {
+      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/tutormoments",
+      "published": "2026-08-07T17:53:32+00:00",
+      "covered_at": "2026-08-08T14:06:34.552727+00:00"
+    },
+    {
+      "title": "How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore",
+      "published": "2026-08-07T16:26:58+00:00",
+      "covered_at": "2026-08-08T14:06:34.552727+00:00"
+    },
+    {
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "published": "2026-08-07T15:20:00+00:00",
+      "covered_at": "2026-08-08T14:06:34.552727+00:00"
+    },
+    {
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool",
+      "published": "2026-08-07T21:30:11+00:00",
+      "covered_at": "2026-08-08T14:06:34.552727+00:00"
+    },
+    {
+      "title": "How TReNDS automates root-cause analysis with Amazon Bedrock",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock",
+      "published": "2026-08-07T16:22:50+00:00",
+      "covered_at": "2026-08-08T14:06:34.552727+00:00"
     }
   ]
 }
