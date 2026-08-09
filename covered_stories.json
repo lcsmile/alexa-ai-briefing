@@ -419,6 +419,34 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock",
       "published": "2026-08-07T16:22:50+00:00",
       "covered_at": "2026-08-08T14:06:34.552727+00:00"
+    },
+    {
+      "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s",
+      "published": "2026-08-08T21:24:02+00:00",
+      "covered_at": "2026-08-09T14:07:52.981068+00:00"
+    },
+    {
+      "title": "Determining playoff clinching scenarios in the NHL using constraint programming",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming",
+      "published": "2026-08-07T16:21:00+00:00",
+      "covered_at": "2026-08-09T14:07:52.981068+00:00"
+    },
+    {
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide",
+      "published": "2026-08-08T19:41:13+00:00",
+      "covered_at": "2026-08-09T14:07:52.981068+00:00"
+    },
+    {
+      "title": "Control agent behaviors and cost beyond a single action: new capabilities in Amazon Bedrock AgentCore",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-amazon-bedrock-agentcore",
+      "published": "2026-08-06T16:43:19+00:00",
+      "covered_at": "2026-08-09T14:07:52.981068+00:00"
     }
   ]
 }
