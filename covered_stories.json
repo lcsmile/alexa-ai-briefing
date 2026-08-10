@@ -1,41 +1,6 @@
 {
   "stories": [
     {
-      "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
-      "published": "2026-07-26T16:33:13+00:00",
-      "covered_at": "2026-07-26T18:56:10.592767+00:00"
-    },
-    {
-      "title": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock",
-      "published": "2026-07-24T15:40:08+00:00",
-      "covered_at": "2026-07-26T18:56:10.592767+00:00"
-    },
-    {
-      "title": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model",
-      "published": "2026-07-24T17:59:03+00:00",
-      "covered_at": "2026-07-26T18:56:10.592767+00:00"
-    },
-    {
-      "title": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia",
-      "published": "2026-07-24T04:34:27+00:00",
-      "covered_at": "2026-07-26T18:56:10.592767+00:00"
-    },
-    {
-      "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it",
-      "published": "2026-07-25T13:05:00+00:00",
-      "covered_at": "2026-07-26T18:56:10.592767+00:00"
-    },
-    {
       "title": "Google’s AI search is rapidly becoming the default, new data shows",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows",
@@ -447,6 +412,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-amazon-bedrock-agentcore",
       "published": "2026-08-06T16:43:19+00:00",
       "covered_at": "2026-08-09T14:07:52.981068+00:00"
+    },
+    {
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "published": "2026-08-10T14:00:00+00:00",
+      "covered_at": "2026-08-10T14:37:14.520329+00:00"
+    },
+    {
+      "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips",
+      "published": "2026-08-10T12:00:00+00:00",
+      "covered_at": "2026-08-10T14:37:14.520329+00:00"
+    },
+    {
+      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "published": "2026-08-10T10:05:36+00:00",
+      "covered_at": "2026-08-10T14:37:14.520329+00:00"
+    },
+    {
+      "title": "AI for science needs reasoning, not just data",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science",
+      "published": "2026-08-10T09:00:00+00:00",
+      "covered_at": "2026-08-10T14:37:14.520329+00:00"
+    },
+    {
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/model-ml",
+      "published": "2026-08-10T12:00:00+00:00",
+      "covered_at": "2026-08-10T14:37:14.520329+00:00"
+    },
+    {
+      "title": "These startups are chasing the next big thing in LLMs",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms",
+      "published": "2026-08-10T09:00:00+00:00",
+      "covered_at": "2026-08-10T14:37:14.520329+00:00"
+    },
+    {
+      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/muse-glimmer",
+      "published": "2026-08-10T00:00:00+00:00",
+      "covered_at": "2026-08-10T14:37:14.520329+00:00"
+    },
+    {
+      "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry",
+      "published": "2026-08-09T20:35:17+00:00",
+      "covered_at": "2026-08-10T14:37:14.520329+00:00"
     }
   ]
 }
