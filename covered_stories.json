@@ -468,6 +468,62 @@
       "link": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx",
       "published": "2026-08-11T13:00:05+00:00",
       "covered_at": "2026-08-11T14:36:32.462432+00:00"
+    },
+    {
+      "title": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026",
+      "published": "2026-08-12T14:20:33+00:00",
+      "covered_at": "2026-08-12T14:36:41.334599+00:00"
+    },
+    {
+      "title": "Putting sign language AI into users’ hands",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
+      "published": "2026-08-12T14:01:59+00:00",
+      "covered_at": "2026-08-12T14:36:41.334599+00:00"
+    },
+    {
+      "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+      "published": "2026-08-12T14:00:51+00:00",
+      "covered_at": "2026-08-12T14:36:41.334599+00:00"
+    },
+    {
+      "title": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026",
+      "published": "2026-08-12T14:00:00+00:00",
+      "covered_at": "2026-08-12T14:36:41.334599+00:00"
+    },
+    {
+      "title": "How OneAdvanced deployed over 50 AI agents on UK-sovereign AWS",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-aws",
+      "published": "2026-08-12T13:46:28+00:00",
+      "covered_at": "2026-08-12T14:36:41.334599+00:00"
+    },
+    {
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "published": "2026-08-12T06:00:00+00:00",
+      "covered_at": "2026-08-12T14:36:41.334599+00:00"
+    },
+    {
+      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight",
+      "published": "2026-08-12T00:08:40+00:00",
+      "covered_at": "2026-08-12T14:36:41.334599+00:00"
+    },
+    {
+      "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement",
+      "published": "2026-08-11T16:00:00+00:00",
+      "covered_at": "2026-08-12T14:36:41.334599+00:00"
     }
   ]
 }
