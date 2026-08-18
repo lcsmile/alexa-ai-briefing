@@ -1,34 +1,6 @@
 {
   "stories": [
     {
-      "title": "Here’s why AI agents lie and cheat to reach their goals",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals",
-      "published": "2026-08-03T08:30:05+00:00",
-      "covered_at": "2026-08-03T16:03:12.138085+00:00"
-    },
-    {
-      "title": "Orchard: An open framework for scalable agentic AI",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai",
-      "published": "2026-08-03T16:00:00+00:00",
-      "covered_at": "2026-08-03T16:03:12.138085+00:00"
-    },
-    {
-      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem",
-      "published": "2026-08-03T10:00:00+00:00",
-      "covered_at": "2026-08-03T16:03:12.138085+00:00"
-    },
-    {
-      "title": "Sam Altman and AI’s decel debate",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate",
-      "published": "2026-08-02T20:54:22+00:00",
-      "covered_at": "2026-08-03T16:03:12.138085+00:00"
-    },
-    {
       "title": "Spotify expands AI remix and covers project with Merlin partnership",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort",
@@ -622,6 +594,62 @@
       "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
       "published": "2026-08-16T20:57:04+00:00",
       "covered_at": "2026-08-17T14:02:25.798423+00:00"
+    },
+    {
+      "title": "Warp’s new system is an out-of-the-box software factory for AI development",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development",
+      "published": "2026-08-18T14:00:00+00:00",
+      "covered_at": "2026-08-18T14:07:01.017943+00:00"
+    },
+    {
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/partnering-with-codeai",
+      "published": "2026-08-18T11:00:00+00:00",
+      "covered_at": "2026-08-18T14:07:01.017943+00:00"
+    },
+    {
+      "title": "We still don’t know how people are really using AI",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai",
+      "published": "2026-08-18T10:06:43+00:00",
+      "covered_at": "2026-08-18T14:07:01.017943+00:00"
+    },
+    {
+      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/multi-vector-encoder",
+      "published": "2026-08-18T00:00:00+00:00",
+      "covered_at": "2026-08-18T14:07:01.017943+00:00"
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Lightning now available in Amazon SageMaker JumpStart",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart",
+      "published": "2026-08-17T18:06:33+00:00",
+      "covered_at": "2026-08-18T14:07:01.017943+00:00"
+    },
+    {
+      "title": "Nvidia discloses $21B stake in SpaceX",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex",
+      "published": "2026-08-17T14:22:54+00:00",
+      "covered_at": "2026-08-18T14:07:01.017943+00:00"
+    },
+    {
+      "title": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it",
+      "published": "2026-08-18T13:50:30+00:00",
+      "covered_at": "2026-08-18T14:07:01.017943+00:00"
+    },
+    {
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/chatgpt-for-teens",
+      "published": "2026-08-18T11:00:00+00:00",
+      "covered_at": "2026-08-18T14:07:01.017943+00:00"
     }
   ]
 }
