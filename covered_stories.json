@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Spotify expands AI remix and covers project with Merlin partnership",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort",
-      "published": "2026-08-04T15:50:06+00:00",
-      "covered_at": "2026-08-04T15:56:08.913548+00:00"
-    },
-    {
-      "title": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available",
-      "published": "2026-08-04T15:00:49+00:00",
-      "covered_at": "2026-08-04T15:56:08.913548+00:00"
-    },
-    {
-      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
-      "published": "2026-08-04T13:58:29+00:00",
-      "covered_at": "2026-08-04T15:56:08.913548+00:00"
-    },
-    {
-      "title": "Apple is getting this wrong",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/apple-is-getting-this-wrong",
-      "published": "2026-08-03T22:00:00+00:00",
-      "covered_at": "2026-08-04T15:56:08.913548+00:00"
-    },
-    {
-      "title": "Trump’s AI protectionism has come for robotics",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics",
-      "published": "2026-08-03T18:43:30+00:00",
-      "covered_at": "2026-08-04T15:56:08.913548+00:00"
-    },
-    {
-      "title": "From weeks to minutes: How Formula 1® uses agentic AI on AWS to accelerate data operations",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/from-weeks-to-minutes-how-formula-1-uses-agentic-ai-on-aws-to-accelerate-data-operations",
-      "published": "2026-08-03T17:24:15+00:00",
-      "covered_at": "2026-08-04T15:56:08.913548+00:00"
-    },
-    {
-      "title": "Texas halts new data centers as governor calls for audits",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits",
-      "published": "2026-08-04T15:42:35+00:00",
-      "covered_at": "2026-08-04T15:56:08.913548+00:00"
-    },
-    {
-      "title": "As AI Increases Demands on Memory, Storage Steps Up",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/ai-storage-fms",
-      "published": "2026-08-04T15:00:47+00:00",
-      "covered_at": "2026-08-04T15:56:08.913548+00:00"
-    },
-    {
       "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals",
@@ -650,6 +594,62 @@
       "link": "https://openai.com/index/chatgpt-for-teens",
       "published": "2026-08-18T11:00:00+00:00",
       "covered_at": "2026-08-18T14:07:01.017943+00:00"
+    },
+    {
+      "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/LiquidAI/qad",
+      "published": "2026-08-19T13:48:49+00:00",
+      "covered_at": "2026-08-19T14:07:07.534845+00:00"
+    },
+    {
+      "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take",
+      "published": "2026-08-19T12:00:00+00:00",
+      "covered_at": "2026-08-19T14:07:07.534845+00:00"
+    },
+    {
+      "title": "ChatGPT Ads expands across Europe",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "published": "2026-08-18T22:00:00+00:00",
+      "covered_at": "2026-08-19T14:07:07.534845+00:00"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale",
+      "published": "2026-08-18T18:56:14+00:00",
+      "covered_at": "2026-08-19T14:07:07.534845+00:00"
+    },
+    {
+      "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked",
+      "published": "2026-08-18T13:00:04+00:00",
+      "covered_at": "2026-08-19T14:07:07.534845+00:00"
+    },
+    {
+      "title": "AI’s recursive self-improvement might not come so quickly after all",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement",
+      "published": "2026-08-18T09:00:00+00:00",
+      "covered_at": "2026-08-19T14:07:07.534845+00:00"
+    },
+    {
+      "title": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers",
+      "published": "2026-08-19T10:00:00+00:00",
+      "covered_at": "2026-08-19T14:07:07.534845+00:00"
+    },
+    {
+      "title": "Strengthening democratic oversight in national security",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "published": "2026-08-18T19:00:00+00:00",
+      "covered_at": "2026-08-19T14:07:07.534845+00:00"
     }
   ]
 }
