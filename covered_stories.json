@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function",
-      "published": "2026-08-07T14:22:49+00:00",
-      "covered_at": "2026-08-07T14:32:25.575366+00:00"
-    },
-    {
-      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/hsp-gruppe",
-      "published": "2026-08-07T09:00:00+00:00",
-      "covered_at": "2026-08-07T14:32:25.575366+00:00"
-    },
-    {
-      "title": "Securing AI agents with temporal policies in Amazon Bedrock AgentCore",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore",
-      "published": "2026-08-06T18:57:55+00:00",
-      "covered_at": "2026-08-07T14:32:25.575366+00:00"
-    },
-    {
-      "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
-      "published": "2026-08-06T15:06:15+00:00",
-      "covered_at": "2026-08-07T14:32:25.575366+00:00"
-    },
-    {
-      "title": "GeForce NOW Shakes Up August With 26 New Games",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-august-2026-games-list",
-      "published": "2026-08-06T13:00:11+00:00",
-      "covered_at": "2026-08-07T14:32:25.575366+00:00"
-    },
-    {
-      "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case",
-      "published": "2026-08-07T11:40:37+00:00",
-      "covered_at": "2026-08-07T14:32:25.575366+00:00"
-    },
-    {
-      "title": "Configure rate limits for AI traffic on AgentCore gateway",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/configure-rate-limits-for-ai-traffic-on-agentcore-gateway",
-      "published": "2026-08-06T17:50:42+00:00",
-      "covered_at": "2026-08-07T14:32:25.575366+00:00"
-    },
-    {
-      "title": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/open-world-models-physical-ai",
-      "published": "2026-08-06T13:00:00+00:00",
-      "covered_at": "2026-08-07T14:32:25.575366+00:00"
-    },
-    {
       "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
       "source": "NVIDIA",
       "link": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx",
@@ -713,6 +657,41 @@
       "link": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom",
       "published": "2026-08-21T00:13:44+00:00",
       "covered_at": "2026-08-21T14:06:58.160997+00:00"
+    },
+    {
+      "title": "Anthropic’s Opus 4.6 is a smut-machine",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine",
+      "published": "2026-08-21T23:07:25+00:00",
+      "covered_at": "2026-08-22T13:53:03.170531+00:00"
+    },
+    {
+      "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours",
+      "published": "2026-08-21T17:06:17+00:00",
+      "covered_at": "2026-08-22T13:53:03.170531+00:00"
+    },
+    {
+      "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber",
+      "published": "2026-08-21T13:11:35+00:00",
+      "covered_at": "2026-08-22T13:53:03.170531+00:00"
+    },
+    {
+      "title": "Nvidia partners with data center developer Cloverleaf",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf",
+      "published": "2026-08-21T22:37:38+00:00",
+      "covered_at": "2026-08-22T13:53:03.170531+00:00"
+    },
+    {
+      "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway",
+      "published": "2026-08-21T17:02:35+00:00",
+      "covered_at": "2026-08-22T13:53:03.170531+00:00"
     }
   ]
 }
