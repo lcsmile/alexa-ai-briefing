@@ -1,55 +1,6 @@
 {
   "stories": [
     {
-      "title": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx",
-      "published": "2026-08-08T10:24:54+00:00",
-      "covered_at": "2026-08-08T14:06:34.552727+00:00"
-    },
-    {
-      "title": "OpenAI says it slowed Astra model development over security concerns",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns",
-      "published": "2026-08-07T22:48:24+00:00",
-      "covered_at": "2026-08-08T14:06:34.552727+00:00"
-    },
-    {
-      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/tutormoments",
-      "published": "2026-08-07T17:53:32+00:00",
-      "covered_at": "2026-08-08T14:06:34.552727+00:00"
-    },
-    {
-      "title": "How Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore",
-      "published": "2026-08-07T16:26:58+00:00",
-      "covered_at": "2026-08-08T14:06:34.552727+00:00"
-    },
-    {
-      "title": "Responding to the next frontier of critical cyber capabilities",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "published": "2026-08-07T15:20:00+00:00",
-      "covered_at": "2026-08-08T14:06:34.552727+00:00"
-    },
-    {
-      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool",
-      "published": "2026-08-07T21:30:11+00:00",
-      "covered_at": "2026-08-08T14:06:34.552727+00:00"
-    },
-    {
-      "title": "How TReNDS automates root-cause analysis with Amazon Bedrock",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock",
-      "published": "2026-08-07T16:22:50+00:00",
-      "covered_at": "2026-08-08T14:06:34.552727+00:00"
-    },
-    {
       "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s",
@@ -692,6 +643,41 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway",
       "published": "2026-08-21T17:02:35+00:00",
       "covered_at": "2026-08-22T13:53:03.170531+00:00"
+    },
+    {
+      "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors",
+      "published": "2026-08-22T21:46:56+00:00",
+      "covered_at": "2026-08-23T13:54:55.342601+00:00"
+    },
+    {
+      "title": "Reduce RAG costs on Amazon Bedrock with query-aware compression",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/reduce-rag-costs-on-amazon-bedrock-with-query-aware-compression",
+      "published": "2026-08-21T16:59:15+00:00",
+      "covered_at": "2026-08-23T13:54:55.342601+00:00"
+    },
+    {
+      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "published": "2026-08-20T16:52:57+00:00",
+      "covered_at": "2026-08-23T13:54:55.342601+00:00"
+    },
+    {
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research",
+      "published": "2026-08-22T19:00:00+00:00",
+      "covered_at": "2026-08-23T13:54:55.342601+00:00"
+    },
+    {
+      "title": "Accelerating aircraft IFEC diagnostics with agentic AI on AWS",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws",
+      "published": "2026-08-21T16:57:01+00:00",
+      "covered_at": "2026-08-23T13:54:55.342601+00:00"
     }
   ]
 }
