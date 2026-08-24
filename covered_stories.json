@@ -1,34 +1,6 @@
 {
   "stories": [
     {
-      "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s",
-      "published": "2026-08-08T21:24:02+00:00",
-      "covered_at": "2026-08-09T14:07:52.981068+00:00"
-    },
-    {
-      "title": "Determining playoff clinching scenarios in the NHL using constraint programming",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/determining-playoff-clinching-scenarios-in-the-nhl-using-constraint-programming",
-      "published": "2026-08-07T16:21:00+00:00",
-      "covered_at": "2026-08-09T14:07:52.981068+00:00"
-    },
-    {
-      "title": "OpenAI acquires presentation startup NextSlide",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide",
-      "published": "2026-08-08T19:41:13+00:00",
-      "covered_at": "2026-08-09T14:07:52.981068+00:00"
-    },
-    {
-      "title": "Control agent behaviors and cost beyond a single action: new capabilities in Amazon Bedrock AgentCore",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/control-agent-behaviors-and-cost-beyond-a-single-action-new-capabilities-in-amazon-bedrock-agentcore",
-      "published": "2026-08-06T16:43:19+00:00",
-      "covered_at": "2026-08-09T14:07:52.981068+00:00"
-    },
-    {
       "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
       "source": "OpenAI",
       "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
@@ -678,6 +650,27 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-aircraft-ifec-diagnostics-with-agentic-ai-on-aws",
       "published": "2026-08-21T16:57:01+00:00",
       "covered_at": "2026-08-23T13:54:55.342601+00:00"
+    },
+    {
+      "title": "Hugging Face reportedly in talks to be acquired for $13B",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b",
+      "published": "2026-08-24T13:47:26+00:00",
+      "covered_at": "2026-08-24T14:11:49.478591+00:00"
+    },
+    {
+      "title": "Kids outlearn AI—and we still don’t know why",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning",
+      "published": "2026-08-24T09:00:00+00:00",
+      "covered_at": "2026-08-24T14:11:49.478591+00:00"
+    },
+    {
+      "title": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash",
+      "published": "2026-08-23T15:30:00+00:00",
+      "covered_at": "2026-08-24T14:11:49.478591+00:00"
     }
   ]
 }
