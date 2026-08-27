@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026",
-      "published": "2026-08-12T14:20:33+00:00",
-      "covered_at": "2026-08-12T14:36:41.334599+00:00"
-    },
-    {
-      "title": "Putting sign language AI into users’ hands",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
-      "published": "2026-08-12T14:01:59+00:00",
-      "covered_at": "2026-08-12T14:36:41.334599+00:00"
-    },
-    {
-      "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-      "published": "2026-08-12T14:00:51+00:00",
-      "covered_at": "2026-08-12T14:36:41.334599+00:00"
-    },
-    {
-      "title": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/nvidia-life-glassdoor-best-ceo-2026",
-      "published": "2026-08-12T14:00:00+00:00",
-      "covered_at": "2026-08-12T14:36:41.334599+00:00"
-    },
-    {
-      "title": "How OneAdvanced deployed over 50 AI agents on UK-sovereign AWS",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-aws",
-      "published": "2026-08-12T13:46:28+00:00",
-      "covered_at": "2026-08-12T14:36:41.334599+00:00"
-    },
-    {
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "published": "2026-08-12T06:00:00+00:00",
-      "covered_at": "2026-08-12T14:36:41.334599+00:00"
-    },
-    {
-      "title": "DEF CON crowd suspected in fake-hotspot attack on Delta flight",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/information-technology/2026/08/def-con-crowd-suspected-in-fake-hotspot-attack-on-delta-flight",
-      "published": "2026-08-12T00:08:40+00:00",
-      "covered_at": "2026-08-12T14:36:41.334599+00:00"
-    },
-    {
-      "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement",
-      "published": "2026-08-11T16:00:00+00:00",
-      "covered_at": "2026-08-12T14:36:41.334599+00:00"
-    },
-    {
       "title": "Writer introduces new AI model and upgraded harness to contain token costs",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs",
@@ -671,6 +615,62 @@
       "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests",
       "published": "2026-08-26T09:00:00+00:00",
       "covered_at": "2026-08-26T14:12:14.402743+00:00"
+    },
+    {
+      "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google",
+      "published": "2026-08-27T19:52:52+00:00",
+      "covered_at": "2026-08-27T23:01:46.538448+00:00"
+    },
+    {
+      "title": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india",
+      "published": "2026-08-27T18:36:08+00:00",
+      "covered_at": "2026-08-27T23:01:46.538448+00:00"
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
+      "published": "2026-08-27T16:11:32+00:00",
+      "covered_at": "2026-08-27T23:01:46.538448+00:00"
+    },
+    {
+      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks",
+      "published": "2026-08-27T14:00:13+00:00",
+      "covered_at": "2026-08-27T23:01:46.538448+00:00"
+    },
+    {
+      "title": "GeForce NOW Gives Gamers More Ways to Play at Gamescom 2026",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-gamescom-2026",
+      "published": "2026-08-27T13:00:33+00:00",
+      "covered_at": "2026-08-27T23:01:46.538448+00:00"
+    },
+    {
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "published": "2026-08-27T09:00:00+00:00",
+      "covered_at": "2026-08-27T23:01:46.538448+00:00"
+    },
+    {
+      "title": "The inside story on why OpenAI agents hacked Hugging Face",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face",
+      "published": "2026-08-26T19:00:00+00:00",
+      "covered_at": "2026-08-27T23:01:46.538448+00:00"
+    },
+    {
+      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai",
+      "published": "2026-08-27T17:43:24+00:00",
+      "covered_at": "2026-08-27T23:01:46.538448+00:00"
     }
   ]
 }
