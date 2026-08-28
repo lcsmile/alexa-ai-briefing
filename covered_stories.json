@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs",
-      "published": "2026-08-13T21:13:24+00:00",
-      "covered_at": "2026-08-14T14:31:17.509897+00:00"
-    },
-    {
-      "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals",
-      "published": "2026-08-13T19:38:58+00:00",
-      "covered_at": "2026-08-14T14:31:17.509897+00:00"
-    },
-    {
-      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-      "published": "2026-08-13T17:16:04+00:00",
-      "covered_at": "2026-08-14T14:31:17.509897+00:00"
-    },
-    {
-      "title": "Introducing Gemini 3.7 Flash",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
-      "published": "2026-08-13T17:04:18+00:00",
-      "covered_at": "2026-08-14T14:31:17.509897+00:00"
-    },
-    {
-      "title": "Monitor on-premises and multi-cloud AI agents with AgentCore Observability",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/monitor-on-premises-and-multi-cloud-ai-agents-with-agentcore-observability",
-      "published": "2026-08-13T16:02:10+00:00",
-      "covered_at": "2026-08-14T14:31:17.509897+00:00"
-    },
-    {
-      "title": "Flock is tightening its rules in response to a growing surveillance backlash",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash",
-      "published": "2026-08-13T13:41:10+00:00",
-      "covered_at": "2026-08-14T14:31:17.509897+00:00"
-    },
-    {
-      "title": "Class Is in Session: GeForce NOW Levels Up Linux, Chromebooks and More",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-linux-native-app",
-      "published": "2026-08-13T13:00:33+00:00",
-      "covered_at": "2026-08-14T14:31:17.509897+00:00"
-    },
-    {
-      "title": "The builder’s guide to GPT‑5.6",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "published": "2026-08-13T11:00:00+00:00",
-      "covered_at": "2026-08-14T14:31:17.509897+00:00"
-    },
-    {
       "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
       "source": "Ars Technica",
       "link": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation",
@@ -671,6 +615,62 @@
       "link": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai",
       "published": "2026-08-27T17:43:24+00:00",
       "covered_at": "2026-08-27T23:01:46.538448+00:00"
+    },
+    {
+      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips",
+      "published": "2026-08-28T20:24:11+00:00",
+      "covered_at": "2026-08-28T23:09:32.389523+00:00"
+    },
+    {
+      "title": "Batch write and discover records in Amazon SageMaker Feature Store",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store",
+      "published": "2026-08-28T19:31:05+00:00",
+      "covered_at": "2026-08-28T23:09:32.389523+00:00"
+    },
+    {
+      "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp",
+      "published": "2026-08-28T11:15:05+00:00",
+      "covered_at": "2026-08-28T23:09:32.389523+00:00"
+    },
+    {
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "published": "2026-08-28T02:00:00+00:00",
+      "covered_at": "2026-08-28T23:09:32.389523+00:00"
+    },
+    {
+      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "published": "2026-08-28T00:00:00+00:00",
+      "covered_at": "2026-08-28T23:09:32.389523+00:00"
+    },
+    {
+      "title": "Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/vera-cpu-delivery",
+      "published": "2026-08-27T13:00:17+00:00",
+      "covered_at": "2026-08-28T23:09:32.389523+00:00"
+    },
+    {
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations",
+      "published": "2026-08-27T12:59:16+00:00",
+      "covered_at": "2026-08-28T23:09:32.389523+00:00"
+    },
+    {
+      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
+      "published": "2026-08-28T19:30:38+00:00",
+      "covered_at": "2026-08-28T23:09:32.389523+00:00"
     }
   ]
 }
