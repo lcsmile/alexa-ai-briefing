@@ -1,48 +1,6 @@
 {
   "stories": [
     {
-      "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery",
-      "published": "2026-08-15T21:29:19+00:00",
-      "covered_at": "2026-08-16T13:53:27.359942+00:00"
-    },
-    {
-      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
-      "published": "2026-08-14T14:27:14+00:00",
-      "covered_at": "2026-08-16T13:53:27.359942+00:00"
-    },
-    {
-      "title": "State of Open Models: Summer 2026 Observations",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "published": "2026-08-14T00:00:00+00:00",
-      "covered_at": "2026-08-16T13:53:27.359942+00:00"
-    },
-    {
-      "title": "Automate legacy web applications with Amazon Bedrock AgentCore Browser Tool",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/automate-legacy-web-applications-with-amazon-bedrock-agentcore-browser-tool",
-      "published": "2026-08-13T15:56:07+00:00",
-      "covered_at": "2026-08-16T13:53:27.359942+00:00"
-    },
-    {
-      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
-      "published": "2026-08-15T18:58:39+00:00",
-      "covered_at": "2026-08-16T13:53:27.359942+00:00"
-    },
-    {
-      "title": "Accelerating M&A due diligence with Amazon Bedrock AgentCore",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-ma-due-diligence-with-amazon-bedrock-agentcore",
-      "published": "2026-08-13T15:52:44+00:00",
-      "covered_at": "2026-08-16T13:53:27.359942+00:00"
-    },
-    {
       "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation",
@@ -678,6 +636,34 @@
       "link": "https://openai.com/index/expanding-our-presence-in-brazil",
       "published": "2026-08-27T03:00:00+00:00",
       "covered_at": "2026-08-29T17:18:58.273269+00:00"
+    },
+    {
+      "title": "Musk’s faster path to more gas turbines comes with pollution problem",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem",
+      "published": "2026-08-30T16:54:25+00:00",
+      "covered_at": "2026-08-30T17:41:54.807148+00:00"
+    },
+    {
+      "title": "Inside Meta’s push to put robots to work in data centers",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers",
+      "published": "2026-08-30T11:03:47+00:00",
+      "covered_at": "2026-08-30T17:41:54.807148+00:00"
+    },
+    {
+      "title": "Build agentic creative workflows with Amazon Quick and fal",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal",
+      "published": "2026-08-27T23:04:22+00:00",
+      "covered_at": "2026-08-30T17:41:54.807148+00:00"
+    },
+    {
+      "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining",
+      "published": "2026-08-30T15:00:00+00:00",
+      "covered_at": "2026-08-30T17:41:54.807148+00:00"
     }
   ]
 }
