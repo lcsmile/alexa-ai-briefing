@@ -1,48 +1,6 @@
 {
   "stories": [
     {
-      "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation",
-      "published": "2026-08-17T13:10:05+00:00",
-      "covered_at": "2026-08-17T14:02:25.798423+00:00"
-    },
-    {
-      "title": "Securing the Infrastructure of Intelligence",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence",
-      "published": "2026-08-17T12:34:51+00:00",
-      "covered_at": "2026-08-17T14:02:25.798423+00:00"
-    },
-    {
-      "title": "What happens when a kid’s robot best friend dies?",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies",
-      "published": "2026-08-17T09:00:00+00:00",
-      "covered_at": "2026-08-17T14:02:25.798423+00:00"
-    },
-    {
-      "title": "The Defender’s Window",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/the-defenders-window",
-      "published": "2026-08-17T05:30:00+00:00",
-      "covered_at": "2026-08-17T14:02:25.798423+00:00"
-    },
-    {
-      "title": "OpenAI joins PORTS-Pike project",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/openai-joins-ports-pike-project",
-      "published": "2026-08-17T05:00:00+00:00",
-      "covered_at": "2026-08-17T14:02:25.798423+00:00"
-    },
-    {
-      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
-      "published": "2026-08-16T20:57:04+00:00",
-      "covered_at": "2026-08-17T14:02:25.798423+00:00"
-    },
-    {
       "title": "Warp’s new system is an out-of-the-box software factory for AI development",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development",
@@ -664,6 +622,55 @@
       "link": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining",
       "published": "2026-08-30T15:00:00+00:00",
       "covered_at": "2026-08-30T17:41:54.807148+00:00"
+    },
+    {
+      "title": "Manage agents, tools and skills at scale with AWS Agent Registry",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry",
+      "published": "2026-08-31T19:18:09+00:00",
+      "covered_at": "2026-08-31T19:34:32.115642+00:00"
+    },
+    {
+      "title": "Instagram puts new limits on undisclosed AI profiles",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles",
+      "published": "2026-08-31T19:16:59+00:00",
+      "covered_at": "2026-08-31T19:34:32.115642+00:00"
+    },
+    {
+      "title": "Hugging Face hack could indicate cultural issues at OpenAI",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai",
+      "published": "2026-08-31T18:00:00+00:00",
+      "covered_at": "2026-08-31T19:34:32.115642+00:00"
+    },
+    {
+      "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models",
+      "published": "2026-08-31T16:00:00+00:00",
+      "covered_at": "2026-08-31T19:34:32.115642+00:00"
+    },
+    {
+      "title": "A milestone in expanding access to AI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "published": "2026-08-31T04:00:00+00:00",
+      "covered_at": "2026-08-31T19:34:32.115642+00:00"
+    },
+    {
+      "title": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation",
+      "published": "2026-08-31T19:08:45+00:00",
+      "covered_at": "2026-08-31T19:34:32.115642+00:00"
+    },
+    {
+      "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers",
+      "published": "2026-08-31T18:35:11+00:00",
+      "covered_at": "2026-08-31T19:34:32.115642+00:00"
     }
   ]
 }
