@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Warp’s new system is an out-of-the-box software factory for AI development",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development",
-      "published": "2026-08-18T14:00:00+00:00",
-      "covered_at": "2026-08-18T14:07:01.017943+00:00"
-    },
-    {
-      "title": "Partnering with CodeAI to prepare the first AI generation",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/partnering-with-codeai",
-      "published": "2026-08-18T11:00:00+00:00",
-      "covered_at": "2026-08-18T14:07:01.017943+00:00"
-    },
-    {
-      "title": "We still don’t know how people are really using AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai",
-      "published": "2026-08-18T10:06:43+00:00",
-      "covered_at": "2026-08-18T14:07:01.017943+00:00"
-    },
-    {
-      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/multi-vector-encoder",
-      "published": "2026-08-18T00:00:00+00:00",
-      "covered_at": "2026-08-18T14:07:01.017943+00:00"
-    },
-    {
-      "title": "NVIDIA Nemotron 3.5 Lightning now available in Amazon SageMaker JumpStart",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart",
-      "published": "2026-08-17T18:06:33+00:00",
-      "covered_at": "2026-08-18T14:07:01.017943+00:00"
-    },
-    {
-      "title": "Nvidia discloses $21B stake in SpaceX",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex",
-      "published": "2026-08-17T14:22:54+00:00",
-      "covered_at": "2026-08-18T14:07:01.017943+00:00"
-    },
-    {
-      "title": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it",
-      "published": "2026-08-18T13:50:30+00:00",
-      "covered_at": "2026-08-18T14:07:01.017943+00:00"
-    },
-    {
-      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/chatgpt-for-teens",
-      "published": "2026-08-18T11:00:00+00:00",
-      "covered_at": "2026-08-18T14:07:01.017943+00:00"
-    },
-    {
       "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/LiquidAI/qad",
@@ -671,6 +615,62 @@
       "link": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers",
       "published": "2026-08-31T18:35:11+00:00",
       "covered_at": "2026-08-31T19:34:32.115642+00:00"
+    },
+    {
+      "title": "Introducing agentic video understanding with Gemini",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
+      "published": "2026-09-01T17:08:51+00:00",
+      "covered_at": "2026-09-01T17:23:28.005913+00:00"
+    },
+    {
+      "title": "ChatGPT Health adds Epic integration for clinicians to import patient data",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data",
+      "published": "2026-09-01T17:00:00+00:00",
+      "covered_at": "2026-09-01T17:23:28.005913+00:00"
+    },
+    {
+      "title": "From theory to delivery: How Atos upskilled 400 engineers in agentic AI",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/from-theory-to-delivery-how-atos-upskilled-400-engineers-in-agentic-ai",
+      "published": "2026-09-01T16:17:54+00:00",
+      "covered_at": "2026-09-01T17:23:28.005913+00:00"
+    },
+    {
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/webgpu-kernels",
+      "published": "2026-09-01T00:00:00+00:00",
+      "covered_at": "2026-09-01T17:23:28.005913+00:00"
+    },
+    {
+      "title": "Think twice before installing this device promising free movies",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/08/how-some-media-streaming-devices-open-home-networks-to-a-world-of-harm",
+      "published": "2026-08-31T16:33:38+00:00",
+      "covered_at": "2026-09-01T17:23:28.005913+00:00"
+    },
+    {
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "published": "2026-08-31T07:00:00+00:00",
+      "covered_at": "2026-09-01T17:23:28.005913+00:00"
+    },
+    {
+      "title": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen",
+      "published": "2026-09-01T16:31:04+00:00",
+      "covered_at": "2026-09-01T17:23:28.005913+00:00"
+    },
+    {
+      "title": "Tokenomics at scale: How Jamf built real-time spend enforcement for Amazon Bedrock",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-how-jamf-built-real-time-spend-enforcement-for-amazon-bedrock",
+      "published": "2026-09-01T16:03:41+00:00",
+      "covered_at": "2026-09-01T17:23:28.005913+00:00"
     }
   ]
 }
