@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/LiquidAI/qad",
-      "published": "2026-08-19T13:48:49+00:00",
-      "covered_at": "2026-08-19T14:07:07.534845+00:00"
-    },
-    {
-      "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take",
-      "published": "2026-08-19T12:00:00+00:00",
-      "covered_at": "2026-08-19T14:07:07.534845+00:00"
-    },
-    {
-      "title": "ChatGPT Ads expands across Europe",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "published": "2026-08-18T22:00:00+00:00",
-      "covered_at": "2026-08-19T14:07:07.534845+00:00"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale",
-      "published": "2026-08-18T18:56:14+00:00",
-      "covered_at": "2026-08-19T14:07:07.534845+00:00"
-    },
-    {
-      "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked",
-      "published": "2026-08-18T13:00:04+00:00",
-      "covered_at": "2026-08-19T14:07:07.534845+00:00"
-    },
-    {
-      "title": "AI’s recursive self-improvement might not come so quickly after all",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement",
-      "published": "2026-08-18T09:00:00+00:00",
-      "covered_at": "2026-08-19T14:07:07.534845+00:00"
-    },
-    {
-      "title": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers",
-      "published": "2026-08-19T10:00:00+00:00",
-      "covered_at": "2026-08-19T14:07:07.534845+00:00"
-    },
-    {
-      "title": "Strengthening democratic oversight in national security",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "published": "2026-08-18T19:00:00+00:00",
-      "covered_at": "2026-08-19T14:07:07.534845+00:00"
-    },
-    {
       "title": "Grok exfiltrates user data when malicious instructions are encrypted",
       "source": "Ars Technica",
       "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted",
@@ -671,6 +615,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-how-jamf-built-real-time-spend-enforcement-for-amazon-bedrock",
       "published": "2026-09-01T16:03:41+00:00",
       "covered_at": "2026-09-01T17:23:28.005913+00:00"
+    },
+    {
+      "title": "We’re ‘dangerously close’ to dead internet theory, says Pangram’s CEO",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo",
+      "published": "2026-09-02T17:09:57+00:00",
+      "covered_at": "2026-09-02T17:15:20.655470+00:00"
+    },
+    {
+      "title": "Proactive cyber defense for governments and enterprises",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises",
+      "published": "2026-09-02T16:24:24+00:00",
+      "covered_at": "2026-09-02T17:15:20.655470+00:00"
+    },
+    {
+      "title": "Facilitating AI integration with simplicity at scale",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale",
+      "published": "2026-09-02T14:00:00+00:00",
+      "covered_at": "2026-09-02T17:15:20.655470+00:00"
+    },
+    {
+      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "published": "2026-09-02T13:49:14+00:00",
+      "covered_at": "2026-09-02T17:15:20.655470+00:00"
+    },
+    {
+      "title": "BGP hijack infecting networks caused by a comedy of errors that’s not funny at all",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks",
+      "published": "2026-09-02T11:00:43+00:00",
+      "covered_at": "2026-09-02T17:15:20.655470+00:00"
+    },
+    {
+      "title": "NVIDIA and CrowdStrike Strengthen Agentic Cybersecurity Frontier",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/nvidia-crowdstrike-fal-con-2026",
+      "published": "2026-09-01T21:19:20+00:00",
+      "covered_at": "2026-09-02T17:15:20.655470+00:00"
+    },
+    {
+      "title": "Introducing Claude Fable 5.1 on AWS",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws",
+      "published": "2026-09-01T19:12:43+00:00",
+      "covered_at": "2026-09-02T17:15:20.655470+00:00"
+    },
+    {
+      "title": "How AI-native companies turn workflows into operating capability",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/ai-native-company-workflows",
+      "published": "2026-09-01T17:00:00+00:00",
+      "covered_at": "2026-09-02T17:15:20.655470+00:00"
     }
   ]
 }
