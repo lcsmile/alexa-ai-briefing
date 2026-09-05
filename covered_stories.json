@@ -1,97 +1,6 @@
 {
   "stories": [
     {
-      "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up",
-      "published": "2026-08-21T14:00:00+00:00",
-      "covered_at": "2026-08-21T14:06:58.160997+00:00"
-    },
-    {
-      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
-      "published": "2026-08-21T11:59:48+00:00",
-      "covered_at": "2026-08-21T14:06:58.160997+00:00"
-    },
-    {
-      "title": "Measuring benchmark optimization in speech recognition",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/asr-benchmark-optimization",
-      "published": "2026-08-21T00:00:00+00:00",
-      "covered_at": "2026-08-21T14:06:58.160997+00:00"
-    },
-    {
-      "title": "Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock",
-      "published": "2026-08-20T21:46:03+00:00",
-      "covered_at": "2026-08-21T14:06:58.160997+00:00"
-    },
-    {
-      "title": "Broadening access to Skala creates a faster path to predictive DFT",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/blog/broadening-access-to-skala-creates-a-faster-path-to-predictive-dft",
-      "published": "2026-08-20T16:00:00+00:00",
-      "covered_at": "2026-08-21T14:06:58.160997+00:00"
-    },
-    {
-      "title": "Debates over AI consciousness are a trap",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap",
-      "published": "2026-08-20T15:42:39+00:00",
-      "covered_at": "2026-08-21T14:06:58.160997+00:00"
-    },
-    {
-      "title": "Introducing AI Futures",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/introducing-ai-futures",
-      "published": "2026-08-20T07:00:00+00:00",
-      "covered_at": "2026-08-21T14:06:58.160997+00:00"
-    },
-    {
-      "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom",
-      "published": "2026-08-21T00:13:44+00:00",
-      "covered_at": "2026-08-21T14:06:58.160997+00:00"
-    },
-    {
-      "title": "Anthropic’s Opus 4.6 is a smut-machine",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine",
-      "published": "2026-08-21T23:07:25+00:00",
-      "covered_at": "2026-08-22T13:53:03.170531+00:00"
-    },
-    {
-      "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours",
-      "published": "2026-08-21T17:06:17+00:00",
-      "covered_at": "2026-08-22T13:53:03.170531+00:00"
-    },
-    {
-      "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber",
-      "published": "2026-08-21T13:11:35+00:00",
-      "covered_at": "2026-08-22T13:53:03.170531+00:00"
-    },
-    {
-      "title": "Nvidia partners with data center developer Cloverleaf",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf",
-      "published": "2026-08-21T22:37:38+00:00",
-      "covered_at": "2026-08-22T13:53:03.170531+00:00"
-    },
-    {
-      "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway",
-      "published": "2026-08-21T17:02:35+00:00",
-      "covered_at": "2026-08-22T13:53:03.170531+00:00"
-    },
-    {
       "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors",
@@ -671,6 +580,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/migrate-agentic-workloads-to-amazon-bedrock-agentcore",
       "published": "2026-09-03T16:14:12+00:00",
       "covered_at": "2026-09-03T17:07:07.559606+00:00"
+    },
+    {
+      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation",
+      "published": "2026-09-04T23:36:14+00:00",
+      "covered_at": "2026-09-05T16:11:04.301455+00:00"
+    },
+    {
+      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki",
+      "published": "2026-09-04T22:17:36+00:00",
+      "covered_at": "2026-09-05T16:11:04.301455+00:00"
+    },
+    {
+      "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore",
+      "published": "2026-09-04T21:45:52+00:00",
+      "covered_at": "2026-09-05T16:11:04.301455+00:00"
+    },
+    {
+      "title": "Architecting memory and storage in the AI era",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era",
+      "published": "2026-09-04T18:39:19+00:00",
+      "covered_at": "2026-09-05T16:11:04.301455+00:00"
+    },
+    {
+      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
+      "published": "2026-09-04T23:15:11+00:00",
+      "covered_at": "2026-09-05T16:11:04.301455+00:00"
+    },
+    {
+      "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs",
+      "published": "2026-09-04T17:35:02+00:00",
+      "covered_at": "2026-09-05T16:11:04.301455+00:00"
+    },
+    {
+      "title": "Designing lifecycle policies for AgentCore memory",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory",
+      "published": "2026-09-04T17:20:04+00:00",
+      "covered_at": "2026-09-05T16:11:04.301455+00:00"
+    },
+    {
+      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west",
+      "published": "2026-09-04T09:25:19+00:00",
+      "covered_at": "2026-09-05T16:11:04.301455+00:00"
     }
   ]
 }
