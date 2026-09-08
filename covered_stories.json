@@ -1,83 +1,6 @@
 {
   "stories": [
     {
-      "title": "Hugging Face reportedly in talks to be acquired for $13B",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b",
-      "published": "2026-08-24T13:47:26+00:00",
-      "covered_at": "2026-08-24T14:11:49.478591+00:00"
-    },
-    {
-      "title": "Kids outlearn AI—and we still don’t know why",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning",
-      "published": "2026-08-24T09:00:00+00:00",
-      "covered_at": "2026-08-24T14:11:49.478591+00:00"
-    },
-    {
-      "title": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash",
-      "published": "2026-08-23T15:30:00+00:00",
-      "covered_at": "2026-08-24T14:11:49.478591+00:00"
-    },
-    {
-      "title": "With Groq 3 LPX in Full Production, NVIDIA Extends Vera Rubin Inference for Agents",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/vera-rubin-lpx-spectrum-x-nvlink-fusion",
-      "published": "2026-08-24T15:00:41+00:00",
-      "covered_at": "2026-08-25T14:15:18.804917+00:00"
-    },
-    {
-      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "published": "2026-08-25T11:39:24+00:00",
-      "covered_at": "2026-08-25T14:15:18.804917+00:00"
-    },
-    {
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "published": "2026-08-25T00:00:00+00:00",
-      "covered_at": "2026-08-25T14:15:18.804917+00:00"
-    },
-    {
-      "title": "Accel-backed Keenable is indexing the web for AI agents",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents",
-      "published": "2026-08-25T13:00:00+00:00",
-      "covered_at": "2026-08-25T14:15:18.804917+00:00"
-    },
-    {
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/gpt-5-6-in-kiro",
-      "published": "2026-08-24T12:00:00+00:00",
-      "covered_at": "2026-08-25T14:15:18.804917+00:00"
-    },
-    {
-      "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec",
-      "published": "2026-08-25T00:23:12+00:00",
-      "covered_at": "2026-08-25T14:15:18.804917+00:00"
-    },
-    {
-      "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival",
-      "published": "2026-08-25T09:00:00+00:00",
-      "covered_at": "2026-08-25T14:15:18.804917+00:00"
-    },
-    {
-      "title": "Agentic Resource Discovery (ARD): An open specification for agent discovery",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/agentic-resource-discovery-ard-an-open-specification-for-agent-discovery",
-      "published": "2026-08-24T16:22:03+00:00",
-      "covered_at": "2026-08-25T14:15:18.804917+00:00"
-    },
-    {
       "title": "Robot brain builders are pushing out of their GPT-2 era",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era",
@@ -650,6 +573,62 @@
       "link": "https://arstechnica.com/security/2026/09/us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns",
       "published": "2026-09-03T19:52:06+00:00",
       "covered_at": "2026-09-06T16:23:47.057498+00:00"
+    },
+    {
+      "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2",
+      "published": "2026-09-08T17:03:50+00:00",
+      "covered_at": "2026-09-08T17:21:04.412932+00:00"
+    },
+    {
+      "title": "Called to serve: Tech, research, and positive impact with Chris White",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white",
+      "published": "2026-09-08T16:45:12+00:00",
+      "covered_at": "2026-09-08T17:21:04.412932+00:00"
+    },
+    {
+      "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal",
+      "published": "2026-09-08T16:20:31+00:00",
+      "covered_at": "2026-09-08T17:21:04.412932+00:00"
+    },
+    {
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "published": "2026-09-08T14:23:07+00:00",
+      "covered_at": "2026-09-08T17:21:04.412932+00:00"
+    },
+    {
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+      "published": "2026-09-08T14:00:15+00:00",
+      "covered_at": "2026-09-08T17:21:04.412932+00:00"
+    },
+    {
+      "title": "The Work Now Within Reach",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/the-work-now-within-reach",
+      "published": "2026-09-08T13:00:00+00:00",
+      "covered_at": "2026-09-08T17:21:04.412932+00:00"
+    },
+    {
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents",
+      "published": "2026-09-08T10:34:00+00:00",
+      "covered_at": "2026-09-08T17:21:04.412932+00:00"
+    },
+    {
+      "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1",
+      "published": "2026-09-08T17:03:20+00:00",
+      "covered_at": "2026-09-08T17:21:04.412932+00:00"
     }
   ]
 }
