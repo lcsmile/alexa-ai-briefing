@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Robot brain builders are pushing out of their GPT-2 era",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era",
-      "published": "2026-08-26T13:30:00+00:00",
-      "covered_at": "2026-08-26T14:12:14.402743+00:00"
-    },
-    {
-      "title": "Raised on AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026",
-      "published": "2026-08-26T09:00:00+00:00",
-      "covered_at": "2026-08-26T14:12:14.402743+00:00"
-    },
-    {
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/loveholidays",
-      "published": "2026-08-26T00:00:00+00:00",
-      "covered_at": "2026-08-26T14:12:14.402743+00:00"
-    },
-    {
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "published": "2026-08-26T00:00:00+00:00",
-      "covered_at": "2026-08-26T14:12:14.402743+00:00"
-    },
-    {
-      "title": "Agentic observability with Amazon OpenSearch Service MCP Apps",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps",
-      "published": "2026-08-25T19:00:09+00:00",
-      "covered_at": "2026-08-26T14:12:14.402743+00:00"
-    },
-    {
-      "title": "Leading Publishers Bring Blockbuster PC Games and Technology to NVIDIA RTX Spark",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/gamescom-rtx-spark-pc-games-technology",
-      "published": "2026-08-25T15:30:48+00:00",
-      "covered_at": "2026-08-26T14:12:14.402743+00:00"
-    },
-    {
-      "title": "QueryStory wants you to believe what AI is telling you",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you",
-      "published": "2026-08-26T13:00:00+00:00",
-      "covered_at": "2026-08-26T14:12:14.402743+00:00"
-    },
-    {
-      "title": "AI models flub these intelligence tests. Can you fare any better?",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests",
-      "published": "2026-08-26T09:00:00+00:00",
-      "covered_at": "2026-08-26T14:12:14.402743+00:00"
-    },
-    {
       "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google",
@@ -629,6 +573,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1",
       "published": "2026-09-08T17:03:20+00:00",
       "covered_at": "2026-09-08T17:21:04.412932+00:00"
+    },
+    {
+      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai",
+      "published": "2026-09-10T16:30:35+00:00",
+      "covered_at": "2026-09-10T17:05:09.981868+00:00"
+    },
+    {
+      "title": "Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate",
+      "published": "2026-09-10T16:08:57+00:00",
+      "covered_at": "2026-09-10T17:05:09.981868+00:00"
+    },
+    {
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "published": "2026-09-10T16:00:00+00:00",
+      "covered_at": "2026-09-10T17:05:09.981868+00:00"
+    },
+    {
+      "title": "AI agents are flooding public services with new requests",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests",
+      "published": "2026-09-10T14:53:50+00:00",
+      "covered_at": "2026-09-10T17:05:09.981868+00:00"
+    },
+    {
+      "title": "Powering AI is an architecture problem",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem",
+      "published": "2026-09-10T11:00:00+00:00",
+      "covered_at": "2026-09-10T17:05:09.981868+00:00"
+    },
+    {
+      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/gradio-workflow-1111",
+      "published": "2026-09-10T00:00:00+00:00",
+      "covered_at": "2026-09-10T17:05:09.981868+00:00"
+    },
+    {
+      "title": "Four groups caught using the same Chrome and Windows exploit kit",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit",
+      "published": "2026-09-09T20:55:02+00:00",
+      "covered_at": "2026-09-10T17:05:09.981868+00:00"
+    },
+    {
+      "title": "Model-agnostic PII detection with LLMs",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms",
+      "published": "2026-09-10T16:02:16+00:00",
+      "covered_at": "2026-09-10T17:05:09.981868+00:00"
     }
   ]
 }
