@@ -1,118 +1,6 @@
 {
   "stories": [
     {
-      "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google",
-      "published": "2026-08-27T19:52:52+00:00",
-      "covered_at": "2026-08-27T23:01:46.538448+00:00"
-    },
-    {
-      "title": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india",
-      "published": "2026-08-27T18:36:08+00:00",
-      "covered_at": "2026-08-27T23:01:46.538448+00:00"
-    },
-    {
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
-      "published": "2026-08-27T16:11:32+00:00",
-      "covered_at": "2026-08-27T23:01:46.538448+00:00"
-    },
-    {
-      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks",
-      "published": "2026-08-27T14:00:13+00:00",
-      "covered_at": "2026-08-27T23:01:46.538448+00:00"
-    },
-    {
-      "title": "GeForce NOW Gives Gamers More Ways to Play at Gamescom 2026",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-gamescom-2026",
-      "published": "2026-08-27T13:00:33+00:00",
-      "covered_at": "2026-08-27T23:01:46.538448+00:00"
-    },
-    {
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "published": "2026-08-27T09:00:00+00:00",
-      "covered_at": "2026-08-27T23:01:46.538448+00:00"
-    },
-    {
-      "title": "The inside story on why OpenAI agents hacked Hugging Face",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face",
-      "published": "2026-08-26T19:00:00+00:00",
-      "covered_at": "2026-08-27T23:01:46.538448+00:00"
-    },
-    {
-      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai",
-      "published": "2026-08-27T17:43:24+00:00",
-      "covered_at": "2026-08-27T23:01:46.538448+00:00"
-    },
-    {
-      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips",
-      "published": "2026-08-28T20:24:11+00:00",
-      "covered_at": "2026-08-28T23:09:32.389523+00:00"
-    },
-    {
-      "title": "Batch write and discover records in Amazon SageMaker Feature Store",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store",
-      "published": "2026-08-28T19:31:05+00:00",
-      "covered_at": "2026-08-28T23:09:32.389523+00:00"
-    },
-    {
-      "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp",
-      "published": "2026-08-28T11:15:05+00:00",
-      "covered_at": "2026-08-28T23:09:32.389523+00:00"
-    },
-    {
-      "title": "Supporting Thailand’s next generation of AI startups",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "published": "2026-08-28T02:00:00+00:00",
-      "covered_at": "2026-08-28T23:09:32.389523+00:00"
-    },
-    {
-      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "published": "2026-08-28T00:00:00+00:00",
-      "covered_at": "2026-08-28T23:09:32.389523+00:00"
-    },
-    {
-      "title": "Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/vera-cpu-delivery",
-      "published": "2026-08-27T13:00:17+00:00",
-      "covered_at": "2026-08-28T23:09:32.389523+00:00"
-    },
-    {
-      "title": "Piloting the world's first double-blind AI evaluations",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations",
-      "published": "2026-08-27T12:59:16+00:00",
-      "covered_at": "2026-08-28T23:09:32.389523+00:00"
-    },
-    {
-      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
-      "published": "2026-08-28T19:30:38+00:00",
-      "covered_at": "2026-08-28T23:09:32.389523+00:00"
-    },
-    {
       "title": "Nvidia’s AI advantage is moving beyond the GPU",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
@@ -629,6 +517,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms",
       "published": "2026-09-10T16:02:16+00:00",
       "covered_at": "2026-09-10T17:05:09.981868+00:00"
+    },
+    {
+      "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier",
+      "published": "2026-09-12T15:52:11+00:00",
+      "covered_at": "2026-09-12T16:26:23.947008+00:00"
+    },
+    {
+      "title": "Roundtables: AI’s apocalypse crisis",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all",
+      "published": "2026-09-11T20:05:06+00:00",
+      "covered_at": "2026-09-12T16:26:23.947008+00:00"
+    },
+    {
+      "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations",
+      "published": "2026-09-11T18:26:38+00:00",
+      "covered_at": "2026-09-12T16:26:23.947008+00:00"
+    },
+    {
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "published": "2026-09-11T16:00:00+00:00",
+      "covered_at": "2026-09-12T16:26:23.947008+00:00"
+    },
+    {
+      "title": "ClickFix attacks infecting PCs and Macs are going viral",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral",
+      "published": "2026-09-11T11:30:58+00:00",
+      "covered_at": "2026-09-12T16:26:23.947008+00:00"
+    },
+    {
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data",
+      "published": "2026-09-11T22:58:17+00:00",
+      "covered_at": "2026-09-12T16:26:23.947008+00:00"
+    },
+    {
+      "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload",
+      "published": "2026-09-11T18:24:38+00:00",
+      "covered_at": "2026-09-12T16:26:23.947008+00:00"
+    },
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "published": "2026-09-11T10:00:00+00:00",
+      "covered_at": "2026-09-12T16:26:23.947008+00:00"
     }
   ]
 }
