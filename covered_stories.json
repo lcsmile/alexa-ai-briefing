@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Nvidia’s AI advantage is moving beyond the GPU",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
-      "published": "2026-08-29T13:00:00+00:00",
-      "covered_at": "2026-08-29T17:18:58.273269+00:00"
-    },
-    {
-      "title": "How Decathlon runs demand forecasting at scale with Chronos-2",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2",
-      "published": "2026-08-28T16:22:30+00:00",
-      "covered_at": "2026-08-29T17:18:58.273269+00:00"
-    },
-    {
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "published": "2026-08-28T06:00:00+00:00",
-      "covered_at": "2026-08-29T17:18:58.273269+00:00"
-    },
-    {
-      "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face",
-      "published": "2026-08-27T12:58:59+00:00",
-      "covered_at": "2026-08-29T17:18:58.273269+00:00"
-    },
-    {
-      "title": "NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/nvlink-fusion-nvhbm-custom-high-bandwidth-memory",
-      "published": "2026-08-26T21:05:30+00:00",
-      "covered_at": "2026-08-29T17:18:58.273269+00:00"
-    },
-    {
-      "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets",
-      "published": "2026-08-28T18:19:40+00:00",
-      "covered_at": "2026-08-29T17:18:58.273269+00:00"
-    },
-    {
-      "title": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components",
-      "published": "2026-08-28T16:20:40+00:00",
-      "covered_at": "2026-08-29T17:18:58.273269+00:00"
-    },
-    {
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "published": "2026-08-27T03:00:00+00:00",
-      "covered_at": "2026-08-29T17:18:58.273269+00:00"
-    },
-    {
       "title": "Musk’s faster path to more gas turbines comes with pollution problem",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem",
@@ -573,6 +517,34 @@
       "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
       "published": "2026-09-11T10:00:00+00:00",
       "covered_at": "2026-09-12T16:26:23.947008+00:00"
+    },
+    {
+      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards",
+      "published": "2026-09-13T16:30:00+00:00",
+      "covered_at": "2026-09-13T17:01:48.179208+00:00"
+    },
+    {
+      "title": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore",
+      "published": "2026-09-11T18:23:17+00:00",
+      "covered_at": "2026-09-13T17:01:48.179208+00:00"
+    },
+    {
+      "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026",
+      "published": "2026-09-12T20:19:16+00:00",
+      "covered_at": "2026-09-13T17:01:48.179208+00:00"
+    },
+    {
+      "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference",
+      "published": "2026-09-10T21:58:09+00:00",
+      "covered_at": "2026-09-13T17:01:48.179208+00:00"
     }
   ]
 }
