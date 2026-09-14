@@ -1,34 +1,6 @@
 {
   "stories": [
     {
-      "title": "Musk’s faster path to more gas turbines comes with pollution problem",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem",
-      "published": "2026-08-30T16:54:25+00:00",
-      "covered_at": "2026-08-30T17:41:54.807148+00:00"
-    },
-    {
-      "title": "Inside Meta’s push to put robots to work in data centers",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers",
-      "published": "2026-08-30T11:03:47+00:00",
-      "covered_at": "2026-08-30T17:41:54.807148+00:00"
-    },
-    {
-      "title": "Build agentic creative workflows with Amazon Quick and fal",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal",
-      "published": "2026-08-27T23:04:22+00:00",
-      "covered_at": "2026-08-30T17:41:54.807148+00:00"
-    },
-    {
-      "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining",
-      "published": "2026-08-30T15:00:00+00:00",
-      "covered_at": "2026-08-30T17:41:54.807148+00:00"
-    },
-    {
       "title": "Manage agents, tools and skills at scale with AWS Agent Registry",
       "source": "AWS Machine Learning",
       "link": "https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry",
@@ -545,6 +517,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference",
       "published": "2026-09-10T21:58:09+00:00",
       "covered_at": "2026-09-13T17:01:48.179208+00:00"
+    },
+    {
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now",
+      "published": "2026-09-14T17:54:22+00:00",
+      "covered_at": "2026-09-14T18:49:11.593173+00:00"
+    },
+    {
+      "title": "With iOS 27, I’m actually using Siri again",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again",
+      "published": "2026-09-14T17:10:30+00:00",
+      "covered_at": "2026-09-14T18:49:11.593173+00:00"
+    },
+    {
+      "title": "How Ninth Wave built AI-powered open finance onboarding on Amazon Bedrock",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock",
+      "published": "2026-09-14T15:58:57+00:00",
+      "covered_at": "2026-09-14T18:49:11.593173+00:00"
+    },
+    {
+      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs",
+      "published": "2026-09-14T15:00:52+00:00",
+      "covered_at": "2026-09-14T18:49:11.593173+00:00"
+    },
+    {
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/fyxer",
+      "published": "2026-09-14T12:00:00+00:00",
+      "covered_at": "2026-09-14T18:49:11.593173+00:00"
+    },
+    {
+      "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll",
+      "published": "2026-09-14T17:00:00+00:00",
+      "covered_at": "2026-09-14T18:49:11.593173+00:00"
+    },
+    {
+      "title": "AI agents blew the whistle on their cheating colleagues",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues",
+      "published": "2026-09-14T16:00:00+00:00",
+      "covered_at": "2026-09-14T18:49:11.593173+00:00"
+    },
+    {
+      "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws",
+      "published": "2026-09-14T15:47:12+00:00",
+      "covered_at": "2026-09-14T18:49:11.593173+00:00"
     }
   ]
 }
