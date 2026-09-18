@@ -412,6 +412,55 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/a-serverless-data-driven-git-metrics-dashboard-using-amazon-quick-sight",
       "published": "2026-09-17T15:42:31+00:00",
       "covered_at": "2026-09-17T17:42:10.603830+00:00"
+    },
+    {
+      "title": "Automattic’s 33-Hour Coup, and can AI labs police themselves?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves",
+      "published": "2026-09-18T17:06:32+00:00",
+      "covered_at": "2026-09-18T17:09:09.377625+00:00"
+    },
+    {
+      "title": "Introducing Kimi K3 on Amazon Bedrock",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock",
+      "published": "2026-09-18T16:52:01+00:00",
+      "covered_at": "2026-09-18T17:09:09.377625+00:00"
+    },
+    {
+      "title": "Could AI really kill us all? Your questions, answered.",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered",
+      "published": "2026-09-18T11:29:22+00:00",
+      "covered_at": "2026-09-18T17:09:09.377625+00:00"
+    },
+    {
+      "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts",
+      "published": "2026-09-17T18:33:13+00:00",
+      "covered_at": "2026-09-18T17:09:09.377625+00:00"
+    },
+    {
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/cooley-gopublic",
+      "published": "2026-09-17T12:00:00+00:00",
+      "covered_at": "2026-09-18T17:09:09.377625+00:00"
+    },
+    {
+      "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops",
+      "published": "2026-09-18T16:35:49+00:00",
+      "covered_at": "2026-09-18T17:09:09.377625+00:00"
+    },
+    {
+      "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime",
+      "published": "2026-09-18T15:38:53+00:00",
+      "covered_at": "2026-09-18T17:09:09.377625+00:00"
     }
   ]
 }
