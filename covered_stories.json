@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation",
-      "published": "2026-09-04T23:36:14+00:00",
-      "covered_at": "2026-09-05T16:11:04.301455+00:00"
-    },
-    {
-      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki",
-      "published": "2026-09-04T22:17:36+00:00",
-      "covered_at": "2026-09-05T16:11:04.301455+00:00"
-    },
-    {
-      "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore",
-      "published": "2026-09-04T21:45:52+00:00",
-      "covered_at": "2026-09-05T16:11:04.301455+00:00"
-    },
-    {
-      "title": "Architecting memory and storage in the AI era",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era",
-      "published": "2026-09-04T18:39:19+00:00",
-      "covered_at": "2026-09-05T16:11:04.301455+00:00"
-    },
-    {
-      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
-      "published": "2026-09-04T23:15:11+00:00",
-      "covered_at": "2026-09-05T16:11:04.301455+00:00"
-    },
-    {
-      "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs",
-      "published": "2026-09-04T17:35:02+00:00",
-      "covered_at": "2026-09-05T16:11:04.301455+00:00"
-    },
-    {
-      "title": "Designing lifecycle policies for AgentCore memory",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory",
-      "published": "2026-09-04T17:20:04+00:00",
-      "covered_at": "2026-09-05T16:11:04.301455+00:00"
-    },
-    {
-      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west",
-      "published": "2026-09-04T09:25:19+00:00",
-      "covered_at": "2026-09-05T16:11:04.301455+00:00"
-    },
-    {
       "title": "Research acceleration: The view inside OpenAI",
       "source": "OpenAI",
       "link": "https://openai.com/index/research-acceleration-view-inside-openai",
@@ -461,6 +405,41 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime",
       "published": "2026-09-18T15:38:53+00:00",
       "covered_at": "2026-09-18T17:09:09.377625+00:00"
+    },
+    {
+      "title": "AI safety conversations have gotten unbelievable",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable",
+      "published": "2026-09-19T15:00:00+00:00",
+      "covered_at": "2026-09-19T16:41:06.388634+00:00"
+    },
+    {
+      "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review",
+      "published": "2026-09-18T20:52:14+00:00",
+      "covered_at": "2026-09-19T16:41:06.388634+00:00"
+    },
+    {
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/australian-youth-safety-blueprint",
+      "published": "2026-09-18T12:00:00+00:00",
+      "covered_at": "2026-09-19T16:41:06.388634+00:00"
+    },
+    {
+      "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes",
+      "published": "2026-09-19T15:00:00+00:00",
+      "covered_at": "2026-09-19T16:41:06.388634+00:00"
+    },
+    {
+      "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts",
+      "published": "2026-09-18T15:31:34+00:00",
+      "covered_at": "2026-09-19T16:41:06.388634+00:00"
     }
   ]
 }
