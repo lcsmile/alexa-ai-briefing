@@ -1,55 +1,6 @@
 {
   "stories": [
     {
-      "title": "Research acceleration: The view inside OpenAI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "published": "2026-09-06T08:00:00+00:00",
-      "covered_at": "2026-09-06T16:23:47.057498+00:00"
-    },
-    {
-      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft",
-      "published": "2026-09-05T22:49:55+00:00",
-      "covered_at": "2026-09-06T16:23:47.057498+00:00"
-    },
-    {
-      "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers",
-      "published": "2026-09-04T17:18:12+00:00",
-      "covered_at": "2026-09-06T16:23:47.057498+00:00"
-    },
-    {
-      "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod",
-      "published": "2026-09-04T16:16:00+00:00",
-      "covered_at": "2026-09-06T16:23:47.057498+00:00"
-    },
-    {
-      "title": "Hikers rescued after using Google Gemini for planning",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning",
-      "published": "2026-09-05T19:35:24+00:00",
-      "covered_at": "2026-09-06T16:23:47.057498+00:00"
-    },
-    {
-      "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart",
-      "published": "2026-09-04T16:12:17+00:00",
-      "covered_at": "2026-09-06T16:23:47.057498+00:00"
-    },
-    {
-      "title": "Confused about which VPN is right, US senator asks the NSA for guidance",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/09/us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns",
-      "published": "2026-09-03T19:52:06+00:00",
-      "covered_at": "2026-09-06T16:23:47.057498+00:00"
-    },
-    {
       "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2",
       "source": "AWS Machine Learning",
       "link": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2",
@@ -440,6 +391,41 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts",
       "published": "2026-09-18T15:31:34+00:00",
       "covered_at": "2026-09-19T16:41:06.388634+00:00"
+    },
+    {
+      "title": "6 days left to get ahead at TechCrunch Disrupt 2026",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026",
+      "published": "2026-09-20T14:00:00+00:00",
+      "covered_at": "2026-09-20T16:56:04.267804+00:00"
+    },
+    {
+      "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang",
+      "published": "2026-09-20T11:07:00+00:00",
+      "covered_at": "2026-09-20T16:56:04.267804+00:00"
+    },
+    {
+      "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents",
+      "published": "2026-09-18T15:25:23+00:00",
+      "covered_at": "2026-09-20T16:56:04.267804+00:00"
+    },
+    {
+      "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts",
+      "published": "2026-09-19T20:39:13+00:00",
+      "covered_at": "2026-09-20T16:56:04.267804+00:00"
+    },
+    {
+      "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway",
+      "published": "2026-09-18T13:08:34+00:00",
+      "covered_at": "2026-09-20T16:56:04.267804+00:00"
     }
   ]
 }
