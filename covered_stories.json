@@ -426,6 +426,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway",
       "published": "2026-09-18T13:08:34+00:00",
       "covered_at": "2026-09-20T16:56:04.267804+00:00"
+    },
+    {
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "published": "2026-09-21T12:00:00+00:00",
+      "covered_at": "2026-09-21T18:52:06.872290+00:00"
+    },
+    {
+      "title": "Meta’s AI agent has been blocked from using Amazon.com",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com",
+      "published": "2026-09-21T17:55:18+00:00",
+      "covered_at": "2026-09-21T18:52:06.872290+00:00"
+    },
+    {
+      "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock",
+      "published": "2026-09-21T18:30:34+00:00",
+      "covered_at": "2026-09-21T18:52:06.872290+00:00"
+    },
+    {
+      "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling",
+      "published": "2026-09-21T18:00:07+00:00",
+      "covered_at": "2026-09-21T18:52:06.872290+00:00"
+    },
+    {
+      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "published": "2026-09-21T13:44:34+00:00",
+      "covered_at": "2026-09-21T18:52:06.872290+00:00"
+    },
+    {
+      "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera",
+      "published": "2026-09-21T15:30:19+00:00",
+      "covered_at": "2026-09-21T18:52:06.872290+00:00"
+    },
+    {
+      "title": "The US spent billions on border surveillance. Why can’t it catch people before they die?",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation",
+      "published": "2026-09-21T12:00:00+00:00",
+      "covered_at": "2026-09-21T18:52:06.872290+00:00"
+    },
+    {
+      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/ai-security-agent-stack",
+      "published": "2026-09-21T14:51:34+00:00",
+      "covered_at": "2026-09-21T18:52:06.872290+00:00"
     }
   ]
 }
