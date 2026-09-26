@@ -1,174 +1,6 @@
 {
   "stories": [
     {
-      "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2",
-      "published": "2026-09-08T17:03:50+00:00",
-      "covered_at": "2026-09-08T17:21:04.412932+00:00"
-    },
-    {
-      "title": "Called to serve: Tech, research, and positive impact with Chris White",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white",
-      "published": "2026-09-08T16:45:12+00:00",
-      "covered_at": "2026-09-08T17:21:04.412932+00:00"
-    },
-    {
-      "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal",
-      "published": "2026-09-08T16:20:31+00:00",
-      "covered_at": "2026-09-08T17:21:04.412932+00:00"
-    },
-    {
-      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
-      "published": "2026-09-08T14:23:07+00:00",
-      "covered_at": "2026-09-08T17:21:04.412932+00:00"
-    },
-    {
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
-      "published": "2026-09-08T14:00:15+00:00",
-      "covered_at": "2026-09-08T17:21:04.412932+00:00"
-    },
-    {
-      "title": "The Work Now Within Reach",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/the-work-now-within-reach",
-      "published": "2026-09-08T13:00:00+00:00",
-      "covered_at": "2026-09-08T17:21:04.412932+00:00"
-    },
-    {
-      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents",
-      "published": "2026-09-08T10:34:00+00:00",
-      "covered_at": "2026-09-08T17:21:04.412932+00:00"
-    },
-    {
-      "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1",
-      "published": "2026-09-08T17:03:20+00:00",
-      "covered_at": "2026-09-08T17:21:04.412932+00:00"
-    },
-    {
-      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai",
-      "published": "2026-09-10T16:30:35+00:00",
-      "covered_at": "2026-09-10T17:05:09.981868+00:00"
-    },
-    {
-      "title": "Build an end-to-end RFI questionnaire workflow using Amazon Quick Automate",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/build-an-end-to-end-rfi-questionnaire-workflow-using-amazon-quick-automate",
-      "published": "2026-09-10T16:08:57+00:00",
-      "covered_at": "2026-09-10T17:05:09.981868+00:00"
-    },
-    {
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "published": "2026-09-10T16:00:00+00:00",
-      "covered_at": "2026-09-10T17:05:09.981868+00:00"
-    },
-    {
-      "title": "AI agents are flooding public services with new requests",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests",
-      "published": "2026-09-10T14:53:50+00:00",
-      "covered_at": "2026-09-10T17:05:09.981868+00:00"
-    },
-    {
-      "title": "Powering AI is an architecture problem",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem",
-      "published": "2026-09-10T11:00:00+00:00",
-      "covered_at": "2026-09-10T17:05:09.981868+00:00"
-    },
-    {
-      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/gradio-workflow-1111",
-      "published": "2026-09-10T00:00:00+00:00",
-      "covered_at": "2026-09-10T17:05:09.981868+00:00"
-    },
-    {
-      "title": "Four groups caught using the same Chrome and Windows exploit kit",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit",
-      "published": "2026-09-09T20:55:02+00:00",
-      "covered_at": "2026-09-10T17:05:09.981868+00:00"
-    },
-    {
-      "title": "Model-agnostic PII detection with LLMs",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms",
-      "published": "2026-09-10T16:02:16+00:00",
-      "covered_at": "2026-09-10T17:05:09.981868+00:00"
-    },
-    {
-      "title": "Anthropic CEO outlines plan to ‘pace the frontier’",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier",
-      "published": "2026-09-12T15:52:11+00:00",
-      "covered_at": "2026-09-12T16:26:23.947008+00:00"
-    },
-    {
-      "title": "Roundtables: AI’s apocalypse crisis",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all",
-      "published": "2026-09-11T20:05:06+00:00",
-      "covered_at": "2026-09-12T16:26:23.947008+00:00"
-    },
-    {
-      "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations",
-      "published": "2026-09-11T18:26:38+00:00",
-      "covered_at": "2026-09-12T16:26:23.947008+00:00"
-    },
-    {
-      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "published": "2026-09-11T16:00:00+00:00",
-      "covered_at": "2026-09-12T16:26:23.947008+00:00"
-    },
-    {
-      "title": "ClickFix attacks infecting PCs and Macs are going viral",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral",
-      "published": "2026-09-11T11:30:58+00:00",
-      "covered_at": "2026-09-12T16:26:23.947008+00:00"
-    },
-    {
-      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data",
-      "published": "2026-09-11T22:58:17+00:00",
-      "covered_at": "2026-09-12T16:26:23.947008+00:00"
-    },
-    {
-      "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload",
-      "published": "2026-09-11T18:24:38+00:00",
-      "covered_at": "2026-09-12T16:26:23.947008+00:00"
-    },
-    {
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "published": "2026-09-11T10:00:00+00:00",
-      "covered_at": "2026-09-12T16:26:23.947008+00:00"
-    },
-    {
       "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards",
@@ -482,6 +314,55 @@
       "link": "https://blogs.nvidia.com/blog/ai-security-agent-stack",
       "published": "2026-09-21T14:51:34+00:00",
       "covered_at": "2026-09-21T18:52:06.872290+00:00"
+    },
+    {
+      "title": "I created an interactive digital avatar of myself — and you can talk to it",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it",
+      "published": "2026-09-26T14:00:00+00:00",
+      "covered_at": "2026-09-26T17:20:56.071738+00:00"
+    },
+    {
+      "title": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users",
+      "published": "2026-09-25T19:38:59+00:00",
+      "covered_at": "2026-09-26T17:20:56.071738+00:00"
+    },
+    {
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/proaction",
+      "published": "2026-09-25T19:00:00+00:00",
+      "covered_at": "2026-09-26T17:20:56.071738+00:00"
+    },
+    {
+      "title": "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput",
+      "published": "2026-09-25T16:29:50+00:00",
+      "covered_at": "2026-09-26T17:20:56.071738+00:00"
+    },
+    {
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector",
+      "published": "2026-09-25T09:16:25+00:00",
+      "covered_at": "2026-09-26T17:20:56.071738+00:00"
+    },
+    {
+      "title": "At Meta Connect, the company’s smart glasses were everywhere",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere",
+      "published": "2026-09-26T01:08:57+00:00",
+      "covered_at": "2026-09-26T17:20:56.071738+00:00"
+    },
+    {
+      "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod",
+      "published": "2026-09-25T16:18:07+00:00",
+      "covered_at": "2026-09-26T17:20:56.071738+00:00"
     }
   ]
 }
