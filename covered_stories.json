@@ -1,34 +1,6 @@
 {
   "stories": [
     {
-      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards",
-      "published": "2026-09-13T16:30:00+00:00",
-      "covered_at": "2026-09-13T17:01:48.179208+00:00"
-    },
-    {
-      "title": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore",
-      "published": "2026-09-11T18:23:17+00:00",
-      "covered_at": "2026-09-13T17:01:48.179208+00:00"
-    },
-    {
-      "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026",
-      "published": "2026-09-12T20:19:16+00:00",
-      "covered_at": "2026-09-13T17:01:48.179208+00:00"
-    },
-    {
-      "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference",
-      "published": "2026-09-10T21:58:09+00:00",
-      "covered_at": "2026-09-13T17:01:48.179208+00:00"
-    },
-    {
       "title": "The AI industry has taken a doomer turn. What now?",
       "source": "MIT Technology Review",
       "link": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now",
@@ -363,6 +335,34 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod",
       "published": "2026-09-25T16:18:07+00:00",
       "covered_at": "2026-09-26T17:20:56.071738+00:00"
+    },
+    {
+      "title": "Anthropic’s Dario Amodei gets the SNL treatment",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment",
+      "published": "2026-09-27T16:30:00+00:00",
+      "covered_at": "2026-09-27T17:54:13.917271+00:00"
+    },
+    {
+      "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock",
+      "published": "2026-09-25T16:15:22+00:00",
+      "covered_at": "2026-09-27T17:54:13.917271+00:00"
+    },
+    {
+      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india",
+      "published": "2026-09-27T01:30:00+00:00",
+      "covered_at": "2026-09-27T17:54:13.917271+00:00"
+    },
+    {
+      "title": "Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai",
+      "published": "2026-09-25T16:09:46+00:00",
+      "covered_at": "2026-09-27T17:54:13.917271+00:00"
     }
   ]
 }
