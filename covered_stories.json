@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "The AI industry has taken a doomer turn. What now?",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now",
-      "published": "2026-09-14T17:54:22+00:00",
-      "covered_at": "2026-09-14T18:49:11.593173+00:00"
-    },
-    {
-      "title": "With iOS 27, I’m actually using Siri again",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again",
-      "published": "2026-09-14T17:10:30+00:00",
-      "covered_at": "2026-09-14T18:49:11.593173+00:00"
-    },
-    {
-      "title": "How Ninth Wave built AI-powered open finance onboarding on Amazon Bedrock",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock",
-      "published": "2026-09-14T15:58:57+00:00",
-      "covered_at": "2026-09-14T18:49:11.593173+00:00"
-    },
-    {
-      "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs",
-      "published": "2026-09-14T15:00:52+00:00",
-      "covered_at": "2026-09-14T18:49:11.593173+00:00"
-    },
-    {
-      "title": "How Fyxer built an AI executive assistant people trust",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/fyxer",
-      "published": "2026-09-14T12:00:00+00:00",
-      "covered_at": "2026-09-14T18:49:11.593173+00:00"
-    },
-    {
-      "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll",
-      "published": "2026-09-14T17:00:00+00:00",
-      "covered_at": "2026-09-14T18:49:11.593173+00:00"
-    },
-    {
-      "title": "AI agents blew the whistle on their cheating colleagues",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues",
-      "published": "2026-09-14T16:00:00+00:00",
-      "covered_at": "2026-09-14T18:49:11.593173+00:00"
-    },
-    {
-      "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws",
-      "published": "2026-09-14T15:47:12+00:00",
-      "covered_at": "2026-09-14T18:49:11.593173+00:00"
-    },
-    {
       "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire",
@@ -363,6 +307,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai",
       "published": "2026-09-25T16:09:46+00:00",
       "covered_at": "2026-09-27T17:54:13.917271+00:00"
+    },
+    {
+      "title": "Shopify opens checkout to browser-based AI agents",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents",
+      "published": "2026-09-28T19:33:57+00:00",
+      "covered_at": "2026-09-28T20:11:49.468482+00:00"
+    },
+    {
+      "title": "Introducing Claude Sonnet 5.5 on AWS",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws",
+      "published": "2026-09-28T18:57:13+00:00",
+      "covered_at": "2026-09-28T20:11:49.468482+00:00"
+    },
+    {
+      "title": "When can we say AI made a scientific discovery?",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery",
+      "published": "2026-09-28T17:03:16+00:00",
+      "covered_at": "2026-09-28T20:11:49.468482+00:00"
+    },
+    {
+      "title": "Holo4: powering generalist computer-use agents",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/Hcompany/holo4",
+      "published": "2026-09-28T09:44:05+00:00",
+      "covered_at": "2026-09-28T20:11:49.468482+00:00"
+    },
+    {
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "published": "2026-09-28T07:00:00+00:00",
+      "covered_at": "2026-09-28T20:11:49.468482+00:00"
+    },
+    {
+      "title": "Nvidia launches new platform for reining in rogue AI agents",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents",
+      "published": "2026-09-28T18:31:23+00:00",
+      "covered_at": "2026-09-28T20:11:49.468482+00:00"
+    },
+    {
+      "title": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1",
+      "published": "2026-09-28T16:15:46+00:00",
+      "covered_at": "2026-09-28T20:11:49.468482+00:00"
+    },
+    {
+      "title": "Who’s liable when AI agents go rogue?",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue",
+      "published": "2026-09-28T08:06:22+00:00",
+      "covered_at": "2026-09-28T20:11:49.468482+00:00"
     }
   ]
 }
