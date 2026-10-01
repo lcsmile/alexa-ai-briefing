@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire",
-      "published": "2026-09-17T17:15:59+00:00",
-      "covered_at": "2026-09-17T17:42:10.603830+00:00"
-    },
-    {
-      "title": "Selecting a vector store for Amazon Bedrock Knowledge Bases",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases",
-      "published": "2026-09-17T15:53:13+00:00",
-      "covered_at": "2026-09-17T17:42:10.603830+00:00"
-    },
-    {
-      "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo",
-      "published": "2026-09-17T13:00:55+00:00",
-      "covered_at": "2026-09-17T17:42:10.603830+00:00"
-    },
-    {
-      "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack",
-      "published": "2026-09-16T21:08:14+00:00",
-      "covered_at": "2026-09-17T17:42:10.603830+00:00"
-    },
-    {
-      "title": "Our framework for reporting model misalignment",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/model-misalignment-reporting-framework",
-      "published": "2026-09-16T17:00:00+00:00",
-      "covered_at": "2026-09-17T17:42:10.603830+00:00"
-    },
-    {
-      "title": "Building the materials foundation for AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai",
-      "published": "2026-09-16T12:47:34+00:00",
-      "covered_at": "2026-09-17T17:42:10.603830+00:00"
-    },
-    {
-      "title": "Pinterest teases a new ‘Restyle’ feature that lets you redesign your room with AI",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/17/pinterest-teases-a-new-restyle-feature-that-lets-you-redesign-your-room-with-ai",
-      "published": "2026-09-17T17:15:00+00:00",
-      "covered_at": "2026-09-17T17:42:10.603830+00:00"
-    },
-    {
-      "title": "A serverless, data-driven Git metrics dashboard using Amazon Quick Sight",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/a-serverless-data-driven-git-metrics-dashboard-using-amazon-quick-sight",
-      "published": "2026-09-17T15:42:31+00:00",
-      "covered_at": "2026-09-17T17:42:10.603830+00:00"
-    },
-    {
       "title": "Automattic’s 33-Hour Coup, and can AI labs police themselves?",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves",
@@ -363,6 +307,62 @@
       "link": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue",
       "published": "2026-09-28T08:06:22+00:00",
       "covered_at": "2026-09-28T20:11:49.468482+00:00"
+    },
+    {
+      "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports",
+      "published": "2026-10-01T18:14:42+00:00",
+      "covered_at": "2026-10-01T18:58:44.589868+00:00"
+    },
+    {
+      "title": "Memory executives expect RAM shortage to continue through 2028",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says",
+      "published": "2026-10-01T17:49:56+00:00",
+      "covered_at": "2026-10-01T18:58:44.589868+00:00"
+    },
+    {
+      "title": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors",
+      "published": "2026-10-01T17:34:56+00:00",
+      "covered_at": "2026-10-01T18:58:44.589868+00:00"
+    },
+    {
+      "title": "The eternal complement",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/the-eternal-complement",
+      "published": "2026-10-01T17:00:00+00:00",
+      "covered_at": "2026-10-01T18:58:44.589868+00:00"
+    },
+    {
+      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/olmocore3",
+      "published": "2026-10-01T15:01:43+00:00",
+      "covered_at": "2026-10-01T18:58:44.589868+00:00"
+    },
+    {
+      "title": "Fall Into 25 New Games on GeForce NOW This October",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list",
+      "published": "2026-10-01T13:00:54+00:00",
+      "covered_at": "2026-10-01T18:58:44.589868+00:00"
+    },
+    {
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence",
+      "published": "2026-09-30T20:01:45+00:00",
+      "covered_at": "2026-10-01T18:58:44.589868+00:00"
+    },
+    {
+      "title": "Forecasting space weather risks on power grids",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids",
+      "published": "2026-09-30T16:00:00+00:00",
+      "covered_at": "2026-10-01T18:58:44.589868+00:00"
     }
   ]
 }
