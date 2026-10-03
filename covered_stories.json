@@ -1,90 +1,6 @@
 {
   "stories": [
     {
-      "title": "Automattic’s 33-Hour Coup, and can AI labs police themselves?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/podcast/automattics-33-hour-coup-and-can-ai-labs-police-themselves",
-      "published": "2026-09-18T17:06:32+00:00",
-      "covered_at": "2026-09-18T17:09:09.377625+00:00"
-    },
-    {
-      "title": "Introducing Kimi K3 on Amazon Bedrock",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock",
-      "published": "2026-09-18T16:52:01+00:00",
-      "covered_at": "2026-09-18T17:09:09.377625+00:00"
-    },
-    {
-      "title": "Could AI really kill us all? Your questions, answered.",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered",
-      "published": "2026-09-18T11:29:22+00:00",
-      "covered_at": "2026-09-18T17:09:09.377625+00:00"
-    },
-    {
-      "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts",
-      "published": "2026-09-17T18:33:13+00:00",
-      "covered_at": "2026-09-18T17:09:09.377625+00:00"
-    },
-    {
-      "title": "How Cooley is accelerating IPO work with ChatGPT",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/cooley-gopublic",
-      "published": "2026-09-17T12:00:00+00:00",
-      "covered_at": "2026-09-18T17:09:09.377625+00:00"
-    },
-    {
-      "title": "Manus seeks $4B valuation in new $500M fundraise as it resumes independent ops",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops",
-      "published": "2026-09-18T16:35:49+00:00",
-      "covered_at": "2026-09-18T17:09:09.377625+00:00"
-    },
-    {
-      "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime",
-      "published": "2026-09-18T15:38:53+00:00",
-      "covered_at": "2026-09-18T17:09:09.377625+00:00"
-    },
-    {
-      "title": "AI safety conversations have gotten unbelievable",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable",
-      "published": "2026-09-19T15:00:00+00:00",
-      "covered_at": "2026-09-19T16:41:06.388634+00:00"
-    },
-    {
-      "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review",
-      "published": "2026-09-18T20:52:14+00:00",
-      "covered_at": "2026-09-19T16:41:06.388634+00:00"
-    },
-    {
-      "title": "Introducing the Australian Youth Safety Blueprint",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/australian-youth-safety-blueprint",
-      "published": "2026-09-18T12:00:00+00:00",
-      "covered_at": "2026-09-19T16:41:06.388634+00:00"
-    },
-    {
-      "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes",
-      "published": "2026-09-19T15:00:00+00:00",
-      "covered_at": "2026-09-19T16:41:06.388634+00:00"
-    },
-    {
-      "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts",
-      "published": "2026-09-18T15:31:34+00:00",
-      "covered_at": "2026-09-19T16:41:06.388634+00:00"
-    },
-    {
       "title": "6 days left to get ahead at TechCrunch Disrupt 2026",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026",
@@ -363,6 +279,62 @@
       "link": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids",
       "published": "2026-09-30T16:00:00+00:00",
       "covered_at": "2026-10-01T18:58:44.589868+00:00"
+    },
+    {
+      "title": "A model guide for the GPT-6 family",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/practical-guide-building-gpt-6",
+      "published": "2026-10-02T16:15:00+00:00",
+      "covered_at": "2026-10-03T17:30:48.807528+00:00"
+    },
+    {
+      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken",
+      "published": "2026-10-03T16:30:01+00:00",
+      "covered_at": "2026-10-03T17:30:48.807528+00:00"
+    },
+    {
+      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
+      "published": "2026-10-02T23:03:16+00:00",
+      "covered_at": "2026-10-03T17:30:48.807528+00:00"
+    },
+    {
+      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
+      "published": "2026-10-02T13:00:39+00:00",
+      "covered_at": "2026-10-03T17:30:48.807528+00:00"
+    },
+    {
+      "title": "Sean Parker is rebuilding Stability AI around music",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music",
+      "published": "2026-10-02T21:09:14+00:00",
+      "covered_at": "2026-10-03T17:30:48.807528+00:00"
+    },
+    {
+      "title": "Don’t be fooled—LLMs don’t reason",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason",
+      "published": "2026-10-02T08:00:00+00:00",
+      "covered_at": "2026-10-03T17:30:48.807528+00:00"
+    },
+    {
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/astabrief",
+      "published": "2026-10-02T15:19:50+00:00",
+      "covered_at": "2026-10-03T17:30:48.807528+00:00"
+    },
+    {
+      "title": "Redefining enterprise intelligence with autonomous AI",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai",
+      "published": "2026-10-02T15:49:04+00:00",
+      "covered_at": "2026-10-03T17:30:48.807528+00:00"
     }
   ]
 }
