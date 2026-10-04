@@ -1,41 +1,6 @@
 {
   "stories": [
     {
-      "title": "6 days left to get ahead at TechCrunch Disrupt 2026",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026",
-      "published": "2026-09-20T14:00:00+00:00",
-      "covered_at": "2026-09-20T16:56:04.267804+00:00"
-    },
-    {
-      "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang",
-      "published": "2026-09-20T11:07:00+00:00",
-      "covered_at": "2026-09-20T16:56:04.267804+00:00"
-    },
-    {
-      "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents",
-      "published": "2026-09-18T15:25:23+00:00",
-      "covered_at": "2026-09-20T16:56:04.267804+00:00"
-    },
-    {
-      "title": "Flock reportedly tries to shrink workforce with employee buyouts",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts",
-      "published": "2026-09-19T20:39:13+00:00",
-      "covered_at": "2026-09-20T16:56:04.267804+00:00"
-    },
-    {
-      "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway",
-      "published": "2026-09-18T13:08:34+00:00",
-      "covered_at": "2026-09-20T16:56:04.267804+00:00"
-    },
-    {
       "title": "Advisory Group on Mathematics and Artificial Intelligence",
       "source": "OpenAI",
       "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
@@ -335,6 +300,62 @@
       "link": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai",
       "published": "2026-10-02T15:49:04+00:00",
       "covered_at": "2026-10-03T17:30:48.807528+00:00"
+    },
+    {
+      "title": "Trump unveils his new Super Intelligence Force",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force",
+      "published": "2026-10-04T15:15:10+00:00",
+      "covered_at": "2026-10-04T17:46:00.986323+00:00"
+    },
+    {
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "published": "2026-10-03T22:56:48+00:00",
+      "covered_at": "2026-10-04T17:46:00.986323+00:00"
+    },
+    {
+      "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern",
+      "published": "2026-10-02T15:48:26+00:00",
+      "covered_at": "2026-10-04T17:46:00.986323+00:00"
+    },
+    {
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/chatham-financial",
+      "published": "2026-10-02T00:00:00+00:00",
+      "covered_at": "2026-10-04T17:46:00.986323+00:00"
+    },
+    {
+      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
+      "published": "2026-10-01T23:44:13+00:00",
+      "covered_at": "2026-10-04T17:46:00.986323+00:00"
+    },
+    {
+      "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data",
+      "published": "2026-10-01T20:28:45+00:00",
+      "covered_at": "2026-10-04T17:46:00.986323+00:00"
+    },
+    {
+      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas",
+      "published": "2026-10-03T18:43:57+00:00",
+      "covered_at": "2026-10-04T17:46:00.986323+00:00"
+    },
+    {
+      "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore",
+      "published": "2026-10-02T15:46:05+00:00",
+      "covered_at": "2026-10-04T17:46:00.986323+00:00"
     }
   ]
 }
