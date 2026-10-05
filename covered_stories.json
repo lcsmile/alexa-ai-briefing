@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "published": "2026-09-21T12:00:00+00:00",
-      "covered_at": "2026-09-21T18:52:06.872290+00:00"
-    },
-    {
-      "title": "Meta’s AI agent has been blocked from using Amazon.com",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com",
-      "published": "2026-09-21T17:55:18+00:00",
-      "covered_at": "2026-09-21T18:52:06.872290+00:00"
-    },
-    {
-      "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock",
-      "published": "2026-09-21T18:30:34+00:00",
-      "covered_at": "2026-09-21T18:52:06.872290+00:00"
-    },
-    {
-      "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling",
-      "published": "2026-09-21T18:00:07+00:00",
-      "covered_at": "2026-09-21T18:52:06.872290+00:00"
-    },
-    {
-      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-      "published": "2026-09-21T13:44:34+00:00",
-      "covered_at": "2026-09-21T18:52:06.872290+00:00"
-    },
-    {
-      "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera",
-      "published": "2026-09-21T15:30:19+00:00",
-      "covered_at": "2026-09-21T18:52:06.872290+00:00"
-    },
-    {
-      "title": "The US spent billions on border surveillance. Why can’t it catch people before they die?",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation",
-      "published": "2026-09-21T12:00:00+00:00",
-      "covered_at": "2026-09-21T18:52:06.872290+00:00"
-    },
-    {
-      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/ai-security-agent-stack",
-      "published": "2026-09-21T14:51:34+00:00",
-      "covered_at": "2026-09-21T18:52:06.872290+00:00"
-    },
-    {
       "title": "I created an interactive digital avatar of myself — and you can talk to it",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it",
@@ -356,6 +300,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore",
       "published": "2026-10-02T15:46:05+00:00",
       "covered_at": "2026-10-04T17:46:00.986323+00:00"
+    },
+    {
+      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu",
+      "published": "2026-10-05T20:36:48+00:00",
+      "covered_at": "2026-10-05T21:12:32.680008+00:00"
+    },
+    {
+      "title": "Supercharge regulated workloads with Claude Code and Amazon Bedrock",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock",
+      "published": "2026-10-05T17:25:20+00:00",
+      "covered_at": "2026-10-05T21:12:32.680008+00:00"
+    },
+    {
+      "title": "Connecting AI agents to enterprise knowledge",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge",
+      "published": "2026-10-05T15:47:52+00:00",
+      "covered_at": "2026-10-05T21:12:32.680008+00:00"
+    },
+    {
+      "title": "Our approach to EU text provenance rules",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/eu-text-provenance",
+      "published": "2026-10-05T15:00:00+00:00",
+      "covered_at": "2026-10-05T21:12:32.680008+00:00"
+    },
+    {
+      "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups",
+      "published": "2026-10-05T13:00:57+00:00",
+      "covered_at": "2026-10-05T21:12:32.680008+00:00"
+    },
+    {
+      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost",
+      "published": "2026-10-05T19:33:53+00:00",
+      "covered_at": "2026-10-05T21:12:32.680008+00:00"
+    },
+    {
+      "title": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent",
+      "published": "2026-10-05T17:23:19+00:00",
+      "covered_at": "2026-10-05T21:12:32.680008+00:00"
+    },
+    {
+      "title": "Bringing predictive analytics to the agentic AI era",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era",
+      "published": "2026-10-05T13:29:32+00:00",
+      "covered_at": "2026-10-05T21:12:32.680008+00:00"
     }
   ]
 }
