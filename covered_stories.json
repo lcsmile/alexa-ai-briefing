@@ -356,6 +356,62 @@
       "link": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era",
       "published": "2026-10-05T13:29:32+00:00",
       "covered_at": "2026-10-05T21:12:32.680008+00:00"
+    },
+    {
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/gpt-6-for-everyone",
+      "published": "2026-10-07T00:00:00+00:00",
+      "covered_at": "2026-10-07T19:27:36.583779+00:00"
+    },
+    {
+      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
+      "published": "2026-10-07T18:45:28+00:00",
+      "covered_at": "2026-10-07T19:27:36.583779+00:00"
+    },
+    {
+      "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic",
+      "published": "2026-10-06T12:21:53+00:00",
+      "covered_at": "2026-10-07T19:27:36.583779+00:00"
+    },
+    {
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+      "published": "2026-10-06T19:57:04+00:00",
+      "covered_at": "2026-10-07T19:27:36.583779+00:00"
+    },
+    {
+      "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services",
+      "published": "2026-10-06T19:21:14+00:00",
+      "covered_at": "2026-10-07T19:27:36.583779+00:00"
+    },
+    {
+      "title": "Introducing Claude Haiku 5.5 on AWS",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws",
+      "published": "2026-10-07T18:52:10+00:00",
+      "covered_at": "2026-10-07T19:27:36.583779+00:00"
+    },
+    {
+      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
+      "published": "2026-10-07T16:00:00+00:00",
+      "covered_at": "2026-10-07T19:27:36.583779+00:00"
+    },
+    {
+      "title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises",
+      "published": "2026-10-07T18:15:28+00:00",
+      "covered_at": "2026-10-07T19:27:36.583779+00:00"
     }
   ]
 }
