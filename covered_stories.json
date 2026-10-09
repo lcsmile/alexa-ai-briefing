@@ -468,6 +468,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod",
       "published": "2026-10-08T16:20:04+00:00",
       "covered_at": "2026-10-08T19:21:59.738838+00:00"
+    },
+    {
+      "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust",
+      "published": "2026-10-09T16:56:42+00:00",
+      "covered_at": "2026-10-09T18:55:41.834254+00:00"
+    },
+    {
+      "title": "ICYMI: What landed for AI builders in September 2026",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026",
+      "published": "2026-10-09T15:38:39+00:00",
+      "covered_at": "2026-10-09T18:55:41.834254+00:00"
+    },
+    {
+      "title": "Impactful scheduling for GPU clusters",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "published": "2026-10-09T15:20:29+00:00",
+      "covered_at": "2026-10-09T18:55:41.834254+00:00"
+    },
+    {
+      "title": "We’re putting too much faith in AI’s ability to say no",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no",
+      "published": "2026-10-09T09:00:00+00:00",
+      "covered_at": "2026-10-09T18:55:41.834254+00:00"
+    },
+    {
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/sophos",
+      "published": "2026-10-09T07:00:00+00:00",
+      "covered_at": "2026-10-09T18:55:41.834254+00:00"
+    },
+    {
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents",
+      "published": "2026-10-08T21:06:35+00:00",
+      "covered_at": "2026-10-09T18:55:41.834254+00:00"
+    },
+    {
+      "title": "Amazon drops data center NDAs, and AI agents want your credit card",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card",
+      "published": "2026-10-09T16:53:02+00:00",
+      "covered_at": "2026-10-09T18:55:41.834254+00:00"
+    },
+    {
+      "title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock",
+      "published": "2026-10-09T15:35:02+00:00",
+      "covered_at": "2026-10-09T18:55:41.834254+00:00"
     }
   ]
 }
