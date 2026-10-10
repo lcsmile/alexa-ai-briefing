@@ -1,55 +1,6 @@
 {
   "stories": [
     {
-      "title": "I created an interactive digital avatar of myself — and you can talk to it",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it",
-      "published": "2026-09-26T14:00:00+00:00",
-      "covered_at": "2026-09-26T17:20:56.071738+00:00"
-    },
-    {
-      "title": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users",
-      "published": "2026-09-25T19:38:59+00:00",
-      "covered_at": "2026-09-26T17:20:56.071738+00:00"
-    },
-    {
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/proaction",
-      "published": "2026-09-25T19:00:00+00:00",
-      "covered_at": "2026-09-26T17:20:56.071738+00:00"
-    },
-    {
-      "title": "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput",
-      "published": "2026-09-25T16:29:50+00:00",
-      "covered_at": "2026-09-26T17:20:56.071738+00:00"
-    },
-    {
-      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector",
-      "published": "2026-09-25T09:16:25+00:00",
-      "covered_at": "2026-09-26T17:20:56.071738+00:00"
-    },
-    {
-      "title": "At Meta Connect, the company’s smart glasses were everywhere",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere",
-      "published": "2026-09-26T01:08:57+00:00",
-      "covered_at": "2026-09-26T17:20:56.071738+00:00"
-    },
-    {
-      "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod",
-      "published": "2026-09-25T16:18:07+00:00",
-      "covered_at": "2026-09-26T17:20:56.071738+00:00"
-    },
-    {
       "title": "Anthropic’s Dario Amodei gets the SNL treatment",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment",
@@ -524,6 +475,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock",
       "published": "2026-10-09T15:35:02+00:00",
       "covered_at": "2026-10-09T18:55:41.834254+00:00"
+    },
+    {
+      "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream",
+      "published": "2026-10-10T15:00:00+00:00",
+      "covered_at": "2026-10-10T17:56:43.078844+00:00"
+    },
+    {
+      "title": "PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023",
+      "published": "2026-10-09T18:54:52+00:00",
+      "covered_at": "2026-10-10T17:56:43.078844+00:00"
+    },
+    {
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/asana-browser-agent",
+      "published": "2026-10-09T07:00:00+00:00",
+      "covered_at": "2026-10-10T17:56:43.078844+00:00"
+    },
+    {
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses",
+      "published": "2026-10-09T00:08:24+00:00",
+      "covered_at": "2026-10-10T17:56:43.078844+00:00"
+    },
+    {
+      "title": "The model that didn't exist, so you made it yourself",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/building-with-ml-intern",
+      "published": "2026-10-08T00:00:00+00:00",
+      "covered_at": "2026-10-10T17:56:43.078844+00:00"
+    },
+    {
+      "title": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock",
+      "published": "2026-10-07T18:34:44+00:00",
+      "covered_at": "2026-10-10T17:56:43.078844+00:00"
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "published": "2026-10-10T14:00:00+00:00",
+      "covered_at": "2026-10-10T17:56:43.078844+00:00"
+    },
+    {
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/pollo-ai",
+      "published": "2026-10-08T12:00:00+00:00",
+      "covered_at": "2026-10-10T17:56:43.078844+00:00"
     }
   ]
 }
