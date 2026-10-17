@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports",
-      "published": "2026-10-01T18:14:42+00:00",
-      "covered_at": "2026-10-01T18:58:44.589868+00:00"
-    },
-    {
-      "title": "Memory executives expect RAM shortage to continue through 2028",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says",
-      "published": "2026-10-01T17:49:56+00:00",
-      "covered_at": "2026-10-01T18:58:44.589868+00:00"
-    },
-    {
-      "title": "Build agent memory with NVIDIA NeMo Agent Toolkit and Amazon S3 Vectors",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors",
-      "published": "2026-10-01T17:34:56+00:00",
-      "covered_at": "2026-10-01T18:58:44.589868+00:00"
-    },
-    {
-      "title": "The eternal complement",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/the-eternal-complement",
-      "published": "2026-10-01T17:00:00+00:00",
-      "covered_at": "2026-10-01T18:58:44.589868+00:00"
-    },
-    {
-      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/olmocore3",
-      "published": "2026-10-01T15:01:43+00:00",
-      "covered_at": "2026-10-01T18:58:44.589868+00:00"
-    },
-    {
-      "title": "Fall Into 25 New Games on GeForce NOW This October",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list",
-      "published": "2026-10-01T13:00:54+00:00",
-      "covered_at": "2026-10-01T18:58:44.589868+00:00"
-    },
-    {
-      "title": "Gemini 4 Argon: our next era of frontier intelligence",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence",
-      "published": "2026-09-30T20:01:45+00:00",
-      "covered_at": "2026-10-01T18:58:44.589868+00:00"
-    },
-    {
-      "title": "Forecasting space weather risks on power grids",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids",
-      "published": "2026-09-30T16:00:00+00:00",
-      "covered_at": "2026-10-01T18:58:44.589868+00:00"
-    },
-    {
       "title": "A model guide for the GPT-6 family",
       "source": "OpenAI",
       "link": "https://openai.com/index/practical-guide-building-gpt-6",
@@ -559,6 +503,55 @@
       "link": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars",
       "published": "2026-10-15T15:02:36+00:00",
       "covered_at": "2026-10-15T17:51:11.137729+00:00"
+    },
+    {
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says",
+      "published": "2026-10-16T21:22:28+00:00",
+      "covered_at": "2026-10-17T16:35:28.790189+00:00"
+    },
+    {
+      "title": "OpenAI models hacked a crypto wallet and breached more websites",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites",
+      "published": "2026-10-16T20:59:01+00:00",
+      "covered_at": "2026-10-17T16:35:28.790189+00:00"
+    },
+    {
+      "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore",
+      "published": "2026-10-16T20:48:16+00:00",
+      "covered_at": "2026-10-17T16:35:28.790189+00:00"
+    },
+    {
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/itau-generative-ai",
+      "published": "2026-10-16T19:00:00+00:00",
+      "covered_at": "2026-10-17T16:35:28.790189+00:00"
+    },
+    {
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses",
+      "published": "2026-10-16T18:00:00+00:00",
+      "covered_at": "2026-10-17T16:35:28.790189+00:00"
+    },
+    {
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
+      "published": "2026-10-16T17:52:24+00:00",
+      "covered_at": "2026-10-17T16:35:28.790189+00:00"
+    },
+    {
+      "title": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws",
+      "published": "2026-10-16T15:23:10+00:00",
+      "covered_at": "2026-10-17T16:35:28.790189+00:00"
     }
   ]
 }
