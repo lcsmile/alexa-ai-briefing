@@ -1,118 +1,6 @@
 {
   "stories": [
     {
-      "title": "A model guide for the GPT-6 family",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/practical-guide-building-gpt-6",
-      "published": "2026-10-02T16:15:00+00:00",
-      "covered_at": "2026-10-03T17:30:48.807528+00:00"
-    },
-    {
-      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken",
-      "published": "2026-10-03T16:30:01+00:00",
-      "covered_at": "2026-10-03T17:30:48.807528+00:00"
-    },
-    {
-      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
-      "published": "2026-10-02T23:03:16+00:00",
-      "covered_at": "2026-10-03T17:30:48.807528+00:00"
-    },
-    {
-      "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
-      "published": "2026-10-02T13:00:39+00:00",
-      "covered_at": "2026-10-03T17:30:48.807528+00:00"
-    },
-    {
-      "title": "Sean Parker is rebuilding Stability AI around music",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music",
-      "published": "2026-10-02T21:09:14+00:00",
-      "covered_at": "2026-10-03T17:30:48.807528+00:00"
-    },
-    {
-      "title": "Don’t be fooled—LLMs don’t reason",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason",
-      "published": "2026-10-02T08:00:00+00:00",
-      "covered_at": "2026-10-03T17:30:48.807528+00:00"
-    },
-    {
-      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/astabrief",
-      "published": "2026-10-02T15:19:50+00:00",
-      "covered_at": "2026-10-03T17:30:48.807528+00:00"
-    },
-    {
-      "title": "Redefining enterprise intelligence with autonomous AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai",
-      "published": "2026-10-02T15:49:04+00:00",
-      "covered_at": "2026-10-03T17:30:48.807528+00:00"
-    },
-    {
-      "title": "Trump unveils his new Super Intelligence Force",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force",
-      "published": "2026-10-04T15:15:10+00:00",
-      "covered_at": "2026-10-04T17:46:00.986323+00:00"
-    },
-    {
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "published": "2026-10-03T22:56:48+00:00",
-      "covered_at": "2026-10-04T17:46:00.986323+00:00"
-    },
-    {
-      "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern",
-      "published": "2026-10-02T15:48:26+00:00",
-      "covered_at": "2026-10-04T17:46:00.986323+00:00"
-    },
-    {
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/chatham-financial",
-      "published": "2026-10-02T00:00:00+00:00",
-      "covered_at": "2026-10-04T17:46:00.986323+00:00"
-    },
-    {
-      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
-      "published": "2026-10-01T23:44:13+00:00",
-      "covered_at": "2026-10-04T17:46:00.986323+00:00"
-    },
-    {
-      "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data",
-      "published": "2026-10-01T20:28:45+00:00",
-      "covered_at": "2026-10-04T17:46:00.986323+00:00"
-    },
-    {
-      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas",
-      "published": "2026-10-03T18:43:57+00:00",
-      "covered_at": "2026-10-04T17:46:00.986323+00:00"
-    },
-    {
-      "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore",
-      "published": "2026-10-02T15:46:05+00:00",
-      "covered_at": "2026-10-04T17:46:00.986323+00:00"
-    },
-    {
       "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu",
@@ -552,6 +440,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws",
       "published": "2026-10-16T15:23:10+00:00",
       "covered_at": "2026-10-17T16:35:28.790189+00:00"
+    },
+    {
+      "title": "Tolan snags $30M for its AI companion that helps users navigate life",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life",
+      "published": "2026-10-19T19:00:12+00:00",
+      "covered_at": "2026-10-19T19:25:27.261892+00:00"
+    },
+    {
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else",
+      "published": "2026-10-19T18:22:47+00:00",
+      "covered_at": "2026-10-19T19:25:27.261892+00:00"
+    },
+    {
+      "title": "Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock",
+      "published": "2026-10-19T16:49:19+00:00",
+      "covered_at": "2026-10-19T19:25:27.261892+00:00"
+    },
+    {
+      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production",
+      "published": "2026-10-19T15:00:31+00:00",
+      "covered_at": "2026-10-19T19:25:27.261892+00:00"
+    },
+    {
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/hf-torchneuron",
+      "published": "2026-10-19T00:00:00+00:00",
+      "covered_at": "2026-10-19T19:25:27.261892+00:00"
+    },
+    {
+      "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago",
+      "published": "2026-10-19T18:49:04+00:00",
+      "covered_at": "2026-10-19T19:25:27.261892+00:00"
+    },
+    {
+      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world",
+      "published": "2026-10-19T17:45:55+00:00",
+      "covered_at": "2026-10-19T19:25:27.261892+00:00"
+    },
+    {
+      "title": "How Deepgram optimized voice AI at scale with AWS Trainium",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium",
+      "published": "2026-10-19T16:23:22+00:00",
+      "covered_at": "2026-10-19T19:25:27.261892+00:00"
     }
   ]
 }
