@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu",
-      "published": "2026-10-05T20:36:48+00:00",
-      "covered_at": "2026-10-05T21:12:32.680008+00:00"
-    },
-    {
-      "title": "Supercharge regulated workloads with Claude Code and Amazon Bedrock",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock",
-      "published": "2026-10-05T17:25:20+00:00",
-      "covered_at": "2026-10-05T21:12:32.680008+00:00"
-    },
-    {
-      "title": "Connecting AI agents to enterprise knowledge",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge",
-      "published": "2026-10-05T15:47:52+00:00",
-      "covered_at": "2026-10-05T21:12:32.680008+00:00"
-    },
-    {
-      "title": "Our approach to EU text provenance rules",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/eu-text-provenance",
-      "published": "2026-10-05T15:00:00+00:00",
-      "covered_at": "2026-10-05T21:12:32.680008+00:00"
-    },
-    {
-      "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups",
-      "published": "2026-10-05T13:00:57+00:00",
-      "covered_at": "2026-10-05T21:12:32.680008+00:00"
-    },
-    {
-      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost",
-      "published": "2026-10-05T19:33:53+00:00",
-      "covered_at": "2026-10-05T21:12:32.680008+00:00"
-    },
-    {
-      "title": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent",
-      "published": "2026-10-05T17:23:19+00:00",
-      "covered_at": "2026-10-05T21:12:32.680008+00:00"
-    },
-    {
-      "title": "Bringing predictive analytics to the agentic AI era",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era",
-      "published": "2026-10-05T13:29:32+00:00",
-      "covered_at": "2026-10-05T21:12:32.680008+00:00"
-    },
-    {
       "title": "GPT-6 and Intelligent UI for everyone",
       "source": "OpenAI",
       "link": "https://openai.com/index/gpt-6-for-everyone",
@@ -496,6 +440,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium",
       "published": "2026-10-19T16:23:22+00:00",
       "covered_at": "2026-10-19T19:25:27.261892+00:00"
+    },
+    {
+      "title": "Work management context for AI agents with Smartsheet MCP on AWS",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws",
+      "published": "2026-10-20T17:59:07+00:00",
+      "covered_at": "2026-10-20T18:04:39.916990+00:00"
+    },
+    {
+      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei",
+      "published": "2026-10-20T17:55:12+00:00",
+      "covered_at": "2026-10-20T18:04:39.916990+00:00"
+    },
+    {
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/fairstress",
+      "published": "2026-10-20T16:09:19+00:00",
+      "covered_at": "2026-10-20T18:04:39.916990+00:00"
+    },
+    {
+      "title": "Called to serve: Tech, research, and positive impact",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white",
+      "published": "2026-10-20T16:00:00+00:00",
+      "covered_at": "2026-10-20T18:04:39.916990+00:00"
+    },
+    {
+      "title": "The new economics of enterprise AI",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai",
+      "published": "2026-10-20T15:20:25+00:00",
+      "covered_at": "2026-10-20T18:04:39.916990+00:00"
+    },
+    {
+      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations",
+      "published": "2026-10-20T12:33:13+00:00",
+      "covered_at": "2026-10-20T18:04:39.916990+00:00"
+    },
+    {
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/ted-taylor-restaurant",
+      "published": "2026-10-20T10:00:00+00:00",
+      "covered_at": "2026-10-20T18:04:39.916990+00:00"
+    },
+    {
+      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center",
+      "published": "2026-10-20T05:00:00+00:00",
+      "covered_at": "2026-10-20T18:04:39.916990+00:00"
     }
   ]
 }
