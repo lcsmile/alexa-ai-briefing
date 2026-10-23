@@ -1,118 +1,6 @@
 {
   "stories": [
     {
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/gpt-6-for-everyone",
-      "published": "2026-10-07T00:00:00+00:00",
-      "covered_at": "2026-10-07T19:27:36.583779+00:00"
-    },
-    {
-      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
-      "published": "2026-10-07T18:45:28+00:00",
-      "covered_at": "2026-10-07T19:27:36.583779+00:00"
-    },
-    {
-      "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic",
-      "published": "2026-10-06T12:21:53+00:00",
-      "covered_at": "2026-10-07T19:27:36.583779+00:00"
-    },
-    {
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
-      "published": "2026-10-06T19:57:04+00:00",
-      "covered_at": "2026-10-07T19:27:36.583779+00:00"
-    },
-    {
-      "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services",
-      "published": "2026-10-06T19:21:14+00:00",
-      "covered_at": "2026-10-07T19:27:36.583779+00:00"
-    },
-    {
-      "title": "Introducing Claude Haiku 5.5 on AWS",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws",
-      "published": "2026-10-07T18:52:10+00:00",
-      "covered_at": "2026-10-07T19:27:36.583779+00:00"
-    },
-    {
-      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
-      "published": "2026-10-07T16:00:00+00:00",
-      "covered_at": "2026-10-07T19:27:36.583779+00:00"
-    },
-    {
-      "title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises",
-      "published": "2026-10-07T18:15:28+00:00",
-      "covered_at": "2026-10-07T19:27:36.583779+00:00"
-    },
-    {
-      "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments",
-      "published": "2026-10-08T18:33:29+00:00",
-      "covered_at": "2026-10-08T19:21:59.738838+00:00"
-    },
-    {
-      "title": "Ben Affleck is an AI nerd, and the internet is impressed",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed",
-      "published": "2026-10-08T18:20:32+00:00",
-      "covered_at": "2026-10-08T19:21:59.738838+00:00"
-    },
-    {
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/oracle",
-      "published": "2026-10-08T16:00:00+00:00",
-      "covered_at": "2026-10-08T19:21:59.738838+00:00"
-    },
-    {
-      "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day",
-      "published": "2026-10-08T13:00:46+00:00",
-      "covered_at": "2026-10-08T19:21:59.738838+00:00"
-    },
-    {
-      "title": "AI breakthroughs in robotics won’t change your life any time soon",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon",
-      "published": "2026-10-08T09:00:00+00:00",
-      "covered_at": "2026-10-08T19:21:59.738838+00:00"
-    },
-    {
-      "title": "Multimodal open d1 decision models for the edge",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "published": "2026-10-07T16:54:33+00:00",
-      "covered_at": "2026-10-08T19:21:59.738838+00:00"
-    },
-    {
-      "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months",
-      "published": "2026-10-08T18:19:45+00:00",
-      "covered_at": "2026-10-08T19:21:59.738838+00:00"
-    },
-    {
-      "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod",
-      "published": "2026-10-08T16:20:04+00:00",
-      "covered_at": "2026-10-08T19:21:59.738838+00:00"
-    },
-    {
       "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust",
@@ -496,6 +384,62 @@
       "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center",
       "published": "2026-10-20T05:00:00+00:00",
       "covered_at": "2026-10-20T18:04:39.916990+00:00"
+    },
+    {
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide",
+      "published": "2026-10-23T17:48:54+00:00",
+      "covered_at": "2026-10-23T17:56:09.542255+00:00"
+    },
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "published": "2026-10-23T17:00:00+00:00",
+      "covered_at": "2026-10-23T17:56:09.542255+00:00"
+    },
+    {
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/litpivot",
+      "published": "2026-10-23T16:15:50+00:00",
+      "covered_at": "2026-10-23T17:56:09.542255+00:00"
+    },
+    {
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia",
+      "published": "2026-10-23T04:00:00+00:00",
+      "covered_at": "2026-10-23T17:56:09.542255+00:00"
+    },
+    {
+      "title": "Kazakhstan Expands Compute for Its AI Future",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem",
+      "published": "2026-10-23T02:00:13+00:00",
+      "covered_at": "2026-10-23T17:56:09.542255+00:00"
+    },
+    {
+      "title": "Designing an AI serving harness built to last",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last",
+      "published": "2026-10-22T21:17:29+00:00",
+      "covered_at": "2026-10-23T17:56:09.542255+00:00"
+    },
+    {
+      "title": "Disgraced eMudhra drops out of TLS business after using cert private key of 4",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle",
+      "published": "2026-10-22T20:17:52+00:00",
+      "covered_at": "2026-10-23T17:56:09.542255+00:00"
+    },
+    {
+      "title": "Flint-interactive: A language for creating interactive data visualizations",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations",
+      "published": "2026-10-22T16:00:00+00:00",
+      "covered_at": "2026-10-23T17:56:09.542255+00:00"
     }
   ]
 }
