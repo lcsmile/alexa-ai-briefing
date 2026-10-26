@@ -1,20 +1,6 @@
 {
   "stories": [
     {
-      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead",
-      "published": "2026-10-10T00:18:32+00:00",
-      "covered_at": "2026-10-11T18:19:24.131189+00:00"
-    },
-    {
-      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake",
-      "published": "2026-10-10T21:47:51+00:00",
-      "covered_at": "2026-10-11T18:19:24.131189+00:00"
-    },
-    {
       "title": "Meta releases its first frontier model, Muse Wonder",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder",
@@ -419,6 +405,62 @@
       "link": "https://openai.com/index/decisions-api",
       "published": "2026-10-22T19:00:00+00:00",
       "covered_at": "2026-10-25T17:10:48.271792+00:00"
+    },
+    {
+      "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3",
+      "published": "2026-10-26T17:56:58+00:00",
+      "covered_at": "2026-10-26T19:29:46.579845+00:00"
+    },
+    {
+      "title": "Will the real Anthropic please stand up",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up",
+      "published": "2026-10-26T17:45:43+00:00",
+      "covered_at": "2026-10-26T19:29:46.579845+00:00"
+    },
+    {
+      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked",
+      "published": "2026-10-26T16:49:42+00:00",
+      "covered_at": "2026-10-26T19:29:46.579845+00:00"
+    },
+    {
+      "title": "ChatGPT’s expanding world of work",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "published": "2026-10-26T10:00:00+00:00",
+      "covered_at": "2026-10-26T19:29:46.579845+00:00"
+    },
+    {
+      "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock",
+      "published": "2026-10-26T17:27:20+00:00",
+      "covered_at": "2026-10-26T19:29:46.579845+00:00"
+    },
+    {
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo",
+      "published": "2026-10-26T16:46:36+00:00",
+      "covered_at": "2026-10-26T19:29:46.579845+00:00"
+    },
+    {
+      "title": "The focus on AI safety disasters ignores everyday harms",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms",
+      "published": "2026-10-26T09:01:00+00:00",
+      "covered_at": "2026-10-26T19:29:46.579845+00:00"
+    },
+    {
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "published": "2026-10-26T07:00:00+00:00",
+      "covered_at": "2026-10-26T19:29:46.579845+00:00"
     }
   ]
 }
