@@ -1,48 +1,6 @@
 {
   "stories": [
     {
-      "title": "Meta releases its first frontier model, Muse Wonder",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder",
-      "published": "2026-10-12T17:56:56+00:00",
-      "covered_at": "2026-10-12T21:49:18.094899+00:00"
-    },
-    {
-      "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan",
-      "published": "2026-10-12T17:52:22+00:00",
-      "covered_at": "2026-10-12T21:49:18.094899+00:00"
-    },
-    {
-      "title": "Simulating student learning for better AI tutoring",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring",
-      "published": "2026-10-12T16:00:00+00:00",
-      "covered_at": "2026-10-12T21:49:18.094899+00:00"
-    },
-    {
-      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories",
-      "published": "2026-10-12T15:00:25+00:00",
-      "covered_at": "2026-10-12T21:49:18.094899+00:00"
-    },
-    {
-      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data",
-      "published": "2026-10-12T17:19:14+00:00",
-      "covered_at": "2026-10-12T21:49:18.094899+00:00"
-    },
-    {
-      "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai",
-      "published": "2026-10-12T15:51:46+00:00",
-      "covered_at": "2026-10-12T21:49:18.094899+00:00"
-    },
-    {
       "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/meta-muse-spark-open",
@@ -461,6 +419,62 @@
       "link": "https://openai.com/index/fanatics-streamline-fan-experience",
       "published": "2026-10-26T07:00:00+00:00",
       "covered_at": "2026-10-26T19:29:46.579845+00:00"
+    },
+    {
+      "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service",
+      "published": "2026-10-27T18:03:12+00:00",
+      "covered_at": "2026-10-27T18:51:29.100344+00:00"
+    },
+    {
+      "title": "Build specialized multimodal models with LFM3",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "published": "2026-10-27T17:16:52+00:00",
+      "covered_at": "2026-10-27T18:51:29.100344+00:00"
+    },
+    {
+      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean",
+      "published": "2026-10-27T17:08:08+00:00",
+      "covered_at": "2026-10-27T18:51:29.100344+00:00"
+    },
+    {
+      "title": "Genie 4: A new generation of world simulation",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+      "published": "2026-10-27T16:01:38+00:00",
+      "covered_at": "2026-10-27T18:51:29.100344+00:00"
+    },
+    {
+      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia",
+      "published": "2026-10-27T15:00:20+00:00",
+      "covered_at": "2026-10-27T18:51:29.100344+00:00"
+    },
+    {
+      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing",
+      "published": "2026-10-27T11:19:18+00:00",
+      "covered_at": "2026-10-27T18:51:29.100344+00:00"
+    },
+    {
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "published": "2026-10-27T07:00:00+00:00",
+      "covered_at": "2026-10-27T18:51:29.100344+00:00"
+    },
+    {
+      "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs",
+      "published": "2026-10-27T17:00:39+00:00",
+      "covered_at": "2026-10-27T18:51:29.100344+00:00"
     }
   ]
 }
