@@ -475,6 +475,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs",
       "published": "2026-10-27T17:00:39+00:00",
       "covered_at": "2026-10-27T18:51:29.100344+00:00"
+    },
+    {
+      "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto",
+      "published": "2026-10-28T18:50:39+00:00",
+      "covered_at": "2026-10-28T18:59:32.745824+00:00"
+    },
+    {
+      "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore",
+      "published": "2026-10-28T18:28:26+00:00",
+      "covered_at": "2026-10-28T18:59:32.745824+00:00"
+    },
+    {
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "published": "2026-10-28T17:00:58+00:00",
+      "covered_at": "2026-10-28T18:59:32.745824+00:00"
+    },
+    {
+      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games",
+      "published": "2026-10-28T15:00:46+00:00",
+      "covered_at": "2026-10-28T18:59:32.745824+00:00"
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "published": "2026-10-28T14:58:17+00:00",
+      "covered_at": "2026-10-28T18:59:32.745824+00:00"
+    },
+    {
+      "title": "Pairing industrial AI autonomy and human control",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control",
+      "published": "2026-10-28T12:00:00+00:00",
+      "covered_at": "2026-10-28T18:59:32.745824+00:00"
+    },
+    {
+      "title": "The future of the firm",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/the-future-of-the-firm",
+      "published": "2026-10-28T10:00:00+00:00",
+      "covered_at": "2026-10-28T18:59:32.745824+00:00"
+    },
+    {
+      "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth",
+      "published": "2026-10-27T20:25:55+00:00",
+      "covered_at": "2026-10-28T18:59:32.745824+00:00"
     }
   ]
 }
