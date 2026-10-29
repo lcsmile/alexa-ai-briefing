@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/meta-muse-spark-open",
-      "published": "2026-10-15T00:00:00+00:00",
-      "covered_at": "2026-10-15T17:51:11.137729+00:00"
-    },
-    {
-      "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl",
-      "published": "2026-10-15T15:00:24+00:00",
-      "covered_at": "2026-10-15T17:51:11.137729+00:00"
-    },
-    {
-      "title": "Apertus 1.5 Release Notes",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-      "published": "2026-10-15T09:08:45+00:00",
-      "covered_at": "2026-10-15T17:51:11.137729+00:00"
-    },
-    {
-      "title": "Proof-based general-purpose computing with Magnetar",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar",
-      "published": "2026-10-15T16:00:00+00:00",
-      "covered_at": "2026-10-15T17:51:11.137729+00:00"
-    },
-    {
-      "title": "Anthropic warns small AI models could self-replicate through IoT devices",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices",
-      "published": "2026-10-14T12:55:06+00:00",
-      "covered_at": "2026-10-15T17:51:11.137729+00:00"
-    },
-    {
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery",
-      "published": "2026-10-15T16:08:03+00:00",
-      "covered_at": "2026-10-15T17:51:11.137729+00:00"
-    },
-    {
-      "title": "Fridge hack costing millions and sparking fires stemmed from poor security",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security",
-      "published": "2026-10-14T21:35:09+00:00",
-      "covered_at": "2026-10-15T17:51:11.137729+00:00"
-    },
-    {
-      "title": "AI agents are coming to Rivian’s cars",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars",
-      "published": "2026-10-15T15:02:36+00:00",
-      "covered_at": "2026-10-15T17:51:11.137729+00:00"
-    },
-    {
       "title": "Replit is no longer working with Anthropic, CEO says",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says",
@@ -531,6 +475,62 @@
       "link": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth",
       "published": "2026-10-27T20:25:55+00:00",
       "covered_at": "2026-10-28T18:59:32.745824+00:00"
+    },
+    {
+      "title": "Building intent-driven UI testing with Amazon Nova Act",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act",
+      "published": "2026-10-29T18:20:27+00:00",
+      "covered_at": "2026-10-29T19:07:06.467571+00:00"
+    },
+    {
+      "title": "Granola crunches up a dictation feature to compete with Wispr",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr",
+      "published": "2026-10-29T17:54:38+00:00",
+      "covered_at": "2026-10-29T19:07:06.467571+00:00"
+    },
+    {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/updated-model-spec",
+      "published": "2026-10-29T17:00:00+00:00",
+      "covered_at": "2026-10-29T19:07:06.467571+00:00"
+    },
+    {
+      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents",
+      "published": "2026-10-29T16:00:35+00:00",
+      "covered_at": "2026-10-29T19:07:06.467571+00:00"
+    },
+    {
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "published": "2026-10-29T13:37:07+00:00",
+      "covered_at": "2026-10-29T19:07:06.467571+00:00"
+    },
+    {
+      "title": "We urgently need to monitor AI agents’ actions in real time",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time",
+      "published": "2026-10-29T10:11:12+00:00",
+      "covered_at": "2026-10-29T19:07:06.467571+00:00"
+    },
+    {
+      "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro",
+      "published": "2026-10-29T18:14:17+00:00",
+      "covered_at": "2026-10-29T19:07:06.467571+00:00"
+    },
+    {
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+      "published": "2026-10-29T17:00:00+00:00",
+      "covered_at": "2026-10-29T19:07:06.467571+00:00"
     }
   ]
 }
