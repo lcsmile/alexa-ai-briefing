@@ -531,6 +531,62 @@
       "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
       "published": "2026-10-29T17:00:00+00:00",
       "covered_at": "2026-10-29T19:07:06.467571+00:00"
+    },
+    {
+      "title": "nemotron-halloween",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "published": "2026-10-30T17:57:24+00:00",
+      "covered_at": "2026-10-30T18:45:28.274991+00:00"
+    },
+    {
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text",
+      "published": "2026-10-30T17:47:12+00:00",
+      "covered_at": "2026-10-30T18:45:28.274991+00:00"
+    },
+    {
+      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock",
+      "published": "2026-10-30T17:32:20+00:00",
+      "covered_at": "2026-10-30T18:45:28.274991+00:00"
+    },
+    {
+      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals",
+      "published": "2026-10-30T15:00:10+00:00",
+      "covered_at": "2026-10-30T18:45:28.274991+00:00"
+    },
+    {
+      "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence",
+      "published": "2026-10-30T13:05:28+00:00",
+      "covered_at": "2026-10-30T18:45:28.274991+00:00"
+    },
+    {
+      "title": "Making it easier for websites to express AI training preferences",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "published": "2026-10-30T09:30:00+00:00",
+      "covered_at": "2026-10-30T18:45:28.274991+00:00"
+    },
+    {
+      "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us",
+      "published": "2026-10-30T17:27:45+00:00",
+      "covered_at": "2026-10-30T18:45:28.274991+00:00"
+    },
+    {
+      "title": "Google’s first data center satellite is online and writing poetry",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry",
+      "published": "2026-10-30T17:00:00+00:00",
+      "covered_at": "2026-10-30T18:45:28.274991+00:00"
     }
   ]
 }
