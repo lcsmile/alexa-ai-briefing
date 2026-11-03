@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Work management context for AI agents with Smartsheet MCP on AWS",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws",
-      "published": "2026-10-20T17:59:07+00:00",
-      "covered_at": "2026-10-20T18:04:39.916990+00:00"
-    },
-    {
-      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei",
-      "published": "2026-10-20T17:55:12+00:00",
-      "covered_at": "2026-10-20T18:04:39.916990+00:00"
-    },
-    {
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/fairstress",
-      "published": "2026-10-20T16:09:19+00:00",
-      "covered_at": "2026-10-20T18:04:39.916990+00:00"
-    },
-    {
-      "title": "Called to serve: Tech, research, and positive impact",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white",
-      "published": "2026-10-20T16:00:00+00:00",
-      "covered_at": "2026-10-20T18:04:39.916990+00:00"
-    },
-    {
-      "title": "The new economics of enterprise AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai",
-      "published": "2026-10-20T15:20:25+00:00",
-      "covered_at": "2026-10-20T18:04:39.916990+00:00"
-    },
-    {
-      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations",
-      "published": "2026-10-20T12:33:13+00:00",
-      "covered_at": "2026-10-20T18:04:39.916990+00:00"
-    },
-    {
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/ted-taylor-restaurant",
-      "published": "2026-10-20T10:00:00+00:00",
-      "covered_at": "2026-10-20T18:04:39.916990+00:00"
-    },
-    {
-      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center",
-      "published": "2026-10-20T05:00:00+00:00",
-      "covered_at": "2026-10-20T18:04:39.916990+00:00"
-    },
-    {
       "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
       "source": "AWS Machine Learning",
       "link": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide",
@@ -615,6 +559,62 @@
       "link": "https://openai.com/index/lifeval",
       "published": "2026-11-02T09:00:00+00:00",
       "covered_at": "2026-11-02T22:25:56.399238+00:00"
+    },
+    {
+      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges",
+      "published": "2026-11-03T19:34:43+00:00",
+      "covered_at": "2026-11-03T20:14:00.712873+00:00"
+    },
+    {
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/statebench",
+      "published": "2026-11-03T17:15:21+00:00",
+      "covered_at": "2026-11-03T20:14:00.712873+00:00"
+    },
+    {
+      "title": "Learn the rules: The hacker mindset",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset",
+      "published": "2026-11-03T17:14:38+00:00",
+      "covered_at": "2026-11-03T20:14:00.712873+00:00"
+    },
+    {
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+      "published": "2026-11-03T17:01:49+00:00",
+      "covered_at": "2026-11-03T20:14:00.712873+00:00"
+    },
+    {
+      "title": "Bring structured and unstructured data together with Amazon Quick",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick",
+      "published": "2026-11-03T16:49:29+00:00",
+      "covered_at": "2026-11-03T20:14:00.712873+00:00"
+    },
+    {
+      "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame",
+      "published": "2026-11-03T16:03:13+00:00",
+      "covered_at": "2026-11-03T20:14:00.712873+00:00"
+    },
+    {
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs",
+      "published": "2026-11-03T16:00:45+00:00",
+      "covered_at": "2026-11-03T20:14:00.712873+00:00"
+    },
+    {
+      "title": "Accelerating engineering for the physical world",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "published": "2026-11-03T12:00:00+00:00",
+      "covered_at": "2026-11-03T20:14:00.712873+00:00"
     }
   ]
 }
