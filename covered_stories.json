@@ -615,6 +615,62 @@
       "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
       "published": "2026-11-03T12:00:00+00:00",
       "covered_at": "2026-11-03T20:14:00.712873+00:00"
+    },
+    {
+      "title": "Open source AI is booming. Hugging Face explains who profits.",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits",
+      "published": "2026-11-04T19:30:04+00:00",
+      "covered_at": "2026-11-04T20:30:01.282576+00:00"
+    },
+    {
+      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput",
+      "published": "2026-11-04T18:50:55+00:00",
+      "covered_at": "2026-11-04T20:30:01.282576+00:00"
+    },
+    {
+      "title": "Use decision models with Amazon Bedrock AgentCore Evaluations",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations",
+      "published": "2026-11-04T18:46:36+00:00",
+      "covered_at": "2026-11-04T20:30:01.282576+00:00"
+    },
+    {
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "published": "2026-11-04T17:50:10+00:00",
+      "covered_at": "2026-11-04T20:30:01.282576+00:00"
+    },
+    {
+      "title": "Binance says hackers who stole billions in crypto spent months planning heist",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist",
+      "published": "2026-11-04T16:06:03+00:00",
+      "covered_at": "2026-11-04T20:30:01.282576+00:00"
+    },
+    {
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/openai-to-acquire-pierre",
+      "published": "2026-11-04T14:30:00+00:00",
+      "covered_at": "2026-11-04T20:30:01.282576+00:00"
+    },
+    {
+      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy",
+      "published": "2026-11-04T19:29:52+00:00",
+      "covered_at": "2026-11-04T20:30:01.282576+00:00"
+    },
+    {
+      "title": "Smart Approvals in Amazon Quick: Human oversight where it matters",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters",
+      "published": "2026-11-04T16:33:03+00:00",
+      "covered_at": "2026-11-04T20:30:01.282576+00:00"
     }
   ]
 }
