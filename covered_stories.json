@@ -671,6 +671,62 @@
       "link": "https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters",
       "published": "2026-11-04T16:33:03+00:00",
       "covered_at": "2026-11-04T20:30:01.282576+00:00"
+    },
+    {
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents",
+      "published": "2026-11-05T20:00:41+00:00",
+      "covered_at": "2026-11-05T20:46:19.934888+00:00"
+    },
+    {
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar",
+      "published": "2026-11-05T19:48:28+00:00",
+      "covered_at": "2026-11-05T20:46:19.934888+00:00"
+    },
+    {
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "published": "2026-11-05T19:35:16+00:00",
+      "covered_at": "2026-11-05T20:46:19.934888+00:00"
+    },
+    {
+      "title": "How Amazon Marketplace evaluates content quality with Amazon SageMaker AI",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai",
+      "published": "2026-11-05T18:06:43+00:00",
+      "covered_at": "2026-11-05T20:46:19.934888+00:00"
+    },
+    {
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
+      "published": "2026-11-05T17:05:16+00:00",
+      "covered_at": "2026-11-05T20:46:19.934888+00:00"
+    },
+    {
+      "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit",
+      "published": "2026-11-05T16:00:00+00:00",
+      "covered_at": "2026-11-05T20:46:19.934888+00:00"
+    },
+    {
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-gpt-6-cyber",
+      "published": "2026-11-05T09:00:00+00:00",
+      "covered_at": "2026-11-05T20:46:19.934888+00:00"
+    },
+    {
+      "title": "Hackers exploited iOS and Android flaws to infect phones",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones",
+      "published": "2026-11-04T22:26:49+00:00",
+      "covered_at": "2026-11-05T20:46:19.934888+00:00"
     }
   ]
 }
