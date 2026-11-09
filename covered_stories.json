@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3",
-      "published": "2026-10-26T17:56:58+00:00",
-      "covered_at": "2026-10-26T19:29:46.579845+00:00"
-    },
-    {
-      "title": "Will the real Anthropic please stand up",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up",
-      "published": "2026-10-26T17:45:43+00:00",
-      "covered_at": "2026-10-26T19:29:46.579845+00:00"
-    },
-    {
-      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked",
-      "published": "2026-10-26T16:49:42+00:00",
-      "covered_at": "2026-10-26T19:29:46.579845+00:00"
-    },
-    {
-      "title": "ChatGPT’s expanding world of work",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "published": "2026-10-26T10:00:00+00:00",
-      "covered_at": "2026-10-26T19:29:46.579845+00:00"
-    },
-    {
-      "title": "Groundhog Day for AI agents: Prompt caching patterns for using OpenAI models on Amazon Bedrock",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/groundhog-day-for-ai-agents-prompt-caching-patterns-for-using-openai-models-on-amazon-bedrock",
-      "published": "2026-10-26T17:27:20+00:00",
-      "covered_at": "2026-10-26T19:29:46.579845+00:00"
-    },
-    {
-      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo",
-      "published": "2026-10-26T16:46:36+00:00",
-      "covered_at": "2026-10-26T19:29:46.579845+00:00"
-    },
-    {
-      "title": "The focus on AI safety disasters ignores everyday harms",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms",
-      "published": "2026-10-26T09:01:00+00:00",
-      "covered_at": "2026-10-26T19:29:46.579845+00:00"
-    },
-    {
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "published": "2026-10-26T07:00:00+00:00",
-      "covered_at": "2026-10-26T19:29:46.579845+00:00"
-    },
-    {
       "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
       "source": "AWS Machine Learning",
       "link": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service",
@@ -720,6 +664,62 @@
       "link": "https://openai.com/index/cultfit-builds-with-codex",
       "published": "2026-11-05T20:00:00+00:00",
       "covered_at": "2026-11-08T18:26:02.938214+00:00"
+    },
+    {
+      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal",
+      "published": "2026-11-09T22:46:09+00:00",
+      "covered_at": "2026-11-09T23:05:53.292515+00:00"
+    },
+    {
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns",
+      "published": "2026-11-09T19:24:51+00:00",
+      "covered_at": "2026-11-09T23:05:53.292515+00:00"
+    },
+    {
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
+      "published": "2026-11-09T17:05:43+00:00",
+      "covered_at": "2026-11-09T23:05:53.292515+00:00"
+    },
+    {
+      "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation",
+      "published": "2026-11-09T19:41:34+00:00",
+      "covered_at": "2026-11-09T23:05:53.292515+00:00"
+    },
+    {
+      "title": "The backlash about data centers might really just be about electricity",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity",
+      "published": "2026-11-09T19:35:33+00:00",
+      "covered_at": "2026-11-09T23:05:53.292515+00:00"
+    },
+    {
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl",
+      "published": "2026-11-09T14:00:01+00:00",
+      "covered_at": "2026-11-09T23:05:53.292515+00:00"
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart",
+      "published": "2026-11-09T20:01:20+00:00",
+      "covered_at": "2026-11-09T23:05:53.292515+00:00"
+    },
+    {
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "published": "2026-11-09T12:34:29+00:00",
+      "covered_at": "2026-11-09T23:05:53.292515+00:00"
     }
   ]
 }
