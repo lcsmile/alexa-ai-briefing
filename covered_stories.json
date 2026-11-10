@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service",
-      "published": "2026-10-27T18:03:12+00:00",
-      "covered_at": "2026-10-27T18:51:29.100344+00:00"
-    },
-    {
-      "title": "Build specialized multimodal models with LFM3",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm3",
-      "published": "2026-10-27T17:16:52+00:00",
-      "covered_at": "2026-10-27T18:51:29.100344+00:00"
-    },
-    {
-      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean",
-      "published": "2026-10-27T17:08:08+00:00",
-      "covered_at": "2026-10-27T18:51:29.100344+00:00"
-    },
-    {
-      "title": "Genie 4: A new generation of world simulation",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
-      "published": "2026-10-27T16:01:38+00:00",
-      "covered_at": "2026-10-27T18:51:29.100344+00:00"
-    },
-    {
-      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia",
-      "published": "2026-10-27T15:00:20+00:00",
-      "covered_at": "2026-10-27T18:51:29.100344+00:00"
-    },
-    {
-      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing",
-      "published": "2026-10-27T11:19:18+00:00",
-      "covered_at": "2026-10-27T18:51:29.100344+00:00"
-    },
-    {
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "published": "2026-10-27T07:00:00+00:00",
-      "covered_at": "2026-10-27T18:51:29.100344+00:00"
-    },
-    {
-      "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs",
-      "published": "2026-10-27T17:00:39+00:00",
-      "covered_at": "2026-10-27T18:51:29.100344+00:00"
-    },
-    {
       "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto",
@@ -720,6 +664,62 @@
       "link": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
       "published": "2026-11-09T12:34:29+00:00",
       "covered_at": "2026-11-09T23:05:53.292515+00:00"
+    },
+    {
+      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
+      "published": "2026-11-10T19:57:52+00:00",
+      "covered_at": "2026-11-10T20:33:01.492090+00:00"
+    },
+    {
+      "title": "Autonomous treasury agents: How Trovata built an AI-native solution on Amazon Bedrock and AgentCore",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore",
+      "published": "2026-11-10T18:11:08+00:00",
+      "covered_at": "2026-11-10T20:33:01.492090+00:00"
+    },
+    {
+      "title": "Gemini 4 Carbon is now available",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "published": "2026-11-10T16:03:47+00:00",
+      "covered_at": "2026-11-10T20:33:01.492090+00:00"
+    },
+    {
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure",
+      "published": "2026-11-10T16:00:03+00:00",
+      "covered_at": "2026-11-10T20:33:01.492090+00:00"
+    },
+    {
+      "title": "Helping caregivers use AI in everyday life",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "published": "2026-11-10T12:00:00+00:00",
+      "covered_at": "2026-11-10T20:33:01.492090+00:00"
+    },
+    {
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "published": "2026-11-10T00:00:00+00:00",
+      "covered_at": "2026-11-10T20:33:01.492090+00:00"
+    },
+    {
+      "title": "Innovating with AI in the special chemicals industry",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
+      "published": "2026-11-09T13:00:00+00:00",
+      "covered_at": "2026-11-10T20:33:01.492090+00:00"
+    },
+    {
+      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m",
+      "published": "2026-11-10T19:23:34+00:00",
+      "covered_at": "2026-11-10T20:33:01.492090+00:00"
     }
   ]
 }
