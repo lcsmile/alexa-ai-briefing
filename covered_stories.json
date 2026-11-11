@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto",
-      "published": "2026-10-28T18:50:39+00:00",
-      "covered_at": "2026-10-28T18:59:32.745824+00:00"
-    },
-    {
-      "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore",
-      "published": "2026-10-28T18:28:26+00:00",
-      "covered_at": "2026-10-28T18:59:32.745824+00:00"
-    },
-    {
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "published": "2026-10-28T17:00:58+00:00",
-      "covered_at": "2026-10-28T18:59:32.745824+00:00"
-    },
-    {
-      "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games",
-      "published": "2026-10-28T15:00:46+00:00",
-      "covered_at": "2026-10-28T18:59:32.745824+00:00"
-    },
-    {
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "published": "2026-10-28T14:58:17+00:00",
-      "covered_at": "2026-10-28T18:59:32.745824+00:00"
-    },
-    {
-      "title": "Pairing industrial AI autonomy and human control",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control",
-      "published": "2026-10-28T12:00:00+00:00",
-      "covered_at": "2026-10-28T18:59:32.745824+00:00"
-    },
-    {
-      "title": "The future of the firm",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/the-future-of-the-firm",
-      "published": "2026-10-28T10:00:00+00:00",
-      "covered_at": "2026-10-28T18:59:32.745824+00:00"
-    },
-    {
-      "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth",
-      "published": "2026-10-27T20:25:55+00:00",
-      "covered_at": "2026-10-28T18:59:32.745824+00:00"
-    },
-    {
       "title": "Building intent-driven UI testing with Amazon Nova Act",
       "source": "AWS Machine Learning",
       "link": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act",
@@ -720,6 +664,62 @@
       "link": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m",
       "published": "2026-11-10T19:23:34+00:00",
       "covered_at": "2026-11-10T20:33:01.492090+00:00"
+    },
+    {
+      "title": "Why the data center you dread might never even be built",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built",
+      "published": "2026-11-11T20:15:15+00:00",
+      "covered_at": "2026-11-11T20:17:42.810109+00:00"
+    },
+    {
+      "title": "Accelerating generative AI delivery with reusable assets",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets",
+      "published": "2026-11-11T19:19:21+00:00",
+      "covered_at": "2026-11-11T20:17:42.810109+00:00"
+    },
+    {
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+      "published": "2026-11-11T15:00:15+00:00",
+      "covered_at": "2026-11-11T20:17:42.810109+00:00"
+    },
+    {
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "published": "2026-11-11T08:00:00+00:00",
+      "covered_at": "2026-11-11T20:17:42.810109+00:00"
+    },
+    {
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/qvac/botpsy",
+      "published": "2026-11-11T05:01:16+00:00",
+      "covered_at": "2026-11-11T20:17:42.810109+00:00"
+    },
+    {
+      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/ai-recycling-startups",
+      "published": "2026-11-11T03:00:20+00:00",
+      "covered_at": "2026-11-11T20:17:42.810109+00:00"
+    },
+    {
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi",
+      "published": "2026-11-10T21:12:59+00:00",
+      "covered_at": "2026-11-11T20:17:42.810109+00:00"
+    },
+    {
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+      "published": "2026-11-10T20:52:56+00:00",
+      "covered_at": "2026-11-11T20:17:42.810109+00:00"
     }
   ]
 }
