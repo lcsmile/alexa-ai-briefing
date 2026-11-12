@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Building intent-driven UI testing with Amazon Nova Act",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act",
-      "published": "2026-10-29T18:20:27+00:00",
-      "covered_at": "2026-10-29T19:07:06.467571+00:00"
-    },
-    {
-      "title": "Granola crunches up a dictation feature to compete with Wispr",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr",
-      "published": "2026-10-29T17:54:38+00:00",
-      "covered_at": "2026-10-29T19:07:06.467571+00:00"
-    },
-    {
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/updated-model-spec",
-      "published": "2026-10-29T17:00:00+00:00",
-      "covered_at": "2026-10-29T19:07:06.467571+00:00"
-    },
-    {
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents",
-      "published": "2026-10-29T16:00:35+00:00",
-      "covered_at": "2026-10-29T19:07:06.467571+00:00"
-    },
-    {
-      "title": "Granite Switch 4.1.1 — Update models like you update software",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "published": "2026-10-29T13:37:07+00:00",
-      "covered_at": "2026-10-29T19:07:06.467571+00:00"
-    },
-    {
-      "title": "We urgently need to monitor AI agents’ actions in real time",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time",
-      "published": "2026-10-29T10:11:12+00:00",
-      "covered_at": "2026-10-29T19:07:06.467571+00:00"
-    },
-    {
-      "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro",
-      "published": "2026-10-29T18:14:17+00:00",
-      "covered_at": "2026-10-29T19:07:06.467571+00:00"
-    },
-    {
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
-      "published": "2026-10-29T17:00:00+00:00",
-      "covered_at": "2026-10-29T19:07:06.467571+00:00"
-    },
-    {
       "title": "nemotron-halloween",
       "source": "Hugging Face",
       "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
@@ -720,6 +664,62 @@
       "link": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
       "published": "2026-11-10T20:52:56+00:00",
       "covered_at": "2026-11-11T20:17:42.810109+00:00"
+    },
+    {
+      "title": "Four Amazon Bedrock inference choices that affect cost",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost",
+      "published": "2026-11-12T20:51:55+00:00",
+      "covered_at": "2026-11-12T21:00:19.778126+00:00"
+    },
+    {
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports",
+      "published": "2026-11-12T20:26:47+00:00",
+      "covered_at": "2026-11-12T21:00:19.778126+00:00"
+    },
+    {
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/amplitude",
+      "published": "2026-11-12T20:00:00+00:00",
+      "covered_at": "2026-11-12T21:00:19.778126+00:00"
+    },
+    {
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "published": "2026-11-12T19:07:35+00:00",
+      "covered_at": "2026-11-12T21:00:19.778126+00:00"
+    },
+    {
+      "title": "Introducing Gemini 4 Hydrogen",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "published": "2026-11-12T18:00:50+00:00",
+      "covered_at": "2026-11-12T21:00:19.778126+00:00"
+    },
+    {
+      "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming",
+      "published": "2026-11-12T14:00:59+00:00",
+      "covered_at": "2026-11-12T21:00:19.778126+00:00"
+    },
+    {
+      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
+      "published": "2026-11-12T19:29:55+00:00",
+      "covered_at": "2026-11-12T21:00:19.778126+00:00"
+    },
+    {
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
+      "published": "2026-11-12T19:27:45+00:00",
+      "covered_at": "2026-11-12T21:00:19.778126+00:00"
     }
   ]
 }
