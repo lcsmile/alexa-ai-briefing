@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "nemotron-halloween",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-      "published": "2026-10-30T17:57:24+00:00",
-      "covered_at": "2026-10-30T18:45:28.274991+00:00"
-    },
-    {
-      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text",
-      "published": "2026-10-30T17:47:12+00:00",
-      "covered_at": "2026-10-30T18:45:28.274991+00:00"
-    },
-    {
-      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock",
-      "published": "2026-10-30T17:32:20+00:00",
-      "covered_at": "2026-10-30T18:45:28.274991+00:00"
-    },
-    {
-      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals",
-      "published": "2026-10-30T15:00:10+00:00",
-      "covered_at": "2026-10-30T18:45:28.274991+00:00"
-    },
-    {
-      "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence",
-      "published": "2026-10-30T13:05:28+00:00",
-      "covered_at": "2026-10-30T18:45:28.274991+00:00"
-    },
-    {
-      "title": "Making it easier for websites to express AI training preferences",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "published": "2026-10-30T09:30:00+00:00",
-      "covered_at": "2026-10-30T18:45:28.274991+00:00"
-    },
-    {
-      "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us",
-      "published": "2026-10-30T17:27:45+00:00",
-      "covered_at": "2026-10-30T18:45:28.274991+00:00"
-    },
-    {
-      "title": "Google’s first data center satellite is online and writing poetry",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry",
-      "published": "2026-10-30T17:00:00+00:00",
-      "covered_at": "2026-10-30T18:45:28.274991+00:00"
-    },
-    {
       "title": "OpenAI reportedly lowers funding target for new round",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round",
@@ -720,6 +664,62 @@
       "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
       "published": "2026-11-12T19:27:45+00:00",
       "covered_at": "2026-11-12T21:00:19.778126+00:00"
+    },
+    {
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
+      "published": "2026-11-13T19:37:57+00:00",
+      "covered_at": "2026-11-13T20:36:50.490539+00:00"
+    },
+    {
+      "title": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot",
+      "published": "2026-11-13T19:35:35+00:00",
+      "covered_at": "2026-11-13T20:36:50.490539+00:00"
+    },
+    {
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "published": "2026-11-13T18:00:39+00:00",
+      "covered_at": "2026-11-13T20:36:50.490539+00:00"
+    },
+    {
+      "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights",
+      "published": "2026-11-13T16:26:32+00:00",
+      "covered_at": "2026-11-13T20:36:50.490539+00:00"
+    },
+    {
+      "title": "Introducing ChatGPT Wallet",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-chatgpt-wallet",
+      "published": "2026-11-13T15:00:00+00:00",
+      "covered_at": "2026-11-13T20:36:50.490539+00:00"
+    },
+    {
+      "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams",
+      "published": "2026-11-13T13:00:42+00:00",
+      "covered_at": "2026-11-13T20:36:50.490539+00:00"
+    },
+    {
+      "title": "Microsoft Research Focus – Edition #98",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98",
+      "published": "2026-11-12T21:31:57+00:00",
+      "covered_at": "2026-11-13T20:36:50.490539+00:00"
+    },
+    {
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking",
+      "published": "2026-11-12T20:16:24+00:00",
+      "covered_at": "2026-11-13T20:36:50.490539+00:00"
     }
   ]
 }
