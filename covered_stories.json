@@ -1,41 +1,6 @@
 {
   "stories": [
     {
-      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
-      "published": "2026-10-31T21:41:00+00:00",
-      "covered_at": "2026-11-01T18:29:19.262442+00:00"
-    },
-    {
-      "title": "Fair use benefits everyone",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/fair-use-benefits-everyone",
-      "published": "2026-10-30T00:00:00+00:00",
-      "covered_at": "2026-11-01T18:29:19.262442+00:00"
-    },
-    {
-      "title": "How the UK Amazon Quick User Group grew in 2026",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026",
-      "published": "2026-10-29T20:16:40+00:00",
-      "covered_at": "2026-11-01T18:29:19.262442+00:00"
-    },
-    {
-      "title": "Microsoft Research Focus – Edition #97",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97",
-      "published": "2026-10-29T19:19:16+00:00",
-      "covered_at": "2026-11-01T18:29:19.262442+00:00"
-    },
-    {
-      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale",
-      "published": "2026-10-31T21:36:07+00:00",
-      "covered_at": "2026-11-01T18:29:19.262442+00:00"
-    },
-    {
       "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai",
@@ -727,6 +692,41 @@
       "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
       "published": "2026-11-13T14:05:22+00:00",
       "covered_at": "2026-11-14T18:48:42.911355+00:00"
+    },
+    {
+      "title": "Where was Nvidia’s security team?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team",
+      "published": "2026-11-15T00:08:07+00:00",
+      "covered_at": "2026-11-15T19:26:18.246224+00:00"
+    },
+    {
+      "title": "Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime",
+      "published": "2026-11-13T22:02:39+00:00",
+      "covered_at": "2026-11-15T19:26:18.246224+00:00"
+    },
+    {
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "source": "OpenAI",
+      "link": "https://openai.com/business/customer-stories/amplitude",
+      "published": "2026-11-12T20:00:00+00:00",
+      "covered_at": "2026-11-15T19:26:18.246224+00:00"
+    },
+    {
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
+      "published": "2026-11-14T21:41:22+00:00",
+      "covered_at": "2026-11-15T19:26:18.246224+00:00"
+    },
+    {
+      "title": "OpenFold3 on Amazon SageMaker JumpStart: Predict biomolecular structures",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures",
+      "published": "2026-11-13T21:53:40+00:00",
+      "covered_at": "2026-11-15T19:26:18.246224+00:00"
     }
   ]
 }
