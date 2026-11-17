@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges",
-      "published": "2026-11-03T19:34:43+00:00",
-      "covered_at": "2026-11-03T20:14:00.712873+00:00"
-    },
-    {
-      "title": "StateBench: Testing how language models track state changes over long documents",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/statebench",
-      "published": "2026-11-03T17:15:21+00:00",
-      "covered_at": "2026-11-03T20:14:00.712873+00:00"
-    },
-    {
-      "title": "Learn the rules: The hacker mindset",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset",
-      "published": "2026-11-03T17:14:38+00:00",
-      "covered_at": "2026-11-03T20:14:00.712873+00:00"
-    },
-    {
-      "title": "Agentic cheminformatics with Google Antigravity",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
-      "published": "2026-11-03T17:01:49+00:00",
-      "covered_at": "2026-11-03T20:14:00.712873+00:00"
-    },
-    {
-      "title": "Bring structured and unstructured data together with Amazon Quick",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick",
-      "published": "2026-11-03T16:49:29+00:00",
-      "covered_at": "2026-11-03T20:14:00.712873+00:00"
-    },
-    {
-      "title": "UEFI bootkit infected fully patched Windows machines. Is Microsoft to blame?",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/11/uefi-bootkit-infected-fully-patched-windows-machines-is-microsoft-to-blame",
-      "published": "2026-11-03T16:03:13+00:00",
-      "covered_at": "2026-11-03T20:14:00.712873+00:00"
-    },
-    {
-      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs",
-      "published": "2026-11-03T16:00:45+00:00",
-      "covered_at": "2026-11-03T20:14:00.712873+00:00"
-    },
-    {
-      "title": "Accelerating engineering for the physical world",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
-      "published": "2026-11-03T12:00:00+00:00",
-      "covered_at": "2026-11-03T20:14:00.712873+00:00"
-    },
-    {
       "title": "Open source AI is booming. Hugging Face explains who profits.",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits",
@@ -727,6 +671,62 @@
       "link": "https://huggingface.co/blog/openrouter",
       "published": "2026-11-16T00:00:00+00:00",
       "covered_at": "2026-11-16T22:58:49.667054+00:00"
+    },
+    {
+      "title": "SEC reportedly investigating Nvidia amid Huang exit",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit",
+      "published": "2026-11-17T21:48:07+00:00",
+      "covered_at": "2026-11-17T21:52:08.255438+00:00"
+    },
+    {
+      "title": "Cut generative AI costs: Code for rules, models for judgment",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment",
+      "published": "2026-11-17T21:14:55+00:00",
+      "covered_at": "2026-11-17T21:52:08.255438+00:00"
+    },
+    {
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "published": "2026-11-17T17:45:00+00:00",
+      "covered_at": "2026-11-17T21:52:08.255438+00:00"
+    },
+    {
+      "title": "Can AI help build a healthier future?",
+      "source": "Microsoft Research",
+      "link": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future",
+      "published": "2026-11-17T16:52:17+00:00",
+      "covered_at": "2026-11-17T21:52:08.255438+00:00"
+    },
+    {
+      "title": "Research Reports",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/17/1148203/research-reports",
+      "published": "2026-11-17T14:39:46+00:00",
+      "covered_at": "2026-11-17T21:52:08.255438+00:00"
+    },
+    {
+      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+      "published": "2026-11-17T14:00:29+00:00",
+      "covered_at": "2026-11-17T21:52:08.255438+00:00"
+    },
+    {
+      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/ian-buck-sc26",
+      "published": "2026-11-17T14:00:10+00:00",
+      "covered_at": "2026-11-17T21:52:08.255438+00:00"
+    },
+    {
+      "title": "Google joins the tech outage trend by announcing it’s not having one",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one",
+      "published": "2026-11-17T21:34:50+00:00",
+      "covered_at": "2026-11-17T21:52:08.255438+00:00"
     }
   ]
 }
