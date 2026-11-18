@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Open source AI is booming. Hugging Face explains who profits.",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits",
-      "published": "2026-11-04T19:30:04+00:00",
-      "covered_at": "2026-11-04T20:30:01.282576+00:00"
-    },
-    {
-      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput",
-      "published": "2026-11-04T18:50:55+00:00",
-      "covered_at": "2026-11-04T20:30:01.282576+00:00"
-    },
-    {
-      "title": "Use decision models with Amazon Bedrock AgentCore Evaluations",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations",
-      "published": "2026-11-04T18:46:36+00:00",
-      "covered_at": "2026-11-04T20:30:01.282576+00:00"
-    },
-    {
-      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "published": "2026-11-04T17:50:10+00:00",
-      "covered_at": "2026-11-04T20:30:01.282576+00:00"
-    },
-    {
-      "title": "Binance says hackers who stole billions in crypto spent months planning heist",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/information-technology/2026/11/binance-says-hackers-who-stole-billions-in-crypto-spent-months-planning-heist",
-      "published": "2026-11-04T16:06:03+00:00",
-      "covered_at": "2026-11-04T20:30:01.282576+00:00"
-    },
-    {
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/openai-to-acquire-pierre",
-      "published": "2026-11-04T14:30:00+00:00",
-      "covered_at": "2026-11-04T20:30:01.282576+00:00"
-    },
-    {
-      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy",
-      "published": "2026-11-04T19:29:52+00:00",
-      "covered_at": "2026-11-04T20:30:01.282576+00:00"
-    },
-    {
-      "title": "Smart Approvals in Amazon Quick: Human oversight where it matters",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters",
-      "published": "2026-11-04T16:33:03+00:00",
-      "covered_at": "2026-11-04T20:30:01.282576+00:00"
-    },
-    {
       "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
       "source": "NVIDIA",
       "link": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents",
@@ -727,6 +671,62 @@
       "link": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one",
       "published": "2026-11-17T21:34:50+00:00",
       "covered_at": "2026-11-17T21:52:08.255438+00:00"
+    },
+    {
+      "title": "Private certificate authority support in Amazon Bedrock AgentCore Identity",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/private-certificate-authority-support-in-amazon-bedrock-agentcore-identity",
+      "published": "2026-11-18T20:53:41+00:00",
+      "covered_at": "2026-11-18T21:30:46.263993+00:00"
+    },
+    {
+      "title": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie",
+      "published": "2026-11-18T20:07:01+00:00",
+      "covered_at": "2026-11-18T21:30:46.263993+00:00"
+    },
+    {
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "published": "2026-11-18T19:54:56+00:00",
+      "covered_at": "2026-11-18T21:30:46.263993+00:00"
+    },
+    {
+      "title": "Genie 4 is now available",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/genie-4-is-now-available",
+      "published": "2026-11-18T18:13:42+00:00",
+      "covered_at": "2026-11-18T21:30:46.263993+00:00"
+    },
+    {
+      "title": "The AI Hype Index: AI is everywhere",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere",
+      "published": "2026-11-18T14:42:44+00:00",
+      "covered_at": "2026-11-18T21:30:46.263993+00:00"
+    },
+    {
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now",
+      "published": "2026-11-18T14:00:31+00:00",
+      "covered_at": "2026-11-18T21:30:46.263993+00:00"
+    },
+    {
+      "title": "Inside the Codex sandbox",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/inside-the-codex-sandbox",
+      "published": "2026-11-18T08:00:00+00:00",
+      "covered_at": "2026-11-18T21:30:46.263993+00:00"
+    },
+    {
+      "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites",
+      "published": "2026-11-17T22:32:16+00:00",
+      "covered_at": "2026-11-18T21:30:46.263993+00:00"
     }
   ]
 }
