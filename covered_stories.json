@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web",
-      "published": "2026-11-06T18:44:38+00:00",
-      "covered_at": "2026-11-06T20:01:50.174784+00:00"
-    },
-    {
-      "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints",
-      "published": "2026-11-06T18:01:00+00:00",
-      "covered_at": "2026-11-06T20:01:50.174784+00:00"
-    },
-    {
-      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks",
-      "published": "2026-11-06T16:00:35+00:00",
-      "covered_at": "2026-11-06T20:01:50.174784+00:00"
-    },
-    {
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/allenai/toyblocks",
-      "published": "2026-11-06T14:00:48+00:00",
-      "covered_at": "2026-11-06T20:01:50.174784+00:00"
-    },
-    {
-      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future",
-      "published": "2026-11-06T10:00:00+00:00",
-      "covered_at": "2026-11-06T20:01:50.174784+00:00"
-    },
-    {
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/partnering-with-hacktron",
-      "published": "2026-11-06T08:00:00+00:00",
-      "covered_at": "2026-11-06T20:01:50.174784+00:00"
-    },
-    {
-      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password",
-      "published": "2026-11-05T23:09:36+00:00",
-      "covered_at": "2026-11-06T20:01:50.174784+00:00"
-    },
-    {
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent",
-      "published": "2026-11-06T18:44:20+00:00",
-      "covered_at": "2026-11-06T20:01:50.174784+00:00"
-    },
-    {
       "title": "Crusoe sells troubled Wyoming data center project to Google",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google",
@@ -727,6 +671,62 @@
       "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans",
       "published": "2026-11-18T10:20:30+00:00",
       "covered_at": "2026-11-19T21:43:15.916010+00:00"
+    },
+    {
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
+      "published": "2026-11-20T20:59:08+00:00",
+      "covered_at": "2026-11-20T21:26:06.348707+00:00"
+    },
+    {
+      "title": "The most misunderstood graph in AI just got a major update",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update",
+      "published": "2026-11-20T18:15:15+00:00",
+      "covered_at": "2026-11-20T21:26:06.348707+00:00"
+    },
+    {
+      "title": "AI claimed a solution to the 167-year-old Riemann Hypothesis — and a human did, too",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too",
+      "published": "2026-11-20T19:32:08+00:00",
+      "covered_at": "2026-11-20T21:26:06.348707+00:00"
+    },
+    {
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building",
+      "published": "2026-11-20T19:53:41+00:00",
+      "covered_at": "2026-11-20T21:26:06.348707+00:00"
+    },
+    {
+      "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents",
+      "published": "2026-11-20T20:22:00+00:00",
+      "covered_at": "2026-11-20T21:26:06.348707+00:00"
+    },
+    {
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/inkling2mini",
+      "published": "2026-11-20T00:00:00+00:00",
+      "covered_at": "2026-11-20T21:26:06.348707+00:00"
+    },
+    {
+      "title": "Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues",
+      "published": "2026-11-20T18:24:06+00:00",
+      "covered_at": "2026-11-20T21:26:06.348707+00:00"
+    },
+    {
+      "title": "Combatting adversarial distillation",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/combatting-adversarial-distillation",
+      "published": "2026-11-20T10:00:00+00:00",
+      "covered_at": "2026-11-20T21:26:06.348707+00:00"
     }
   ]
 }
