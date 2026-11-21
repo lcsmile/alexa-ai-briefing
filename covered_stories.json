@@ -1,41 +1,6 @@
 {
   "stories": [
     {
-      "title": "Crusoe sells troubled Wyoming data center project to Google",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google",
-      "published": "2026-11-07T01:40:28+00:00",
-      "covered_at": "2026-11-07T18:11:26.402565+00:00"
-    },
-    {
-      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers",
-      "published": "2026-11-06T20:56:41+00:00",
-      "covered_at": "2026-11-07T18:11:26.402565+00:00"
-    },
-    {
-      "title": "Taxonomy of agentic primitives in Amazon Quick",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick",
-      "published": "2026-11-06T17:34:45+00:00",
-      "covered_at": "2026-11-07T18:11:26.402565+00:00"
-    },
-    {
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation",
-      "published": "2026-11-06T22:53:46+00:00",
-      "covered_at": "2026-11-07T18:11:26.402565+00:00"
-    },
-    {
-      "title": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate",
-      "published": "2026-11-06T17:13:13+00:00",
-      "covered_at": "2026-11-07T18:11:26.402565+00:00"
-    },
-    {
       "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers",
@@ -727,6 +692,34 @@
       "link": "https://openai.com/index/combatting-adversarial-distillation",
       "published": "2026-11-20T10:00:00+00:00",
       "covered_at": "2026-11-20T21:26:06.348707+00:00"
+    },
+    {
+      "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues",
+      "published": "2026-11-20T14:55:44+00:00",
+      "covered_at": "2026-11-21T20:11:56.553357+00:00"
+    },
+    {
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+      "published": "2026-11-21T16:00:00+00:00",
+      "covered_at": "2026-11-21T20:11:56.553357+00:00"
+    },
+    {
+      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill",
+      "published": "2026-11-21T00:14:26+00:00",
+      "covered_at": "2026-11-21T20:11:56.553357+00:00"
+    },
+    {
+      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai",
+      "published": "2026-11-20T20:37:31+00:00",
+      "covered_at": "2026-11-21T20:11:56.553357+00:00"
     }
   ]
 }
