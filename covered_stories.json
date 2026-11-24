@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
-      "published": "2026-11-10T19:57:52+00:00",
-      "covered_at": "2026-11-10T20:33:01.492090+00:00"
-    },
-    {
-      "title": "Autonomous treasury agents: How Trovata built an AI-native solution on Amazon Bedrock and AgentCore",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore",
-      "published": "2026-11-10T18:11:08+00:00",
-      "covered_at": "2026-11-10T20:33:01.492090+00:00"
-    },
-    {
-      "title": "Gemini 4 Carbon is now available",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
-      "published": "2026-11-10T16:03:47+00:00",
-      "covered_at": "2026-11-10T20:33:01.492090+00:00"
-    },
-    {
-      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure",
-      "published": "2026-11-10T16:00:03+00:00",
-      "covered_at": "2026-11-10T20:33:01.492090+00:00"
-    },
-    {
-      "title": "Helping caregivers use AI in everyday life",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "published": "2026-11-10T12:00:00+00:00",
-      "covered_at": "2026-11-10T20:33:01.492090+00:00"
-    },
-    {
-      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "published": "2026-11-10T00:00:00+00:00",
-      "covered_at": "2026-11-10T20:33:01.492090+00:00"
-    },
-    {
-      "title": "Innovating with AI in the special chemicals industry",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
-      "published": "2026-11-09T13:00:00+00:00",
-      "covered_at": "2026-11-10T20:33:01.492090+00:00"
-    },
-    {
-      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m",
-      "published": "2026-11-10T19:23:34+00:00",
-      "covered_at": "2026-11-10T20:33:01.492090+00:00"
-    },
-    {
       "title": "Why the data center you dread might never even be built",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built",
@@ -720,6 +664,62 @@
       "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
       "published": "2026-11-23T08:00:00+00:00",
       "covered_at": "2026-11-24T01:08:00.163650+00:00"
+    },
+    {
+      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy",
+      "published": "2026-11-24T22:27:52+00:00",
+      "covered_at": "2026-11-24T23:12:11.926987+00:00"
+    },
+    {
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "published": "2026-11-24T16:34:13+00:00",
+      "covered_at": "2026-11-24T23:12:11.926987+00:00"
+    },
+    {
+      "title": "Raising the stakes for enterprise networks with AI modernization",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization",
+      "published": "2026-11-24T15:15:16+00:00",
+      "covered_at": "2026-11-24T23:12:11.926987+00:00"
+    },
+    {
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "published": "2026-11-24T13:00:00+00:00",
+      "covered_at": "2026-11-24T23:12:11.926987+00:00"
+    },
+    {
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+      "published": "2026-11-24T12:30:05+00:00",
+      "covered_at": "2026-11-24T23:12:11.926987+00:00"
+    },
+    {
+      "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
+      "source": "AWS Machine Learning",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls",
+      "published": "2026-11-24T05:01:14+00:00",
+      "covered_at": "2026-11-24T23:12:11.926987+00:00"
+    },
+    {
+      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy",
+      "published": "2026-11-24T21:48:27+00:00",
+      "covered_at": "2026-11-24T23:12:11.926987+00:00"
+    },
+    {
+      "title": "Searching for distant planets with Astra",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "published": "2026-11-24T11:00:00+00:00",
+      "covered_at": "2026-11-24T23:12:11.926987+00:00"
     }
   ]
 }
