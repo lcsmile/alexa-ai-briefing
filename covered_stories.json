@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal",
-      "published": "2026-11-09T22:46:09+00:00",
-      "covered_at": "2026-11-09T23:05:53.292515+00:00"
-    },
-    {
-      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns",
-      "published": "2026-11-09T19:24:51+00:00",
-      "covered_at": "2026-11-09T23:05:53.292515+00:00"
-    },
-    {
-      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
-      "published": "2026-11-09T17:05:43+00:00",
-      "covered_at": "2026-11-09T23:05:53.292515+00:00"
-    },
-    {
-      "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation",
-      "published": "2026-11-09T19:41:34+00:00",
-      "covered_at": "2026-11-09T23:05:53.292515+00:00"
-    },
-    {
-      "title": "The backlash about data centers might really just be about electricity",
-      "source": "MIT Technology Review",
-      "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity",
-      "published": "2026-11-09T19:35:33+00:00",
-      "covered_at": "2026-11-09T23:05:53.292515+00:00"
-    },
-    {
-      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl",
-      "published": "2026-11-09T14:00:01+00:00",
-      "covered_at": "2026-11-09T23:05:53.292515+00:00"
-    },
-    {
-      "title": "NVIDIA Nemotron 3.5 Super VL is now available in Amazon SageMaker JumpStart",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart",
-      "published": "2026-11-09T20:01:20+00:00",
-      "covered_at": "2026-11-09T23:05:53.292515+00:00"
-    },
-    {
-      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-      "published": "2026-11-09T12:34:29+00:00",
-      "covered_at": "2026-11-09T23:05:53.292515+00:00"
-    },
-    {
       "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo",
@@ -720,6 +664,62 @@
       "link": "https://openai.com/business/customer-stories/hebbia",
       "published": "2026-11-20T00:00:00+00:00",
       "covered_at": "2026-11-22T20:26:26.956366+00:00"
+    },
+    {
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+      "published": "2026-11-23T22:05:50+00:00",
+      "covered_at": "2026-11-24T01:08:00.163650+00:00"
+    },
+    {
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "source": "OpenAI",
+      "link": "https://openai.com/index/introducing-shirudo",
+      "published": "2026-11-23T21:20:00+00:00",
+      "covered_at": "2026-11-24T01:08:00.163650+00:00"
+    },
+    {
+      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument",
+      "published": "2026-11-23T17:36:08+00:00",
+      "covered_at": "2026-11-24T01:08:00.163650+00:00"
+    },
+    {
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/robotrack",
+      "published": "2026-11-23T17:20:37+00:00",
+      "covered_at": "2026-11-24T01:08:00.163650+00:00"
+    },
+    {
+      "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026",
+      "published": "2026-11-23T17:00:08+00:00",
+      "covered_at": "2026-11-24T01:08:00.163650+00:00"
+    },
+    {
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "published": "2026-11-23T16:59:40+00:00",
+      "covered_at": "2026-11-24T01:08:00.163650+00:00"
+    },
+    {
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+      "published": "2026-11-23T22:02:05+00:00",
+      "covered_at": "2026-11-24T01:08:00.163650+00:00"
+    },
+    {
+      "title": "Connected intelligence for in-house legal",
+      "source": "OpenAI",
+      "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "published": "2026-11-23T08:00:00+00:00",
+      "covered_at": "2026-11-24T01:08:00.163650+00:00"
     }
   ]
 }
