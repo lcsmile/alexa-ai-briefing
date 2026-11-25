@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Why the data center you dread might never even be built",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built",
-      "published": "2026-11-11T20:15:15+00:00",
-      "covered_at": "2026-11-11T20:17:42.810109+00:00"
-    },
-    {
-      "title": "Accelerating generative AI delivery with reusable assets",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets",
-      "published": "2026-11-11T19:19:21+00:00",
-      "covered_at": "2026-11-11T20:17:42.810109+00:00"
-    },
-    {
-      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
-      "published": "2026-11-11T15:00:15+00:00",
-      "covered_at": "2026-11-11T20:17:42.810109+00:00"
-    },
-    {
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "published": "2026-11-11T08:00:00+00:00",
-      "covered_at": "2026-11-11T20:17:42.810109+00:00"
-    },
-    {
-      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/qvac/botpsy",
-      "published": "2026-11-11T05:01:16+00:00",
-      "covered_at": "2026-11-11T20:17:42.810109+00:00"
-    },
-    {
-      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/ai-recycling-startups",
-      "published": "2026-11-11T03:00:20+00:00",
-      "covered_at": "2026-11-11T20:17:42.810109+00:00"
-    },
-    {
-      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-      "source": "Ars Technica",
-      "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi",
-      "published": "2026-11-10T21:12:59+00:00",
-      "covered_at": "2026-11-11T20:17:42.810109+00:00"
-    },
-    {
-      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
-      "source": "Microsoft Research",
-      "link": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
-      "published": "2026-11-10T20:52:56+00:00",
-      "covered_at": "2026-11-11T20:17:42.810109+00:00"
-    },
-    {
       "title": "Four Amazon Bedrock inference choices that affect cost",
       "source": "AWS Machine Learning",
       "link": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost",
@@ -720,6 +664,55 @@
       "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
       "published": "2026-11-24T11:00:00+00:00",
       "covered_at": "2026-11-24T23:12:11.926987+00:00"
+    },
+    {
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work",
+      "published": "2026-11-25T20:03:27+00:00",
+      "covered_at": "2026-11-25T22:40:06.030839+00:00"
+    },
+    {
+      "title": "Where scientists draw the line on AI agents",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "published": "2026-11-25T18:52:55+00:00",
+      "covered_at": "2026-11-25T22:40:06.030839+00:00"
+    },
+    {
+      "title": "Backblaze explains why it's sharing customer information with advertisers",
+      "source": "Ars Technica",
+      "link": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers",
+      "published": "2026-11-25T18:38:29+00:00",
+      "covered_at": "2026-11-25T22:40:06.030839+00:00"
+    },
+    {
+      "title": "AI is straining America’s open records systems",
+      "source": "MIT Technology Review",
+      "link": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems",
+      "published": "2026-11-25T10:00:00+00:00",
+      "covered_at": "2026-11-25T22:40:06.030839+00:00"
+    },
+    {
+      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "source": "Google DeepMind",
+      "link": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity",
+      "published": "2026-11-24T13:07:53+00:00",
+      "covered_at": "2026-11-25T22:40:06.030839+00:00"
+    },
+    {
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it",
+      "published": "2026-11-25T19:54:57+00:00",
+      "covered_at": "2026-11-25T22:40:06.030839+00:00"
+    },
+    {
+      "title": "An Indic Voice Agent with CUGA",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "published": "2026-11-25T10:22:09+00:00",
+      "covered_at": "2026-11-25T22:40:06.030839+00:00"
     }
   ]
 }
