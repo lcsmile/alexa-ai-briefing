@@ -1,62 +1,6 @@
 {
   "stories": [
     {
-      "title": "Four Amazon Bedrock inference choices that affect cost",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost",
-      "published": "2026-11-12T20:51:55+00:00",
-      "covered_at": "2026-11-12T21:00:19.778126+00:00"
-    },
-    {
-      "title": "Jensen Huang was having a third affair, Reuters reports",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports",
-      "published": "2026-11-12T20:26:47+00:00",
-      "covered_at": "2026-11-12T21:00:19.778126+00:00"
-    },
-    {
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "source": "OpenAI",
-      "link": "https://openai.com/index/amplitude",
-      "published": "2026-11-12T20:00:00+00:00",
-      "covered_at": "2026-11-12T21:00:19.778126+00:00"
-    },
-    {
-      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "source": "Hugging Face",
-      "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "published": "2026-11-12T19:07:35+00:00",
-      "covered_at": "2026-11-12T21:00:19.778126+00:00"
-    },
-    {
-      "title": "Introducing Gemini 4 Hydrogen",
-      "source": "Google DeepMind",
-      "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
-      "published": "2026-11-12T18:00:50+00:00",
-      "covered_at": "2026-11-12T21:00:19.778126+00:00"
-    },
-    {
-      "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW",
-      "source": "NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming",
-      "published": "2026-11-12T14:00:59+00:00",
-      "covered_at": "2026-11-12T21:00:19.778126+00:00"
-    },
-    {
-      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
-      "source": "AWS Machine Learning",
-      "link": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
-      "published": "2026-11-12T19:29:55+00:00",
-      "covered_at": "2026-11-12T21:00:19.778126+00:00"
-    },
-    {
-      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-      "source": "TechCrunch AI",
-      "link": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
-      "published": "2026-11-12T19:27:45+00:00",
-      "covered_at": "2026-11-12T21:00:19.778126+00:00"
-    },
-    {
       "title": "AI agent startup LangChain hits $3B valuation",
       "source": "TechCrunch AI",
       "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation",
@@ -713,6 +657,41 @@
       "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
       "published": "2026-11-25T10:22:09+00:00",
       "covered_at": "2026-11-25T22:40:06.030839+00:00"
+    },
+    {
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+      "published": "2026-11-26T20:03:54+00:00",
+      "covered_at": "2026-11-26T22:30:29.729873+00:00"
+    },
+    {
+      "title": "Come for the Games, Stay for the Community With GeForce NOW",
+      "source": "NVIDIA",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward",
+      "published": "2026-11-26T14:00:22+00:00",
+      "covered_at": "2026-11-26T22:30:29.729873+00:00"
+    },
+    {
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "published": "2026-11-26T11:37:17+00:00",
+      "covered_at": "2026-11-26T22:30:29.729873+00:00"
+    },
+    {
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "source": "TechCrunch AI",
+      "link": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+      "published": "2026-11-26T16:00:00+00:00",
+      "covered_at": "2026-11-26T22:30:29.729873+00:00"
+    },
+    {
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "source": "Hugging Face",
+      "link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "published": "2026-11-26T05:05:36+00:00",
+      "covered_at": "2026-11-26T22:30:29.729873+00:00"
     }
   ]
 }
